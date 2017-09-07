@@ -112,20 +112,22 @@ input.error:focus, textarea.error:focus {
     background: #979797;
 }
 /* Форма обратной связи */
-
+.ymaps-2-1-55-float-button-icon_icon_geolocation{
+    display: none;
+}
 .modalbox {
     color: #FFFFFF;
     display: block;
     cursor: pointer;
     padding: 10px 11px;
     font-size: 1.2em;
-    border: solid 1px #F9F9F9;
+    border: none;
     border-radius: 2px;
-    background: #70C6B9;
+    background: #b7192a;
     width: 210px;
     text-decoration: none;
     text-align: center;
-    margin:0 auto 20px;
+    margin:-2% auto 20px;
 }
 
 .modalbox:hover {
