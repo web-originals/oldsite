@@ -349,6 +349,19 @@
         #footer {
             bottom: 3%;
         }
+
+        #form-contact {
+            position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 99999;
+
+            display: none;
+        }
     </style>
 
     <!--[if IE]>
@@ -379,6 +392,9 @@
         }
 
         $(document).ready(function () {
+            $("#backcall").on("click",function () {
+               $("#form-contact").fadeIn();
+            });
             $("#contact").submit(function () {
                 return false;
             });
@@ -453,7 +469,20 @@
     </script>
 </head>
 <body>
-
+<div id="form-contact" >
+    <div class="navbar  navbar-fixed-top" role="navigation">
+        <div class="container">
+            <h2>Онлайн заявка</h2>
+            <form id="contact" name="contact" action="#" method="post">
+                <input type="name" id="name" name="name" class="txt" placeholder="Ваше имя">
+                <input type="phone" id="phone" name="phone" class="txt" placeholder="Ваш телефон">
+                <input type="email" id="email" name="email" class="txt" placeholder="Ваш e-mail">
+                <textarea id="msg" name="msg" class="txtarea" placeholder="Ваше сообщение:"></textarea>
+                <button id="send">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 <div id="header">
     <div class="navbar  navbar-fixed-top" role="navigation">
@@ -479,24 +508,14 @@
 
     </div>
 </div>
+
 <div id="footer">
     <div class="container">
         <div class="col-lg-5 navbar-left">
             <p>Старомышастовская Садовая №211&nbsp; &nbsp; +7902475139</p>
         </div>
         <div class="col-lg-3 text-center">
-            <a href="#inline" class="modalbox">Обратный звонок</a>
-
-            <div id="inline">
-                <h2>Онлайн заявка</h2>
-                <form id="contact" name="contact" action="#" method="post">
-                    <input type="name" id="name" name="name" class="txt" placeholder="Ваше имя">
-                    <input type="phone" id="phone" name="phone" class="txt" placeholder="Ваш телефон">
-                    <input type="email" id="email" name="email" class="txt" placeholder="Ваш e-mail">
-                    <textarea id="msg" name="msg" class="txtarea" placeholder="Ваше сообщение:"></textarea>
-                    <button id="send">Отправить</button>
-                </form>
-            </div>
+            <button class="modalbox" id="backcall">Обратный звонок</button>
         </div>
         <div class="col-lg-2"><p>e-mail</p></div>
         <div class="col-lg-2 text-center"><a href="http://facebook.com/">Fb</a>&nbsp;&nbsp;
