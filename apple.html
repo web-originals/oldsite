@@ -2,507 +2,587 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Web-студия "Originals⚜</title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage full-screen apple iphone 5c similar website. Reproducing one sigle scrolling site like Apple iPhone." />
-	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,apple,iphone5c,iphone5s,iphone,iphone-5c,like,reproduce,similar,how to" />
-	<meta name="Resource-type" content="Document" />
-	<script src="js/loader.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Web-студия "Originals⚜</title>
+    <meta name="author" content="Alvaro Trigo Lopez"/>
+    <meta name="description"
+          content="fullPage full-screen apple iphone 5c similar website. Reproducing one sigle scrolling site like Apple iPhone."/>
+    <meta name="keywords"
+          content="fullpage,jquery,demo,screen,fullscreen,apple,iphone5c,iphone5s,iphone,iphone-5c,like,reproduce,similar,how to"/>
+    <meta name="Resource-type" content="Document"/>
+    <script src="js/loader.js"></script>
 
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="css/examples.css" />
-	<style>
-		/* Style for our header texts
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/examples.css"/>
+    <style>
+        /* Style for our header texts
         * --------------------------------------- */
-		h1{
-			font-size: 5em;
-			font-family: arial,helvetica;
-			color: #fff;
-			margin:0;
-			padding:0;
-		}
+        h1 {
+            font-size: 5em;
+            font-family: arial, helvetica;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
 
-		/* Centered texts in each section
+        /* Centered texts in each section
         * --------------------------------------- */
-		.section{
-			text-align:center;
-		}
+        .section {
+            text-align: center;
+        }
 
-
-		/* Backgrounds will cover all the section
+        /* Backgrounds will cover all the section
         * --------------------------------------- */
-		.section{
-			background-size: cover;
-		}
-		.slide{
-			background-size: cover;
-		}
+        .section {
+            background-size: cover;
+        }
 
-		/* Defining each section background and styles
+        .slide {
+            background-size: cover;
+        }
+
+        /* Defining each section background and styles
         * --------------------------------------- */
-		#section0{
-			background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
-		}
-		#section0 h2{
-			top: 25%;
-			transform: translateY(-15%);
-			position: relative;
-		}
-		#section0 .text{
-			top: 30%;
-			transform: translateY(2%);
-			position: relative;
-			padding: 0 5%;
-		}
-		#section0 .text span{
-			color: #b7192a;
+        #section0 {
+            background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
+        }
 
-		}
-		#section2{
-			background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
-			padding: 0% 0 0 0;
-		}
-		#section2 h2{
-			transform: translateY(576%);
-			position: relative;
-			text-align: right;
-		}
-		#section2 p{
-			transform: translateY(351%);
-			position: relative;
-			text-align: right;
-		}
-		#section3{
-			background-image: url(images/bg4.jpg);
-			padding: 6% 0 0 0;
-		}
-		#section3 h1{
-			color: #000;
-		}
-		#section1 .block-menu{
-			top: 50%;
-			transform: translateY(50%);
-			position: relative;
-		}
-		.container {
-			width: 1275px;
-		}
-		#section1 .block-menu:hover{
-			background: black;
-			border-radius: 15px;
-		}
-		.block-menu-telo {
-			background: none;
-			color: white;
-			text-align: center;
-			padding: 4% 0% 4% 0%;
-		}
-		#section1 h2{
-			transform: translateY(193%);
-		}
-		.linkblock {
-			cursor: pointer;
-		}
-		.razrabotka {
-			padding-top: 8%;
-			padding-bottom: 8%;
-			/*background-image: url(images/a1.png);*/
-			background-position: -13% 35%;
-			background-size: 137%;
+        #section0 h2 {
+            top: 25%;
+            transform: translateY(-15%);
+            position: relative;
+        }
 
+        #section0 .text {
+            top: 30%;
+            transform: translateY(2%);
+            position: relative;
+            padding: 0 5%;
+        }
 
-		}
-		.prodvishenie {
-			padding-top: 8%;
-			padding-bottom: 8%;
-			/*background-image: url(images/b1.png);*/
-			background-position: -13% 35%;
-			background-size: 137%;
+        #section0 .text span {
+            color: #b7192a;
 
+        }
 
-		}
+        #section2 {
+            background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
+            padding: 0 0 0 0;
+        }
 
-		.poddershks {
-			padding-top: 8%;
-			padding-bottom: 8%;
-			/*background-image: url(images/c1.png);*/
-			background-position: -13% 35%;
-			background-size: 137%;
+        #section2 h2 {
+            transform: translateY(576%);
+            position: relative;
+            text-align: right;
+        }
 
+        #section2 p {
+            transform: translateY(351%);
+            position: relative;
+            text-align: right;
+        }
 
-		}
-		.img{
-			width: 30%;
-		}
-		.block-menu{
-			padding: 1% 15px;
-		}
+        #section3 {
+            background-image: url(images/bg4.jpg);
+            padding: 6% 0 0 0;
+        }
 
-		/*Adding background for the slides
+        #section3 h1 {
+            color: #000;
+        }
+
+        #section1 .block-menu {
+            top: 50%;
+            transform: translateY(50%);
+            position: relative;
+        }
+
+        .container {
+            width: 1275px;
+        }
+
+        #section1 .block-menu:hover {
+            background: black;
+            border-radius: 15px;
+        }
+
+        .block-menu-telo {
+            background: none;
+            color: white;
+            text-align: center;
+            padding: 4% 0 4% 0;
+        }
+
+        #section1 h2 {
+            transform: translateY(193%);
+        }
+
+        .linkblock {
+            cursor: pointer;
+        }
+
+        .razrabotka {
+            padding-top: 8%;
+            padding-bottom: 8%;
+            /*background-image: url(images/a1.png);*/
+            background-position: -13% 35%;
+            background-size: 137%;
+
+        }
+
+        .prodvishenie {
+            padding-top: 8%;
+            padding-bottom: 8%;
+            /*background-image: url(images/b1.png);*/
+            background-position: -13% 35%;
+            background-size: 137%;
+
+        }
+
+        .poddershks {
+            padding-top: 8%;
+            padding-bottom: 8%;
+            /*background-image: url(images/c1.png);*/
+            background-position: -13% 35%;
+            background-size: 137%;
+
+        }
+
+        .img {
+            width: 30%;
+        }
+
+        .block-menu {
+            padding: 1% 15px;
+        }
+
+        /*Adding background for the slides
         * --------------------------------------- */
-		#slide1{
-			background-image: url("images/laptop.jpg");
-			background-color:rgba(0,0,0,.3);
-			padding: 6% 0 0 0;
-		}
-		#slide2{
-			background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
-			padding: 6% 0 0 0;
-		}
+        #slide1 {
+            background-image: url("images/laptop.jpg");
+            background-color: rgba(0, 0, 0, .3);
+            padding: 6% 0 0 0;
+        }
 
+        #slide2 {
+            background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
+            padding: 6% 0 0 0;
+        }
 
-		/* Bottom menu
+        /* Bottom menu
         * --------------------------------------- */
-		#infoMenu li a {
-			color: #fff;
-		}
-		h1:first-letter {
-			text-transform: capitalize;
-			color: #b7192a !important;
-			font-family: 'PT Sans', arial;
-			margin-top: 4%;
-			font-size: 2em;
-		}
-		h2:first-letter {
-			text-transform: capitalize;
-			color: #b7192a !important;
-			font-family: 'PT Sans', arial;
-			margin-top: 4%;
-			font-size: 1.5em;
-		}
-		h2{
-			font-size: 30px;
-		}
-		p{
-			font-size: 22px;
-			width:100%;
-			text-align:center;
-			color: white;
-			font-family: 'PT Sans', arial;
-		}
-		h1, h2, h3, h4, h5, h6{
-			color: white;
-			font-family: 'PT Sans', arial;
-		}
-		.rown{
-			margin-right: -30px;
-			margin-left: -30px;
-		}
-		.fp-tooltip{
-			color: #AAA;
-		}
-		#fp-nav span, .fp-slidesNav span{
-			border-color: #AAA;
-		}
-		#fp-nav li .active span, .fp-slidesNav .active span{
-			background: #b7192a;
-		}
-.dark{
-	opacity:0.4;
-}
-		[class*="ymaps-2"][class*="-ground-pane"] {
-			filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-			-webkit-filter: grayscale(100%);
-		}
-		a {
-			color: #b7192a;
+        #infoMenu li a {
+            color: #fff;
+        }
 
-		}
-		.navbar a {
-			color: #ffffff;
-			font-size: 20px;
-		}
-		.navbar-fixed-top {
-			top: 4%;
-			border-width: 0 0 1px;
-		}
-		.navbar-nav {
-			float: left;
-			margin-left: 17%;
-		}
-		.navbar-nav>li>a {
-			padding-bottom: 10px;
-		}
-		.navbar-nav>li>a:hover{
-			 background: none;
-			border-bottom: 2px	solid white;
-		 }
-.telefon {
-	margin-top: 1%;
-	font-weight: 600;
-	float: right;
-}
-		footer p{
-			font-size: 18px;
-  }
-		footer{
-			position: fixed;
-			z-index: 2;
-			width: 100%;
-			bottom: 0%;
-			padding: 50px 0;
-			color: white;
-		}
-		footer a{
-			font-size: 18px;
-			color: white;
-		}
-		footer a:hover{
-			color: #b7192a;
-		}
-		#sh_dot01{
-			 font-size: 22px;
-		 }
-		 a:hover{
-			color: white;
-			 text-decoration: underline
-		}
-		ul.logo > li:before {
-			content: '';
-			position: absolute;
-			top: -7px;
-			left: 15%;
-			-webkit-transform: translateX(-26%);
-			transform: translateX(-26%);
-			padding-top: 107px;
-			display: block;
-			width: 44px;
-			height: 67px;
-			background-image: url(images/lili.png);
-			background-repeat: no-repeat;
-			-webkit-background-size: contain;
-			background-size: contain;
-		}
-		a.knopka {
-			color: #fff; /* цвет текста */
-			text-decoration: none; /* убирать подчёркивание у ссылок */
-			user-select: none; /* убирать выделение текста */
-			background: #b7192a; /* фон кнопки */
-			padding: .7em 1.5em; /* отступ от текста */
-			outline: none; /* убирать контур в Mozilla */
-		}
-		a.knopka:hover { background: rgb(232,95,76); color: white} /* при наведении курсора мышки */
-		a.knopka:active { background: white; } /* при нажатии */
-		#header, #footer{
-			position:fixed;
-			height: 50px;
-			display:block;
-			width: 100%;
+        h1:first-letter {
+            text-transform: capitalize;
+            color: #b7192a !important;
+            font-family: 'PT Sans', arial;
+            margin-top: 4%;
+            font-size: 2em;
+        }
 
-			z-index:9;
-			text-align:center;
-			color: #f2f2f2;
-			padding: 20px 0 0 0;
-		}
+        h2:first-letter {
+            text-transform: capitalize;
+            color: #b7192a !important;
+            font-family: 'PT Sans', arial;
+            margin-top: 4%;
+            font-size: 1.5em;
+        }
 
-		#header{
-			top:3%;
-		}
-		#footer{
-			bottom:1%;
-		}
-	</style>
+        h2 {
+            font-size: 30px;
+        }
 
-	<!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-	<![endif]-->
+        p {
+            font-size: 22px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-family: 'PT Sans', arial;
+        }
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        h1, h2, h3, h4, h5, h6 {
+            color: white;
+            font-family: 'PT Sans', arial;
+        }
 
-	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="js/examples.js"></script>
+        .rown {
+            margin-right: -30px;
+            margin-left: -30px;
+        }
 
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				'verticalCentered': false,
-				'css3': true,
-				'sectionsColor': ['#F0F2F4', '#fff', '#fff'],
-				anchors: ['section0', 'section1', 'section2'],
-				menu: '#menu',
-				'navigation': true,
-				'navigationPosition': 'right',
-				'navigationTooltips': ['О нас', 'Наши услуга', 'Контакты'],
+        .fp-tooltip {
+            color: #AAA;
+        }
 
-				'afterLoad': function(anchorLink, index){
-					if(index == 2){
-						$('#iphone3, #iphone2, #iphone4').addClass('active');
-					}
-				},
+        #fp-nav span, .fp-slidesNav span {
+            border-color: #AAA;
+        }
 
-				'onLeave': function(index, nextIndex, direction){
-					if (index == 3 && direction == 'down'){
-						$('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
-					}
-					else if(index == 3 && direction == 'up'){
-						$('.section').eq(index -1).removeClass('moveUp').addClass('moveDown');
-					}
+        #fp-nav li .active span, .fp-slidesNav .active span {
+            background: #b7192a;
+        }
 
-					$('#staticImg').toggleClass('active', (index == 2 && direction == 'down' ) || (index == 4 && direction == 'up'));
-					$('#staticImg').toggleClass('moveDown', nextIndex == 4);
-					$('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
-				}
-			});
-		});
-	</script>
+        .dark {
+            opacity: 0.4;
+        }
+
+        [class*="ymaps-2"][class*="-ground-pane"] {
+            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+            -webkit-filter: grayscale(100%);
+        }
+
+        a {
+            color: #b7192a;
+
+        }
+
+        .navbar a {
+            color: #ffffff;
+            font-size: 20px;
+        }
+
+        .navbar-fixed-top {
+            top: 4%;
+            border-width: 0 0 1px;
+        }
+
+        .navbar-nav {
+            float: left;
+            margin-left: 17%;
+        }
+
+        .navbar-nav > li > a {
+            padding-bottom: 10px;
+        }
+
+        .navbar-nav > li > a:hover {
+            background: none;
+            border-bottom: 2px solid white;
+        }
+
+        .telefon {
+            margin-top: 1%;
+            font-weight: 600;
+            float: right;
+        }
+
+        footer p {
+            font-size: 18px;
+        }
+
+        footer {
+            position: fixed;
+            z-index: 2;
+            width: 100%;
+            bottom: 0%;
+            padding: 50px 0;
+            color: white;
+        }
+
+        footer a {
+            font-size: 18px;
+            color: white;
+        }
+
+        footer a:hover {
+            color: #b7192a;
+        }
+
+        #sh_dot01 {
+            font-size: 22px;
+        }
+
+        a:hover {
+            color: white;
+            text-decoration: underline
+        }
+
+        ul.logo > li:before {
+            content: '';
+            position: absolute;
+            top: -7px;
+            left: 15%;
+            -webkit-transform: translateX(-26%);
+            transform: translateX(-26%);
+            padding-top: 107px;
+            display: block;
+            width: 44px;
+            height: 67px;
+            background-image: url(images/lili.png);
+            background-repeat: no-repeat;
+            -webkit-background-size: contain;
+            background-size: contain;
+        }
+
+        a.knopka {
+            color: #fff; /* цвет текста */
+            text-decoration: none; /* убирать подчёркивание у ссылок */
+            user-select: none; /* убирать выделение текста */
+            background: #b7192a; /* фон кнопки */
+            padding: .7em 1.5em; /* отступ от текста */
+            outline: none; /* убирать контур в Mozilla */
+        }
+
+        a.knopka:hover {
+            background: rgb(232, 95, 76);
+            color: white
+        }
+
+        /* при наведении курсора мышки */
+        a.knopka:active {
+            background: white;
+        }
+
+        /* при нажатии */
+        #header, #footer {
+            position: fixed;
+            height: 50px;
+            display: block;
+            width: 100%;
+
+            z-index: 9;
+            text-align: center;
+            color: #f2f2f2;
+            padding: 20px 0 0 0;
+        }
+
+        #header {
+            top: 3%;
+        }
+
+        #footer {
+            bottom: 1%;
+        }
+    </style>
+
+    <!--[if IE]>
+    <script type="text/javascript">
+        var console = {
+            log: function () {
+            }
+        };
+    </script>
+    <![endif]-->
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/examples.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                'verticalCentered': false,
+                'css3': true,
+                'sectionsColor': ['#F0F2F4', '#fff', '#fff'],
+                'anchors': ['anchor1', 'anchor2', 'anchor3'],
+                'menu': '#menu',
+                'navigation': true,
+                'navigationPosition': 'right',
+                'navigationTooltips': ['О нас', 'Наши услуга', 'Контакты']
+
+//                'afterLoad': function (anchorLink, index) {
+//                    if (index == 2) {
+//                        $('#iphone3, #iphone2, #iphone4').addClass('active');
+//                    }
+//                },
+//
+//                'onLeave': function (index, nextIndex, direction) {
+//                    if (index == 3 && direction == 'down') {
+//                        $('.section').eq(index - 1).removeClass('moveDown').addClass('moveUp');
+//                    }
+//                    else if (index == 3 && direction == 'up') {
+//                        $('.section').eq(index - 1).removeClass('moveUp').addClass('moveDown');
+//                    }
+//
+//                    $('#staticImg').toggleClass('active', (index == 2 && direction == 'down' ) || (index == 4 && direction == 'up'));
+//                    $('#staticImg').toggleClass('moveDown', nextIndex == 4);
+//                    $('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
+//                }
+            });
+        });
+    </script>
 
 </head>
 <body>
 
 
-<div id="header"> <div class="navbar  navbar-fixed-top" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<ul class="logo">
-				<li><a class="navbar-brand" href="#">Web-студия "Originals"</a></li>
-			</ul>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul id="menu">
-				<li data-menuanchor="section0" class="active"><a href="#section0">О нас</a></li>
-				<li  data-menuanchor="section1"><a href="#section1">Галерея</a></li>
-				<li  data-menuanchor="section2"><a href="#section2">Контакты</a></li>
-			</ul>
-			<div class="telefon"> <p>+79002475139</p></div>
-		</div><!--/.nav-collapse -->
-	</div>
-</div>
-</div>
-<div id="footer"><div class="container">
-	<div class="col-lg-5 navbar-left">
-		<p>Старомышастовская Садовая №211&nbsp; &nbsp;	+7902475139</p>
-	</div>
-	<div class="col-lg-3 text-center">
-		<a href="#" class="knopka">Написать нам</a>
+<div id="header">
+    <div class="navbar  navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Web-студия "Originals"</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul id="menu">
+                    <li data-menuanchor="anchor1" class="active"><a href="#anchor1">О нас</a></li>
+                    <li data-menuanchor="anchor2"><a href="#anchor2">Галерея</a></li>
+                    <li data-menuanchor="anchor3"><a href="#anchor3">Контакты</a></li>
+                </ul>
+                <div class="telefon"><p>+79002475139</p></div>
+            </div><!--/.nav-collapse -->
+        </div>
 
-		<div id="fade" class="black-overlay"></div>
-	</div>
-	<div class="col-lg-2"><p>e-mail</p></div>
-	<div class="col-lg-2 text-center"><a href="http://facebook.com/">Fb</a>&nbsp;&nbsp;
-		<a href="http://instagram.com/">Ig</a>&nbsp;&nbsp;
-		<a href="http://twitter.com/">Tw</a></div></div>
-</div></div>
+    </div>
+</div>
+<div id="footer">
+    <div class="container">
+        <div class="col-lg-5 navbar-left">
+            <p>Старомышастовская Садовая №211&nbsp; &nbsp; +7902475139</p>
+        </div>
+        <div class="col-lg-3 text-center">
+            <a href="#" class="knopka">Написать нам</a>
+
+            <div id="fade" class="black-overlay"></div>
+        </div>
+        <div class="col-lg-2"><p>e-mail</p></div>
+        <div class="col-lg-2 text-center"><a href="http://facebook.com/">Fb</a>&nbsp;&nbsp;
+            <a href="http://instagram.com/">Ig</a>&nbsp;&nbsp;
+            <a href="http://twitter.com/">Tw</a></div>
+    </div>
+</div>
 <div id="fullpage">
-	<div class="section " id="section0"><h2 class="text-center">Коротко о нас</h2>
-		<div class="text">
-			<p class="text-center">В интернете – миллионы сайтов, но почему успешными можно назвать от силы 1 процент от общего числа проектов? Может, дело в плохом дизайне? Нет: среди непопулярных веб-ресурсов очень много настоящих шедевров, но они «не продают». Может, нужно вкладывать деньги в дорогую рекламу? Увы, окупается она далеко не всегда, поскольку аппетиты владельцев площадей огромны. Может, стоит потратиться на оригинальные тексты от брендовых копирайтеров? Это хорошо, но современный пользователь мало читает: его привлекает графический контент.
+    <div class="section " id="section0"><h2 class="text-center">Коротко о нас</h2>
+        <div class="text">
+            <p class="text-center">В интернете – миллионы сайтов, но почему успешными можно назвать от силы 1 процент от
+                общего числа проектов? Может, дело в плохом дизайне? Нет: среди непопулярных веб-ресурсов очень много
+                настоящих шедевров, но они «не продают». Может, нужно вкладывать деньги в дорогую рекламу? Увы,
+                окупается она далеко не всегда, поскольку аппетиты владельцев площадей огромны. Может, стоит потратиться
+                на оригинальные тексты от брендовых копирайтеров? Это хорошо, но современный пользователь мало читает:
+                его привлекает графический контент.
 
-				Компания «Originals» рада предложить Вам простые ответы на сложные вопросы.
-				<div class="text-center" id="sh_cont01" style="display: none;">
-			<p>Лишь гармоничное сочетание всех элементов оформления даст ожидаемый эффект, и сайт начнёт приносить ожидаемую прибыль. Мы прекрасно знаем, что это такое, так как создали десятки успешных проектов.
-				Компания «Originals» обеспечивает своим клиентам современный и выгодный сервис:
+                Компания «Originals» рада предложить Вам простые ответы на сложные вопросы.
+                <div class="text-center" id="sh_cont01" style="display: none;">
+            <p>Лишь гармоничное сочетание всех элементов оформления даст ожидаемый эффект, и сайт начнёт приносить
+                ожидаемую прибыль. Мы прекрасно знаем, что это такое, так как создали десятки успешных проектов.
+                Компания «Originals» обеспечивает своим клиентам современный и выгодный сервис:
 
 
-				Почему Вам стоит работать именно с нами?
-				Мы слышим Вас. Наши сайты и реклама – это не слепая эстетика, а трезвый расчёт. Здесь всё работает на повышение продаж, и Ваши замечания и предложения неизменно учитываются нами.
+                Почему Вам стоит работать именно с нами?
+                Мы слышим Вас. Наши сайты и реклама – это не слепая эстетика, а трезвый расчёт. Здесь всё работает на
+                повышение продаж, и Ваши замечания и предложения неизменно учитываются нами.
 
-				Мы чувствуем Вас.
+                Мы чувствуем Вас.
 
-				Мы понимаем Вас. Нам не нужно объяснять, что клиенты не должны покидать сайт и как важно стимулировать их совершать покупку. Мы прекрасно понимаем это сами, иначе Вы бы не дочитали информацию о нашей компании до конца. Поэтому не стоит сомневаться: свяжитесь с нами удобным способом и обсудите вопросы сотрудничества.
+                Мы понимаем Вас. Нам не нужно объяснять, что клиенты не должны покидать сайт и как важно стимулировать
+                их совершать покупку. Мы прекрасно понимаем это сами, иначе Вы бы не дочитали информацию о нашей
+                компании до конца. Поэтому не стоит сомневаться: свяжитесь с нами удобным способом и обсудите вопросы
+                сотрудничества.
 
-				Компания «Originals»: Ваш надёжный проводник в мире интернет-технологий! </p><br>
+                Компания «Originals»: Ваш надёжный проводник в мире интернет-технологий! </p><br>
 
-			<h2>Обращайтесь по телефону: <span>+79002475139</span>; <span>+79183423603</span>.</h2>
-		</div>
-		<a href="#" onclick="showHide('sh_cont01','sh_dot01')"><div id="sh_dot01" style="text-align: center; ">читать далее</div></a>
+            <h2>Обращайтесь по телефону: <span>+79002475139</span>; <span>+79183423603</span>.</h2>
+        </div>
+        <a href="#" onclick="showHide('sh_cont01','sh_dot01')">
+            <div id="sh_dot01" style="text-align: center; ">читать далее</div>
+        </a>
 
-		</p>
-	</div>
+        </p>
+    </div>
 </div>
-<div class="section" id="section1">
+    <div class="section" id="section1">
+        <div class="slide" id="slide1">
+            <div class="container">
+                <h2>Наши услушги</h2>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-menu linkblock " onclick="location.href='#'">
+                    <div>
+                        <img src="images/webdev.png" class="img" alt=""></div>
+                    <div class="block-menu-telo">
+                        <p> Разработка сайтов</p>
 
-	<div class="slide" id="slide1">
-		<div class="container">
-			<h2>Наши услушги</h2>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-menu linkblock " onclick="location.href='#'">
-			<div>
-				<img src="images/webdev.png" class="img" alt=""></div>
-			<div class="block-menu-telo">
-				<p>                           Разработка сайтов</p>
+                        <div class="razrabotka">
+                            <ul>
+                                <li>Проектирование</li>
+                                <li>Дизайн сайта</li>
+                                <li>Техническая реализация</li>
+                                <li>Тестирование</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-menu linkblock " onclick="location.href='#'">
+                    <div>
+                        <img src="images/seo.png" class="img" alt=""></div>
+                    <div class="block-menu-telo">
+                        <p> Продвижение сайтов</p>
 
-				<div class="razrabotka">
-					<ul>
-					<li>Проектирование</li>
-					<li>Дизайн сайта</li>
-					<li>Техническая реализация</li>
-					<li>Тестирование</li>
-				</ul>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-menu linkblock " onclick="location.href='#'">
-			<div>
-				<img src="images/seo.png" class="img" alt=""></div>
-			<div class="block-menu-telo">
-				<p>                            Продвижение сайтов</p>
+                        <div class="prodvishenie">
+                            <ul>
+                                <li>Продвижение в поисковых сетях</li>
+                                <li>Медиапланирование</li>
+                                <li>Веб-аналитика</li>
+                                <li>Продвижение в соцсетях</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-menu linkblock " onclick="location.href='#'">
+                    <div>
+                        <img src="images/support.png" class="img" alt=""></div>
+                    <div class="block-menu-telo">
+                        <p> Поддержка сайтов</p>
 
-				<div class="prodvishenie">
-					<ul>
-						<li>Продвижение в поисковых сетях</li>
-						<li>Медиапланирование</li>
-						<li>Веб-аналитика</li>
-						<li>Продвижение в соцсетях</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-menu linkblock " onclick="location.href='#'">
-			<div>
-				<img src="images/support.png" class="img" alt=""></div>
-			<div class="block-menu-telo">
-				<p>                            Поддержка сайтов</p>
+                        <div class="poddershks">
+                            <ul>
+                                <li>Фирменный стиль</li>
+                                <li>Визуализация</li>
+                                <li>Иллюстрации</li>
+                                <li>Фото и видео</li>
+                            </ul>
+                        </div>
 
-				<div class="poddershks">
-					<ul>
-					<li>Фирменный стиль</li>
-					<li>Визуализация</li>
-					<li>Иллюстрации</li>
-					<li>Фото и видео</li>
-				</ul>
-				</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="container-fluid">
+            <div class="rown">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                    <p>
+                    <h2>Контактная
+                        информация</h2>
 
-			</div>
-		</div>
-	</div>
-	</div>
-
+                    <p>Старомышастовская, <br> Садовая улица, 211 <br>
+                        +79002475139 <br>
+                        +79183423603
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 dark">
+                    <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab574be1a22517182384abfce42e90d249197349ae6dfb887b136dac461b4b443&amp;width=100%25&amp;height=971&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="section" id="section2">
-
-	<div class="container-fluid">
-		<div class="rown">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-				<p><h2>Контактная
-				информация</h2>
-
-				<p>Старомышастовская, <br> Садовая улица, 211 <br>
-					+79002475139 <br>
-					+79183423603
-				</p>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 dark">
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab574be1a22517182384abfce42e90d249197349ae6dfb887b136dac461b4b443&amp;width=100%25&amp;height=971&amp;lang=ru_RU&amp;scroll=true"></script>			</div>
-		</div>
-	</div>
-
-</div>
 
 
-
-<script type="text/javascript">var sh_cont;var sh_dot;function showHide(sh_cont, sh_dot){if (document.getElementById(sh_cont).style.display == 'block'){document.getElementById(sh_cont).style.display = 'none';document.getElementById(sh_dot).innerHTML='... читать далее'; }else {document.getElementById(sh_cont).style.display = 'block';document.getElementById(sh_dot).innerHTML=''; }}</script>
+<script type="text/javascript">var sh_cont;
+var sh_dot;
+function showHide(sh_cont, sh_dot) {
+    if (document.getElementById(sh_cont).style.display == 'block') {
+        document.getElementById(sh_cont).style.display = 'none';
+        document.getElementById(sh_dot).innerHTML = '... читать далее';
+    } else {
+        document.getElementById(sh_cont).style.display = 'block';
+        document.getElementById(sh_dot).innerHTML = '';
+    }
+}</script>
 <!-- Yandex.Metrika counter -->
-
 
 </body>
 </html>
