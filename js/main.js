@@ -57,7 +57,7 @@ $(document).ready(function () {
         if (mailvalid == true && msglen >= 4) {
             // если обе проверки пройдены
             // сначала мы скрываем кнопку отправки
-            $("#send").replaceWith("<em style='color: #f1f1f1;'>Отправка, ожидайте</em>");
+            $("#send").replaceWith("<em id='send-text' style='color: #f1f1f1;'>Отправка, ожидайте</em>");
             $.ajax({
                 type: 'POST',
                 url: 'sendmessage.php',
@@ -68,6 +68,9 @@ $(document).ready(function () {
                             $(this).before("<p><strong>Успешно! Ваше сообщение отправлено  :)</strong></p>");
                             setTimeout("$.fancybox.close()", 1000);
                         });
+                    }
+                    else {
+                        $("#send-text").replaceWith("<em style='color: #ff5412'>Ошибка при отправке, попробуйте позже!</em>");
                     }
                 }
             });
