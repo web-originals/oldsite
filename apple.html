@@ -2,21 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Web-студия "Originals⚜</title>
-    <meta name="author" content="Alvaro Trigo Lopez"/>
-    <meta name="description"
-          content="fullPage full-screen apple iphone 5c similar website. Reproducing one sigle scrolling site like Apple iPhone."/>
-    <meta name="keywords"
-          content="fullpage,jquery,demo,screen,fullscreen,apple,iphone5c,iphone5s,iphone,iphone-5c,like,reproduce,similar,how to"/>
-    <meta name="Resource-type" content="Document"/>
-    <script src="js/loader.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Web-студия "Originals⚜</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage full-screen apple iphone 5c similar website. Reproducing one sigle scrolling site like Apple iPhone." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,apple,iphone5c,iphone5s,iphone,iphone-5c,like,reproduce,similar,how to" />
+	<meta name="Resource-type" content="Document" />
+	<script src="js/loader.js"></script>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
-    <link rel="stylesheet" type="text/css" href="css/examples.css"/>
-    <style>
-        /* Style for our header texts
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="css/style-form.css" />
+	<style>
+		/* Style for our header texts
         * --------------------------------------- */
         h1 {
             font-size: 5em;
@@ -44,120 +43,105 @@
 
         /* Defining each section background and styles
         * --------------------------------------- */
-        #section0 {
-            background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
-        }
+		#section0{
+			background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
+		}
+		#section0 h2{
+			top: 25%;
+			transform: translateY(-15%);
+			position: relative;
+		}
+		#section0 .text{
+			top: 30%;
+			transform: translateY(2%);
+			position: relative;
+			padding: 0 5%;
+		}
+		#section0 .text span{
+			color: #b7192a;
 
-        #section0 h2 {
-            top: 25%;
-            transform: translateY(-15%);
-            position: relative;
-        }
+		}
+		#section2{
+			background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
+			padding: 0% 0 0 0;
+		}
+		#section2 h2{
+			transform: translateY(576%);
+			position: relative;
+			text-align: right;
+		}
+		#section2 p{
+			transform: translateY(351%);
+			position: relative;
+			text-align: right;
+		}
+		#section3{
+			background-image: url(images/bg4.jpg);
+			padding: 6% 0 0 0;
+		}
+		#section3 h1{
+			color: #000;
+		}
+		#section1 .block-menu{
+			top: 50%;
+			transform: translateY(50%);
+			position: relative;
+		}
+		.container {
+			width: 1400px;
+		}
+		#section1 .block-menu:hover{
+			background: black;
+			border-radius: 15px;
+		}
+		.block-menu-telo {
+			background: none;
+			color: white;
+			text-align: center;
+			padding: 4% 0% 4% 0%;
+		}
+		#section1 h2{
+			transform: translateY(193%);
+		}
+		.linkblock {
+			cursor: pointer;
+		}
+		.razrabotka {
+			padding-top: 8%;
+			padding-bottom: 8%;
+			/*background-image: url(images/a1.png);*/
+			background-position: -13% 35%;
+			background-size: 137%;
 
-        #section0 .text {
-            top: 30%;
-            transform: translateY(2%);
-            position: relative;
-            padding: 0 5%;
-        }
 
-        #section0 .text span {
-            color: #b7192a;
+		}
+		.prodvishenie {
+			padding-top: 8%;
+			padding-bottom: 8%;
+			/*background-image: url(images/b1.png);*/
+			background-position: -13% 35%;
+			background-size: 137%;
 
-        }
 
-        #section2 {
-            background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
-            padding: 0 0 0 0;
-        }
+		}
 
-        #section2 h2 {
-            transform: translateY(576%);
-            position: relative;
-            text-align: right;
-        }
+		.poddershks {
+			padding-top: 8%;
+			padding-bottom: 8%;
+			/*background-image: url(images/c1.png);*/
+			background-position: -13% 35%;
+			background-size: 137%;
 
-        #section2 p {
-            transform: translateY(351%);
-            position: relative;
-            text-align: right;
-        }
 
-        #section3 {
-            background-image: url(images/bg4.jpg);
-            padding: 6% 0 0 0;
-        }
+		}
+		.img{
+			width: 30%;
+		}
+		.block-menu{
+			padding: 1% 15px;
+		}
 
-        #section3 h1 {
-            color: #000;
-        }
-
-        #section1 .block-menu {
-            top: 50%;
-            transform: translateY(50%);
-            position: relative;
-        }
-
-        .container {
-            width: 1275px;
-        }
-
-        #section1 .block-menu:hover {
-            background: black;
-            border-radius: 15px;
-        }
-
-        .block-menu-telo {
-            background: none;
-            color: white;
-            text-align: center;
-            padding: 4% 0 4% 0;
-        }
-
-        #section1 h2 {
-            transform: translateY(193%);
-        }
-
-        .linkblock {
-            cursor: pointer;
-        }
-
-        .razrabotka {
-            padding-top: 8%;
-            padding-bottom: 8%;
-            /*background-image: url(images/a1.png);*/
-            background-position: -13% 35%;
-            background-size: 137%;
-
-        }
-
-        .prodvishenie {
-            padding-top: 8%;
-            padding-bottom: 8%;
-            /*background-image: url(images/b1.png);*/
-            background-position: -13% 35%;
-            background-size: 137%;
-
-        }
-
-        .poddershks {
-            padding-top: 8%;
-            padding-bottom: 8%;
-            /*background-image: url(images/c1.png);*/
-            background-position: -13% 35%;
-            background-size: 137%;
-
-        }
-
-        .img {
-            width: 30%;
-        }
-
-        .block-menu {
-            padding: 1% 15px;
-        }
-
-        /*Adding background for the slides
+		/*Adding background for the slides
         * --------------------------------------- */
         #slide1 {
             background-image: url("images/laptop.jpg");
@@ -172,242 +156,264 @@
 
         /* Bottom menu
         * --------------------------------------- */
-        #infoMenu li a {
-            color: #fff;
+		#infoMenu li a {
+			color: #fff;
+		}
+		h1:first-letter {
+			text-transform: capitalize;
+			color: #b7192a !important;
+			font-family: 'PT Sans', arial;
+			margin-top: 4%;
+			font-size: 2em;
+		}
+		h2:first-letter {
+			text-transform: capitalize;
+			color: #b7192a !important;
+			font-family: 'PT Sans', arial;
+			margin-top: 4%;
+			font-size: 1.5em;
+		}
+		h2{
+			font-size: 30px;
+		}
+		p{
+			font-size: 22px;
+			width:100%;
+			text-align:center;
+			color: white;
+			font-family: 'PT Sans', arial;
+		}
+		h1, h2, h3, h4, h5, h6{
+			color: white;
+			font-family: 'PT Sans', arial;
+		}
+		.rown{
+			margin-right: -30px;
+			margin-left: -30px;
+		}
+		.fp-tooltip{
+			color: #AAA;
+		}
+		#fp-nav span, .fp-slidesNav span{
+			border-color: #AAA;
+		}
+		#fp-nav li .active span, .fp-slidesNav .active span{
+			background: #b7192a;
+		}
+.dark{
+	opacity:0.4;
+}
+		[class*="ymaps-2"][class*="-ground-pane"] {
+			filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+			-webkit-filter: grayscale(100%);
+		}
+		a {
+			color: #b7192a;
+
+		}
+		.navbar a {
+			color: #ffffff;
+			font-size: 20px;
+		}
+		.navbar-fixed-top {
+			top: 4%;
+			border-width: 0 0 1px;
+		}
+		.navbar-nav {
+			float: left;
+			margin-left: 17%;
+		}
+		.navbar-nav>li>a {
+			padding-bottom: 10px;
+		}
+		.navbar-nav>li>a:hover{
+			 background: none;
+			border-bottom: 2px	solid white;
+		 }
+.telefon {
+	margin-top: 1%;
+	font-weight: 600;
+	float: right;
+}
+		footer p{
+			font-size: 18px;
+  }
+
+		footer a{
+			font-size: 18px;
+			color: white;
+		}
+		footer a:hover{
+			color: #b7192a;
+		}
+		#sh_dot01{
+			 font-size: 22px;
+		 }
+		 a:hover{
+			color: white;
+			 text-decoration: underline
+		}
+		ul.logo > li:before {
+			content: '';
+			position: absolute;
+			top: -7px;
+			left: 10%;
+			-webkit-transform: translateX(-26%);
+			transform: translateX(-26%);
+			padding-top: 107px;
+			display: block;
+			width: 44px;
+			height: 67px;
+			background-image: url(images/lili.png);
+			background-repeat: no-repeat;
+			-webkit-background-size: contain;
+			background-size: contain;
+		}
+		a.knopka {
+			color: #fff; /* цвет текста */
+			text-decoration: none; /* убирать подчёркивание у ссылок */
+			user-select: none; /* убирать выделение текста */
+			background: #b7192a; /* фон кнопки */
+			padding: .7em 1.5em; /* отступ от текста */
+			outline: none; /* убирать контур в Mozilla */
+		}
+		a.knopka:hover { background: rgb(232,95,76); color: white} /* при наведении курсора мышки */
+		a.knopka:active { background: white; } /* при нажатии */
+		#header, #footer{
+			position:fixed;
+			height: 50px;
+			display:block;
+			width: 100%;
+
+			z-index:9;
+			text-align:center;
+			color: #f2f2f2;
+			padding: 20px 0 0 0;
+		}
+
+		#header{
+			top:3%;
+		}
+		#footer{
+			bottom:3%;
+		}
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+	<script type="text/javascript">
+        jQuery(function($){
+            $("#phone").mask("+7 (999) 999-9999");
+            $("#phone2").mask("+7 (999) 999-9999");
+        });
+	</script>
+	<script type="text/javascript">
+        function validateEmail(email) {
+            var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return reg.test(email);
         }
 
-        h1:first-letter {
-            text-transform: capitalize;
-            color: #b7192a !important;
-            font-family: 'PT Sans', arial;
-            margin-top: 4%;
-            font-size: 2em;
-        }
+        $(document).ready(function() {
+            $("#contact").submit(function() { return false; });
+            $("#send").on("click", function(){
+                var emailval  = $("#email").val();
+                var namevl  = $("#name").val();
+                var phonevl  = $("#phone").val();
+                var msgval    = $("#msg").val();
+                var msglen    = msgval.length;
+                var mailvalid = validateEmail(emailval);
 
-        h2:first-letter {
-            text-transform: capitalize;
-            color: #b7192a !important;
-            font-family: 'PT Sans', arial;
-            margin-top: 4%;
-            font-size: 1.5em;
-        }
+                if(mailvalid == false) {
+                    $("#email").addClass("error");
+                }
+                else if(mailvalid == true){
+                    $("#email").removeClass("error");
+                }
+                if(mailvalid == false) {
+                    $("#name").addClass("error");
+                }
+                else if(mailvalid == true){
+                    $("#name").removeClass("error");
+                }
+                if(mailvalid == false) {
+                    $("#phone").addClass("error");
+                }
+                else if(mailvalid == true){
+                    $("#phone").removeClass("error");
+                }
+                if(msglen < 4) {
+                    $("#msg").addClass("error");
+                }
+                else if(msglen >= 4){
+                    $("#msg").removeClass("error");
+                }
 
-        h2 {
-            font-size: 30px;
-        }
-
-        p {
-            font-size: 22px;
-            width: 100%;
-            text-align: center;
-            color: white;
-            font-family: 'PT Sans', arial;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            color: white;
-            font-family: 'PT Sans', arial;
-        }
-
-        .rown {
-            margin-right: -30px;
-            margin-left: -30px;
-        }
-
-        .fp-tooltip {
-            color: #AAA;
-        }
-
-        #fp-nav span, .fp-slidesNav span {
-            border-color: #AAA;
-        }
-
-        #fp-nav li .active span, .fp-slidesNav .active span {
-            background: #b7192a;
-        }
-
-        .dark {
-            opacity: 0.4;
-        }
-
-        [class*="ymaps-2"][class*="-ground-pane"] {
-            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-            -webkit-filter: grayscale(100%);
-        }
-
-        a {
-            color: #b7192a;
-
-        }
-
-        .navbar a {
-            color: #ffffff;
-            font-size: 20px;
-        }
-
-        .navbar-fixed-top {
-            top: 4%;
-            border-width: 0 0 1px;
-        }
-
-        .navbar-nav {
-            float: left;
-            margin-left: 17%;
-        }
-
-        .navbar-nav > li > a {
-            padding-bottom: 10px;
-        }
-
-        .navbar-nav > li > a:hover {
-            background: none;
-            border-bottom: 2px solid white;
-        }
-
-        .telefon {
-            margin-top: 1%;
-            font-weight: 600;
-            float: right;
-        }
-
-        footer p {
-            font-size: 18px;
-        }
-
-        footer {
-            position: fixed;
-            z-index: 2;
-            width: 100%;
-            bottom: 0%;
-            padding: 50px 0;
-            color: white;
-        }
-
-        footer a {
-            font-size: 18px;
-            color: white;
-        }
-
-        footer a:hover {
-            color: #b7192a;
-        }
-
-        #sh_dot01 {
-            font-size: 22px;
-        }
-
-        a:hover {
-            color: white;
-            text-decoration: underline
-        }
-
-        ul.logo > li:before {
-            content: '';
-            position: absolute;
-            top: -7px;
-            left: 15%;
-            -webkit-transform: translateX(-26%);
-            transform: translateX(-26%);
-            padding-top: 107px;
-            display: block;
-            width: 44px;
-            height: 67px;
-            background-image: url(images/lili.png);
-            background-repeat: no-repeat;
-            -webkit-background-size: contain;
-            background-size: contain;
-        }
-
-        a.knopka {
-            color: #fff; /* цвет текста */
-            text-decoration: none; /* убирать подчёркивание у ссылок */
-            user-select: none; /* убирать выделение текста */
-            background: #b7192a; /* фон кнопки */
-            padding: .7em 1.5em; /* отступ от текста */
-            outline: none; /* убирать контур в Mozilla */
-        }
-
-        a.knopka:hover {
-            background: rgb(232, 95, 76);
-            color: white
-        }
-
-        /* при наведении курсора мышки */
-        a.knopka:active {
-            background: white;
-        }
-
-        /* при нажатии */
-        #header, #footer {
-            position: fixed;
-            height: 50px;
-            display: block;
-            width: 100%;
-
-            z-index: 9;
-            text-align: center;
-            color: #f2f2f2;
-            padding: 20px 0 0 0;
-        }
-
-        #header {
-            top: 3%;
-        }
-
-        #footer {
-            bottom: 1%;
-        }
-    </style>
-
-    <!--[if IE]>
-    <script type="text/javascript">
-        var console = {
-            log: function () {
-            }
-        };
-    </script>
-    <![endif]-->
-
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="js/examples.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#fullpage').fullpage({
-                'verticalCentered': false,
-                'css3': true,
-                'sectionsColor': ['#F0F2F4', '#fff', '#fff'],
-                'anchors': ['anchor1', 'anchor2', 'anchor3'],
-                'menu': '#menu',
-                'navigation': true,
-                'navigationPosition': 'right',
-                'navigationTooltips': ['О нас', 'Наши услуга', 'Контакты']
-
-//                'afterLoad': function (anchorLink, index) {
-//                    if (index == 2) {
-//                        $('#iphone3, #iphone2, #iphone4').addClass('active');
-//                    }
-//                },
-//
-//                'onLeave': function (index, nextIndex, direction) {
-//                    if (index == 3 && direction == 'down') {
-//                        $('.section').eq(index - 1).removeClass('moveDown').addClass('moveUp');
-//                    }
-//                    else if (index == 3 && direction == 'up') {
-//                        $('.section').eq(index - 1).removeClass('moveUp').addClass('moveDown');
-//                    }
-//
-//                    $('#staticImg').toggleClass('active', (index == 2 && direction == 'down' ) || (index == 4 && direction == 'up'));
-//                    $('#staticImg').toggleClass('moveDown', nextIndex == 4);
-//                    $('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
-//                }
+                if(mailvalid == true && msglen >= 4) {
+                    // если обе проверки пройдены
+                    // сначала мы скрываем кнопку отправки
+                    $("#send").replaceWith("<em>отправка...</em>");
+                    $.ajax({
+                        type: 'POST',
+                        url: 'sendmessage.php',
+                        data: $("#contact").serialize(),
+                        success: function(data) {
+                            if(data == "true") {
+                                $("#contact").fadeOut("fast", function(){
+                                    $(this).before("<p><strong>Успешно! Ваше сообщение отправлено  :)</strong></p>");
+                                    setTimeout("$.fancybox.close()", 1000);
+                                });
+                            }
+                        }
+                    });
+                }
             });
         });
-    </script>
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				'verticalCentered': false,
+				'css3': true,
+				'sectionsColor': ['#F0F2F4', '#fff', '#fff'],
+				'anchors': ['anchor1', 'anchor2', 'anchor3'],
+				'menu': '#menu',
+				'navigation': true,
+				'navigationPosition': 'right',
+				'navigationTooltips': ['О нас', 'Наши услуга', 'Контакты']
+
+				'afterLoad': function(anchorLink, index){
+					if(index == 2){
+						$('#iphone3, #iphone2, #iphone4').addClass('active');
+					}
+				},
+
+				'onLeave': function(index, nextIndex, direction){
+					if (index == 3 && direction == 'down'){
+						$('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
+					}
+					else if(index == 3 && direction == 'up'){
+						$('.section').eq(index -1).removeClass('moveUp').addClass('moveDown');
+					}
+
+					$('#staticImg').toggleClass('active', (index == 2 && direction == 'down' ) || (index == 4 && direction == 'up'));
+					$('#staticImg').toggleClass('moveDown', nextIndex == 4);
+					$('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
+				}
+			});
+		});
+	</script>
+>>>>>>> beff8b5aba3485d03c17a432f8b05e46964a4ace
 
 </head>
 <body>
@@ -437,22 +443,29 @@
 
     </div>
 </div>
-<div id="footer">
-    <div class="container">
-        <div class="col-lg-5 navbar-left">
-            <p>Старомышастовская Садовая №211&nbsp; &nbsp; +7902475139</p>
-        </div>
-        <div class="col-lg-3 text-center">
-            <a href="#" class="knopka">Написать нам</a>
+<div id="footer"><div class="container">
+	<div class="col-lg-5 navbar-left">
+		<p>Старомышастовская Садовая №211&nbsp; &nbsp;	+7902475139</p>
+	</div>
+	<div class="col-lg-3 text-center">
+		<a href="#inline" class="modalbox">Обратный звонок</a>
 
-            <div id="fade" class="black-overlay"></div>
-        </div>
-        <div class="col-lg-2"><p>e-mail</p></div>
-        <div class="col-lg-2 text-center"><a href="http://facebook.com/">Fb</a>&nbsp;&nbsp;
-            <a href="http://instagram.com/">Ig</a>&nbsp;&nbsp;
-            <a href="http://twitter.com/">Tw</a></div>
-    </div>
-</div>
+		<div id="inline">
+			<h2>Онлайн заявка</h2>
+			<form id="contact" name="contact" action="#" method="post">
+				<input type="name" id="name" name="name" class="txt" placeholder="Ваше имя">
+				<input type="phone" id="phone" name="phone" class="txt" placeholder="Ваш телефон">
+				<input type="email" id="email" name="email" class="txt" placeholder="Ваш e-mail">
+				<textarea id="msg" name="msg" class="txtarea"  placeholder="Ваше сообщение:"></textarea>
+				<button id="send">Отправить</button>
+			</form>
+		</div>
+	</div>
+	<div class="col-lg-2"><p>e-mail</p></div>
+	<div class="col-lg-2 text-center"><a href="http://facebook.com/">Fb</a>&nbsp;&nbsp;
+		<a href="http://instagram.com/">Ig</a>&nbsp;&nbsp;
+		<a href="http://twitter.com/">Tw</a></div></div>
+</div></div>
 <div id="fullpage">
     <div class="section " id="section0"><h2 class="text-center">Коротко о нас</h2>
         <div class="text">
