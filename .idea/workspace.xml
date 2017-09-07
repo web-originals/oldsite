@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6873e82-4067-4e60-b54f-265e4e6926d6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apple.html" afterPath="$PROJECT_DIR$/apple.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/examples.css" afterPath="$PROJECT_DIR$/css/examples.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proverka.html" afterPath="$PROJECT_DIR$/proverka.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,9 +23,22 @@
       <file leaf-file-name="apple.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apple.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="402" column="58" lean-forward="true" selection-start-line="402" selection-start-column="58" selection-end-line="402" selection-end-column="58" />
-              <folding />
+            <state relative-caret-position="354">
+              <caret line="493" column="6" lean-forward="true" selection-start-line="493" selection-start-column="6" selection-end-line="493" selection-end-column="6" />
+              <folding>
+                <element signature="e#5947#6198#2" expanded="true" />
+                <element signature="e#12270#12276#0" expanded="true" />
+                <element signature="e#12277#12283#0" expanded="true" />
+                <element signature="e#12615#12621#0" expanded="true" />
+                <element signature="e#12621#12627#0" expanded="true" />
+                <element signature="e#12678#12684#0" expanded="true" />
+                <element signature="e#12684#12690#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1504786444849" expanded="true" signature="9002:9096" ph="..." />
+                <marker date="1504786444849" expanded="true" signature="9026:9082" ph="{...}" />
+                <marker date="1504786444849" expanded="true" signature="9057:9072" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,15 +115,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504783710944</updated>
-      <workItem from="1504783718848" duration="1346000" />
+      <workItem from="1504783718848" duration="2689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1346000" />
+    <option name="totallyTimeSpent" value="2689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -142,9 +158,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/apple.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="402" column="58" lean-forward="true" selection-start-line="402" selection-start-column="58" selection-end-line="402" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="354">
+          <caret line="493" column="6" lean-forward="true" selection-start-line="493" selection-start-column="6" selection-end-line="493" selection-end-column="6" />
+          <folding>
+            <element signature="e#5947#6198#2" expanded="true" />
+            <element signature="e#12270#12276#0" expanded="true" />
+            <element signature="e#12277#12283#0" expanded="true" />
+            <element signature="e#12615#12621#0" expanded="true" />
+            <element signature="e#12621#12627#0" expanded="true" />
+            <element signature="e#12678#12684#0" expanded="true" />
+            <element signature="e#12684#12690#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#p#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1504786444849" expanded="true" signature="9002:9096" ph="..." />
+            <marker date="1504786444849" expanded="true" signature="9026:9082" ph="{...}" />
+            <marker date="1504786444849" expanded="true" signature="9057:9072" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
