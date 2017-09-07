@@ -13,6 +13,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="css/style-form.css" />
 	<style>
 		/* Style for our header texts
         * --------------------------------------- */
@@ -87,7 +88,7 @@
 			position: relative;
 		}
 		.container {
-			width: 1275px;
+			width: 1400px;
 		}
 		#section1 .block-menu:hover{
 			background: black;
@@ -237,14 +238,7 @@
 		footer p{
 			font-size: 18px;
   }
-		footer{
-			position: fixed;
-			z-index: 2;
-			width: 100%;
-			bottom: 0%;
-			padding: 50px 0;
-			color: white;
-		}
+
 		footer a{
 			font-size: 18px;
 			color: white;
@@ -263,7 +257,7 @@
 			content: '';
 			position: absolute;
 			top: -7px;
-			left: 15%;
+			left: 10%;
 			-webkit-transform: translateX(-26%);
 			transform: translateX(-26%);
 			padding-top: 107px;
@@ -301,7 +295,7 @@
 			top:3%;
 		}
 		#footer{
-			bottom:1%;
+			bottom:3%;
 		}
 	</style>
 
@@ -316,6 +310,75 @@
 
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="js/examples.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+	<script type="text/javascript">
+        jQuery(function($){
+            $("#phone").mask("+7 (999) 999-9999");
+            $("#phone2").mask("+7 (999) 999-9999");
+        });
+	</script>
+	<script type="text/javascript">
+        function validateEmail(email) {
+            var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return reg.test(email);
+        }
+
+        $(document).ready(function() {
+            $("#contact").submit(function() { return false; });
+            $("#send").on("click", function(){
+                var emailval  = $("#email").val();
+                var namevl  = $("#name").val();
+                var phonevl  = $("#phone").val();
+                var msgval    = $("#msg").val();
+                var msglen    = msgval.length;
+                var mailvalid = validateEmail(emailval);
+
+                if(mailvalid == false) {
+                    $("#email").addClass("error");
+                }
+                else if(mailvalid == true){
+                    $("#email").removeClass("error");
+                }
+                if(mailvalid == false) {
+                    $("#name").addClass("error");
+                }
+                else if(mailvalid == true){
+                    $("#name").removeClass("error");
+                }
+                if(mailvalid == false) {
+                    $("#phone").addClass("error");
+                }
+                else if(mailvalid == true){
+                    $("#phone").removeClass("error");
+                }
+                if(msglen < 4) {
+                    $("#msg").addClass("error");
+                }
+                else if(msglen >= 4){
+                    $("#msg").removeClass("error");
+                }
+
+                if(mailvalid == true && msglen >= 4) {
+                    // если обе проверки пройдены
+                    // сначала мы скрываем кнопку отправки
+                    $("#send").replaceWith("<em>отправка...</em>");
+                    $.ajax({
+                        type: 'POST',
+                        url: 'sendmessage.php',
+                        data: $("#contact").serialize(),
+                        success: function(data) {
+                            if(data == "true") {
+                                $("#contact").fadeOut("fast", function(){
+                                    $(this).before("<p><strong>Успешно! Ваше сообщение отправлено  :)</strong></p>");
+                                    setTimeout("$.fancybox.close()", 1000);
+                                });
+                            }
+                        }
+                    });
+                }
+            });
+        });
+	</script>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -384,9 +447,18 @@
 		<p>Старомышастовская Садовая №211&nbsp; &nbsp;	+7902475139</p>
 	</div>
 	<div class="col-lg-3 text-center">
-		<a href="#" class="knopka">Написать нам</a>
+		<a href="#inline" class="modalbox">Обратный звонок</a>
 
-		<div id="fade" class="black-overlay"></div>
+		<div id="inline">
+			<h2>Онлайн заявка</h2>
+			<form id="contact" name="contact" action="#" method="post">
+				<input type="name" id="name" name="name" class="txt" placeholder="Ваше имя">
+				<input type="phone" id="phone" name="phone" class="txt" placeholder="Ваш телефон">
+				<input type="email" id="email" name="email" class="txt" placeholder="Ваш e-mail">
+				<textarea id="msg" name="msg" class="txtarea"  placeholder="Ваше сообщение:"></textarea>
+				<button id="send">Отправить</button>
+			</form>
+		</div>
 	</div>
 	<div class="col-lg-2"><p>e-mail</p></div>
 	<div class="col-lg-2 text-center"><a href="http://facebook.com/">Fb</a>&nbsp;&nbsp;
