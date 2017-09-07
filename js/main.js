@@ -1,6 +1,7 @@
 /**
  * Created by Igor on 07.09.2017.
  */
+
 jQuery(function ($) {
     $("#phone").mask("+7 (999) 999-9999");
     $("#phone2").mask("+7 (999) 999-9999");
@@ -91,6 +92,28 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    var coordmap;
+    ymaps.ready(function(){
+        coordmap = new ymaps.Map("coordmap", {
+            center: [45.350937, 39.058247],
+            zoom: 13,
+            controls:[]
+        });
+        var placemark = new ymaps.Placemark([ 45.350937, 39.058247], {
+            balloonContent: '<img src="http://img-fotki.yandex.ru/get/6114/82599242.2d6/0_88b97_ec425cf5_M" />',
+            iconContent: "Веб студия 'ORIGINALS'"
+        }, {
+            preset: "islands#redStretchyIcon",
+            // Отключаем кнопку закрытия балуна.
+            balloonCloseButton: false,
+            // Балун будем открывать и закрывать кликом по иконке метки.
+            hideIconOnBalloonOpen: false
+        });
+        coordmap.geoObjects.add(placemark);
+    });
+});
+
 var sh_cont;
 var sh_dot;
 function showHide(sh_cont, sh_dot) {
@@ -102,3 +125,4 @@ function showHide(sh_cont, sh_dot) {
         document.getElementById(sh_dot).innerHTML = '';
     }
 }
+
