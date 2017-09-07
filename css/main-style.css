@@ -247,6 +247,7 @@ a {
 }
 
 .telefon {
+    display: inline-block;
     margin-top: 1%;
     font-weight: 600;
     float: right;
