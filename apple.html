@@ -357,10 +357,12 @@
             right: 0;
             bottom: 0;
             left: 0;
-            background: rgba(0,0,0,0.8);
+            background: rgba(0, 0, 0, 0.9);
             z-index: 99999;
-
             display: none;
+        }
+        .contact-center {
+            margin-top: 100px;
         }
     </style>
 
@@ -392,8 +394,11 @@
         }
 
         $(document).ready(function () {
-            $("#backcall").on("click",function () {
-               $("#form-contact").fadeIn();
+            $("#backcall").on("click", function () {
+                $("#form-contact").fadeIn();
+            });
+            $("#hide-contact").on("click", function () {
+                $("#form-contact").fadeOut();
             });
             $("#contact").submit(function () {
                 return false;
@@ -469,9 +474,9 @@
     </script>
 </head>
 <body>
-<div id="form-contact" >
-    <div class="navbar  navbar-fixed-top" role="navigation">
-        <div class="container">
+<div id="form-contact">
+    <center>
+        <div class="contact-center">
             <h2>Онлайн заявка</h2>
             <form id="contact" name="contact" action="#" method="post">
                 <input type="name" id="name" name="name" class="txt" placeholder="Ваше имя">
@@ -480,8 +485,9 @@
                 <textarea id="msg" name="msg" class="txtarea" placeholder="Ваше сообщение:"></textarea>
                 <button id="send">Отправить</button>
             </form>
+            <button id="hide-contact">Отмена</button>
         </div>
-    </div>
+    </center>
 </div>
 
 <div id="header">
