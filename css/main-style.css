@@ -29,7 +29,6 @@ h1 {
 #section0 {
     background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
 }
-
 #section0 h2 {
     top: 25%;
     transform: translateY(-15%);
@@ -289,6 +288,11 @@ a {
 
 .tel{
     color: white;
+
+}
+.tel:hover{
+    color: white;
+    text-decoration: none;
 }
 
 footer p {
@@ -322,7 +326,7 @@ a.logo {
 }
 
 li.logotip:before {
-    content: url(http://localhost:63342/design-site/images/lili2.png);
+    content: url(../images/lili2.png);
     display: inline-block;
     vertical-align: middle;
     font-style: normal;
