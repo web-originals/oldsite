@@ -111,6 +111,7 @@ $(document).ready(function () {
             hideIconOnBalloonOpen: false
         });
         coordmap.geoObjects.add(placemark);
+        coordmap.behaviors.disable('scrollZoom');
     });
 });
 
