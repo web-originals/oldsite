@@ -237,7 +237,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     color: #b7192a;
+}
 
+.social{
+    color: #f7fcff;
 }
 
 .navbar a {
@@ -269,6 +272,10 @@ a {
     margin-top: 1%;
     font-weight: 600;
     float: right;
+}
+
+.tel{
+    color: white;
 }
 
 footer p {
