@@ -110,7 +110,6 @@ h1 {
     /*background-image: url(../images/a1.png);*/
     background-position: -13% 35%;
     background-size: 137%;
-
 }
 
 .prodvishenie {
@@ -119,7 +118,6 @@ h1 {
     /*background-image: url(../images/b1.png);*/
     background-position: -13% 35%;
     background-size: 137%;
-
 }
 
 .poddershks {
@@ -128,7 +126,6 @@ h1 {
     /*background-image: url(../images/c1.png);*/
     background-position: -13% 35%;
     background-size: 137%;
-
 }
 
 .img {
@@ -177,24 +174,24 @@ h2:first-letter {
 h2 {
     font-size: 30px;
 }
-.border-text{
-    text-shadow:
-            -0   -1px 0   #000000,
-            0   -1px 0   #000000,
-            -0    1px 0   #000000,
-            0    1px 0   #000000,
-            -1px -0   0   #000000,
-            1px -0   0   #000000,
-            -1px  0   0   #000000,
-            1px  0   0   #000000,
-            -1px -1px 0   #000000,
-            1px -1px 0   #000000,
-            -1px  1px 0   #000000,
-            1px  1px 0   #000000,
-            -1px -1px 0   #000000,
-            1px -1px 0   #000000,
-            -1px  1px 0   #000000,
-            1px  1px 0   #000000;
+
+.border-text {
+    text-shadow: -0 -1px 0 #000000,
+    0 -1px 0 #000000,
+    -0 1px 0 #000000,
+    0 1px 0 #000000,
+    -1px -0 0 #000000,
+    1px -0 0 #000000,
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
 }
 
 p {
@@ -228,18 +225,20 @@ h1, h2, h3, h4, h5, h6 {
     background: #b7192a;
 }
 
-.grid{
+.grid {
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    grid-auto-rows: minmax( 100px, auto);
-    grid-auto-rows: 160px 160px 160px ;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: 160px 160px 160px;
     grid-auto-flow: row;
 }
-.grid div:nth-child(even){
+
+.grid div:nth-child(even) {
     background: red;
 }
-.grid div:nth-child(odd){
+
+.grid div:nth-child(odd) {
     background: rebeccapurple;
 }
 
@@ -252,7 +251,7 @@ a {
     color: #b7192a;
 }
 
-.social{
+.social {
     color: #f7fcff;
 }
 
@@ -287,7 +286,7 @@ a {
     float: right;
 }
 
-.tel{
+.tel {
     color: white;
 }
 
@@ -312,9 +311,11 @@ a:hover {
     color: white;
     text-decoration: underline
 }
- a.logo:hover {
-        border: none !important;
+
+a.logo:hover {
+    border: none !important;
 }
+
 a.logo {
     width: 130%;
     margin-top: -19%;
@@ -322,28 +323,27 @@ a.logo {
 }
 
 li.logotip:before {
-    content: url(http://localhost:63342/design-site/images/lili2.png);
+    content: url(../images/lili2.png);
     display: inline-block;
     vertical-align: middle;
     font-style: normal;
     margin-left: 29%;
     margin-top: -6%;
-
-
-
 }
-.phone{
+
+.phone {
     border: none !important;
 }
-.soc-set{
+
+.soc-set {
     width: 10%;
 }
 
-
-.contact-center h2{
+.contact-center h2 {
     transform: translateY(221%);
     margin-bottom: 15%;
 }
+
 a.knopka {
     color: #fff; /* цвет текста */
     text-decoration: none; /* убирать подчёркивание у ссылок */
@@ -395,9 +395,11 @@ a.knopka:active {
     z-index: 99999;
     display: none;
 }
+
 .contact-center {
     margin-top: 100px;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -431,6 +433,7 @@ body {
     -webkit-transition: -webkit-transform .5s ease-out;
     transition: transform .5s ease-out;
 }
+
 .lightbox img {
     position: fixed;
     top: 50%;
@@ -477,6 +480,7 @@ input[type="checkbox"]:checked ~ .grid {
     -webkit-transition: opacity .75s;
     transition: opacity .75s;
 }
+
 .grid .grid-item {
     display: inline-block;
     width: 25%;
@@ -485,19 +489,23 @@ input[type="checkbox"]:checked ~ .grid {
     -webkit-transition: opacity .5s;
     transition: opacity .5s;
 }
+
 .grid .grid-item:hover {
     opacity: 1;
 }
+
 @media screen and (max-width: 1024px) {
     .grid .grid-item {
         width: 50%;
     }
 }
+
 @media screen and (max-width: 480px) {
     .grid .grid-item {
         width: 100%;
     }
 }
+
 .grid img {
     max-width: 100%;
     max-height: 100%;
