@@ -128,12 +128,12 @@ function showHide(sh_cont, sh_dot) {
 }
 
 var colors = new Array(
-    [62,35,255],
-    [60,255,60],
-    [255,35,98],
-    [45,175,230],
-    [255,0,255],
-    [255,128,0]);
+    [135,34,119 ],
+    [117, 00, 99],
+    [30,119,110],
+    [00,103,92],
+    [191,152,48],
+    [166,121,00]);
 
 var step = 0;
 //color table indices for:
@@ -144,7 +144,7 @@ var step = 0;
 var colorIndices = [0,1,2,3];
 
 //transition speed
-var gradientSpeed = 0.0002;
+var gradientSpeed = 0.002;
 
 function updateGradient()
 {
