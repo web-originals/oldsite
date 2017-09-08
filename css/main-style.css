@@ -228,7 +228,20 @@ h1, h2, h3, h4, h5, h6 {
     background: #b7192a;
 }
 
-
+.grid{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    grid-gap: 20px;
+    grid-auto-rows: minmax( 100px, auto);
+    grid-auto-rows: 160px 160px 160px ;
+    grid-auto-flow: row;
+}
+.grid div:nth-child(even){
+    background: red;
+}
+.grid div:nth-child(odd){
+    background: rebeccapurple;
+}
 
 [class*="ymaps-2"][class*="-ground-pane"] {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -299,24 +312,38 @@ a:hover {
     color: white;
     text-decoration: underline
 }
-
-ul.logo > li:before {
-    content: '';
-    position: absolute;
-    top: -7px;
-    left: 10%;
-    -webkit-transform: translateX(-26%);
-    transform: translateX(-26%);
-    padding-top: 107px;
-    display: block;
-    width: 44px;
-    height: 67px;
-    background-image: url(../images/lili.png);
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    background-size: contain;
+ a.logo:hover {
+        border: none !important;
+}
+a.logo {
+    width: 130%;
+    margin-top: -19%;
+    margin-left: 81%;
 }
 
+li.logotip:before {
+    content: url(http://localhost:63342/design-site/images/lili2.png);
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+    margin-left: 29%;
+    margin-top: -6%;
+
+
+
+}
+.phone{
+    border: none !important;
+}
+.soc-set{
+    width: 10%;
+}
+
+
+.contact-center h2{
+    transform: translateY(221%);
+    margin-bottom: 15%;
+}
 a.knopka {
     color: #fff; /* цвет текста */
     text-decoration: none; /* убирать подчёркивание у ссылок */
@@ -370,4 +397,109 @@ a.knopka:active {
 }
 .contact-center {
     margin-top: 100px;
+}
+* {
+    box-sizing: border-box;
+}
+
+label[for] {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+body {
+    background-color: #000;
+}
+
+.lightbox, .grid {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.lightbox {
+    z-index: 1;
+    min-height: 100%;
+    overflow: auto;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: -webkit-transform .5s ease-out;
+    transition: transform .5s ease-out;
+}
+.lightbox img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 96%;
+    max-height: 96%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+input[type="checkbox"]:checked + .lightbox {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+input[type="checkbox"]:checked ~ .grid {
+    opacity: .125;
+}
+
+.grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    z-index: 0;
+    height: 100%;
+    padding: 16px;
+    overflow: auto;
+    background-color: #222;
+    text-align: center;
+    -webkit-transition: opacity .75s;
+    transition: opacity .75s;
+}
+.grid .grid-item {
+    display: inline-block;
+    width: 25%;
+    padding: 16px;
+    opacity: .75;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.grid .grid-item:hover {
+    opacity: 1;
+}
+@media screen and (max-width: 1024px) {
+    .grid .grid-item {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .grid .grid-item {
+        width: 100%;
+    }
+}
+.grid img {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }

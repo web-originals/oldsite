@@ -1,0 +1,1343 @@
+@media screen and (min-width: 1440px) and (max-width: 1920px){
+	.navbar-fixed-top {
+		top: -6px;
+	}
+}
+@media screen and (min-width: 1566px) and (max-width: 1640px){
+	.menushka {
+		margin-left: -5%;
+	}
+	.head-top-right {
+		margin-left: 11%;
+	}
+}
+@media screen and (min-width: 1471px) and (max-width: 1566px){
+	.menushka {
+		margin-left: -7%;
+	}
+	.head-top-right {
+		margin-top: 1.3%;
+		margin-left: 14%;
+	}
+	.width-2{
+
+		width: 100%;
+	}
+	.top .head-top-right tr p, .top .head-top-right td p {
+		font-size: 19px;
+	}
+}
+@media screen and (min-width: 1440px) and (max-width: 1471px){
+	.head-top-right {
+		margin-top: 1%;
+		margin-left: 18%;
+	}
+	.menushka {
+		margin-left: -10%;
+	}
+	.top .head-top-right tr p, .top .head-top-right td p {
+		font-size: 18px;
+	}
+	.width-2{
+
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1440px){
+	.form {
+		width: 41.99%;
+		margin-top: -27%;
+	}
+	.slidot {
+		background-position: 84% 98%;
+	}
+	.FIO {
+		margin-left: -18%;
+		margin-top: 13%;
+	}
+	.mc4wp-form-basic, .mc4wp-form-basic input, .mc4wp-form-basic label, .mc4wp-form-theme, .mc4wp-form-theme input, .mc4wp-form-theme label {
+		padding-left: 12%;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #e7e7e7;
+
+	}
+
+}
+@media screen and (min-width: 1422px) and (max-width: 1440px){
+	div.head-top-left > p {
+		line-height: 1.3em;
+		font-size: 17px;
+	}
+	.top .head-top-right tr p, .top .head-top-right td p {
+		font-size: 17px;
+	}
+	.page-title {
+		padding-top: 4%;
+		padding-bottom: 5%;
+		background-position: 54% 13%;
+		margin-top: 6%;
+	}
+
+}
+@media screen and (min-width: 1368px) and (max-width: 1440px) {
+
+	.menushka {
+		margin-left: -10%;
+		margin-top: 2.5%;
+	}
+	.pravo-top {
+		margin-left: 15%;
+	}
+
+	.width {
+		width: 23%;
+	}
+
+
+
+	#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+		font-size: 15px;
+	}
+
+	.navbar {
+		margin-top: -4.5%;
+	}
+}
+@media screen and (min-width: 1316px) and (max-width: 1440px){
+	/*меню главная*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-106 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/home-icon-silhouette.png);
+		background-repeat: no-repeat;
+		background-position: 29px 20px;
+		background-size: 37%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-106 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/home-icon-silhouette-.png);
+		background-repeat: no-repeat;
+		background-position: 29px 20px;
+		background-size: 37%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-106 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/home-icon-silhouette-.png);
+		background-repeat: no-repeat;
+		background-position: 29px 20px;
+		background-size: 37%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-106 >a:active{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/home-icon-silhouette-.png);
+		background-repeat: no-repeat;
+		background-position: 26px 9px;
+		background-size: 44%;
+	}
+	/*меню обомне*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-68 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/high-heel.png);
+		background-repeat: no-repeat;
+		background-position: 34px 16px;
+		background-size: 37%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-68 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/high-heel-.png);
+		background-repeat: no-repeat;
+		background-position: 34px 16px;
+		background-size: 37%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-68 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/high-heel-.png);
+		background-repeat: no-repeat;
+		background-position: 34px 16px;
+		background-size: 37%;
+	}
+	/*меню космецевтика*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-81 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/perfume-spray-container.png);
+		background-repeat: no-repeat;
+		background-position: 51px 21px;
+		background-size: 23%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-81 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/perfume-spray-container-.png);
+		background-repeat: no-repeat;
+		background-position: 51px 21px;
+		background-size: 23%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-81 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/perfume-spray-container-.png);
+		background-repeat: no-repeat;
+		background-position: 51px 21px;
+		background-size: 23%;
+	}
+	/*меню контакты*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-64 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/placeholder-filled-point.png);
+		background-repeat: no-repeat;
+		background-position: 37px 23px;
+		background-size: 29%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-64 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/placeholder-filled-point-.png);
+		background-repeat: no-repeat;
+		background-position: 37px 23px;
+		background-size: 29%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-64 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/placeholder-filled-point-.png);
+		background-repeat: no-repeat;
+		background-position: 37px 23px;
+		background-size: 29%;
+	}
+	/*меню отзывы*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-71 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/customer-reviews.png);
+		background-repeat: no-repeat;
+		background-position: 25px 17px;
+		background-size: 47%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-71 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/customer-reviews-.png);
+		background-repeat: no-repeat;
+		background-position: 25px 17px;
+		background-size: 47%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-71 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/customer-reviews-.png);
+		background-repeat: no-repeat;
+		background-position: 25px 17px;
+		background-size: 47%;
+	}
+	/*меню цены*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-82 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/russia-ruble.png);
+		background-repeat: no-repeat;
+		background-position: 23px 23px;
+		background-size: 39%;
+		position: relative;
+		z-index: 999;
+	}
+	nav #mega-menu-wrap-primary #mega-menu-primary li#mega-menu-item-82 a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/russia-ruble-.png);
+		background-repeat: no-repeat;
+		background-position: 23px 23px;
+		background-size: 39%;
+	}
+	nav> #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-82> a:active:before{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/russia-ruble-.png);
+		background-repeat: no-repeat;
+		background-position: 23px 23px;
+		background-size: 39%;
+	}
+
+	/*меню услуги*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-289 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/agreement.png);
+		background-repeat: no-repeat;
+		background-position: 30px 23px;
+		background-size: 30%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-289 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/agreemente-.png);
+		background-repeat: no-repeat;
+		background-position: 30px 23px;
+		background-size: 30%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-289 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/agreement-.png);
+		background-repeat: no-repeat;
+		background-position: 30px 23px;
+		background-size: 30%;
+	}
+	/*меню я могу*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-584 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/doctor.png);
+		background-repeat: no-repeat;
+		background-position: 32px 20px;
+		background-size: 29%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-584 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/doctor-.png);
+		background-repeat: no-repeat;
+		background-position: 32px 20px;
+		background-size: 29%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-584 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/doctor-.png);
+		background-repeat: no-repeat;
+		background-position: 32px 20px;
+		background-size: 29%;;
+	}
+
+
+
+
+
+
+}
+@media screen and (min-width: 1200px) and (max-width: 1315px){
+	/*меню главная*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-106 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/home-icon-silhouette.png);
+		background-repeat: no-repeat;
+		background-position: 27px 19px;
+		background-size: 38%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-106 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/home-icon-silhouette-.png);
+		background-repeat: no-repeat;
+		background-position: 27px 19px;
+		background-size: 38%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-106 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/home-icon-silhouette-.png);
+		background-repeat: no-repeat;
+		background-position: 27px 19px;
+		background-size: 38%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-106 >a:active{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/home-icon-silhouette-.png);
+		background-repeat: no-repeat;
+		background-position: 27px 19px;
+		background-size: 38%;
+	}
+	/*меню обомне*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-68 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/high-heel.png);
+		background-repeat: no-repeat;
+		background-position: 34px 16px;
+		background-size: 37%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-68 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/high-heel-.png);
+		background-repeat: no-repeat;
+		background-position: 34px 16px;
+		background-size: 37%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-68 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/high-heel-.png);
+		background-repeat: no-repeat;
+		background-position: 34px 16px;
+		background-size: 37%;
+	}
+	/*меню космецевтика*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-81 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/perfume-spray-container.png);
+		background-repeat: no-repeat;
+		background-position: 45px 18px;
+		background-size: 26%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-81 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/perfume-spray-container-.png);
+		background-repeat: no-repeat;
+		background-position: 45px 18px;
+		background-size: 26%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-81 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/perfume-spray-container-.png);
+		background-repeat: no-repeat;
+		background-position: 45px 18px;
+		background-size: 26%;
+	}
+	/*меню контакты*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-64 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/placeholder-filled-point.png);
+		background-repeat: no-repeat;
+		background-position: 35px 23px;
+		background-size: 28%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-64 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/placeholder-filled-point-.png);
+		background-repeat: no-repeat;
+		background-position: 35px 23px;
+		background-size: 28%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-64 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/placeholder-filled-point-.png);
+		background-repeat: no-repeat;
+		background-position: 35px 23px;
+		background-size: 28%;
+	}
+	/*меню отзывы*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-71 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/customer-reviews.png);
+		background-repeat: no-repeat;
+		background-position: 25px 16px;
+		background-size: 45%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-71 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/customer-reviews-.png);
+		background-repeat: no-repeat;
+		background-position: 25px 16px;
+		background-size: 45%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-71 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/customer-reviews-.png);
+		background-repeat: no-repeat;
+		background-position: 25px 16px;
+		background-size: 45%;
+	}
+	/*меню цены*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-82 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/russia-ruble.png);
+		background-repeat: no-repeat;
+		background-position: 23px 21px;
+		background-size: 39%;
+		position: relative;
+		z-index: 999;
+	}
+	nav #mega-menu-wrap-primary #mega-menu-primary li#mega-menu-item-82 a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/russia-ruble-.png);
+		background-repeat: no-repeat;
+		background-position: 23px 21px;
+		background-size: 39%;
+	}
+	nav> #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-82> a:active:before{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/russia-ruble-.png);
+		background-repeat: no-repeat;
+		background-position: 23px 21px;
+		background-size: 39%;
+	}
+
+	/*меню услуги*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-289 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/agreement.png);
+		background-repeat: no-repeat;
+		background-position: 30px 21px;
+		background-size: 30%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-289 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/agreemente-.png);
+		background-repeat: no-repeat;
+		background-position: 30px 21px;
+		background-size: 30%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-289 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/agreement-.png);
+		background-repeat: no-repeat;
+		background-position: 30px 21px;
+		background-size: 30%;
+	}
+	/*меню я могу*/
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-584 >a{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/doctor.png);
+		background-repeat: no-repeat;
+		background-position: 30px 20px;
+		background-size: 29%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-584 >a:hover{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/doctor-.png);
+		background-repeat: no-repeat;
+		background-position: 30px 20px;
+		background-size: 29%;
+	}
+	nav #mega-menu-wrap-primary> #mega-menu-primary> li#mega-menu-item-584 >a:focus{
+		background-image: url(http://www.xn----ftbfkfhdfhgocb1br5e9c.xn--p1ai/wp-content/themes/spasalon/images/doctor-.png);
+		background-repeat: no-repeat;
+		background-position: 30px 20px;
+		background-size: 29%;
+	}
+
+
+
+
+
+
+}
+@media screen and (min-width: 1316px) and (max-width: 1368px){
+	.menushka {
+		margin-top: 0%;
+		margin-left: -10%;
+	}
+	.pravo-top {
+		margin-left: 18%;
+	}
+	#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+		font-size: 15px;
+	}
+	.navbar {
+		margin-top: 0%;
+	}
+}
+@media screen and (min-width: 1296px) and (max-width: 1421px){
+		div.head-top-left > p {
+			line-height: 1.3em;
+			font-size: 15px;
+		}
+		.top .head-top-right tr p, .top .head-top-right td p {
+			font-size: 15px;
+		}
+		.page-title-telo {
+			padding-top: 8%;
+			padding-bottom: 5%;
+			background-position: 54% 36%;
+			margin-top: 6%;
+		}
+		.page-title {
+
+			padding-top: 4%;
+			padding-bottom: 5%;
+			background-position: 51% 16%;
+			margin-top: 6%;
+		}
+		.page-title-loco {
+			padding-top: 7%;
+			padding-bottom: 7%;
+			background-position: 51% 24%;
+			margin-top: 6%;
+		}
+		.page-header {
+			padding-bottom: 9px;
+			margin: 90px 0 0px;
+			border-bottom: 1px solid #eee;
+		}
+		.head-top-left {
+			margin-top: 2%;
+		}
+		.head-top-right {
+			margin-top: 1%;
+		}
+
+	}
+@media screen and (min-width: 1236px) and (max-width: 1314px){
+
+
+	.width{
+		width: 23%;
+	}
+
+	.menushka{
+		margin-left: -13%;
+		margin-top: 1.7%;
+	}
+	.pravo-top {
+		margin-left: 21%;
+	}
+}
+@media screen and (min-width: 1230px) and (max-width: 1295px){
+	div.head-top-left > p {
+		line-height: 1.3em;
+		font-size: 14px;
+	}
+	.top .head-top-right tr p, .top .head-top-right td p {
+		font-size: 14px;
+	}
+	.pravo-top {
+		margin-left: 16%;
+	}
+	.page-header {
+		padding-bottom: 9px;
+		margin: 91px 0 0px;
+		border-bottom: 1px solid #eee;
+	}
+	.head-top-left {
+		margin-top: 2%;
+	}
+	.page-title-telo {
+		padding-top: 8%;
+		padding-bottom: 5%;
+		background-position: 54% 34%;
+		margin-top: 6%;
+	}
+	.page-title {
+
+		padding-top: 4%;
+		padding-bottom: 5%;
+		background-position: 50% 21%;
+		margin-top: 6%;
+	}
+	.page-title-loco {
+		padding-top: 7%;
+		padding-bottom: 7%;
+		background-position: 49% 24%;
+		margin-top: 6%;
+	}
+}
+@media screen and (min-width: 1200px) and (max-width: 1315px){
+		#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+			font-size: 14px;
+		}
+		.top .head-top-right tr p, .top .head-top-right td p {
+			font-size: 13px;
+		}
+		.width {
+			width: 28%;
+		}
+		div.head-top-left > p {
+			line-height: 1.3em;
+			font-size: 14px;
+		}
+		.pravo-top {
+			margin-left: 9%;
+		}
+	.menushka{
+		margin-left: -13%;
+		margin-top: 1.7%;
+	}
+	.pravo-top {
+		margin-left: 21%;
+	}
+	}
+@media screen and (min-width: 1200px) and (max-width: 1235px){
+	.head-top-left {
+		margin-top: 2%;
+	}
+	.pravo-top {
+		margin-left: 25%;
+	}
+	.navbar-fixed-top {
+		top: -3px;
+
+	}
+
+	.top .head-top-right tr p, .top .head-top-right td p {
+		font-size: 12px;
+	}
+	.pravo-top {
+		margin-top: 1.5%;
+	}
+	.menushka {
+		margin-left: -17%;
+		margin-top: 2%;
+	}
+	.page-title-telo {
+		padding-top: 8%;
+		padding-bottom: 5%;
+		background-position: 54% 31%;
+		margin-top: 6%;
+	}
+	.page-title {
+
+		padding-top: 4%;
+		padding-bottom: 5%;
+		background-position: 50% 21%;
+		margin-top: 6%;
+	}
+	.page-title-loco {
+		padding-top: 7%;
+		padding-bottom: 7%;
+		background-position: 49% 24%;
+		margin-top: 6%;
+	}
+}
+@media screen and (min-width: 991px) and (max-width: 1199px){
+	.text_01_02_title {
+		margin-top: 5%;
+	}
+	.postfix-3 {
+		margin-right: 45px;
+	}
+	.preffix-3 {
+		margin-left: -113px;
+	}
+	.inset-4 {
+		padding-left: 25px;
+	}
+
+	.inset-1 {
+		padding-right: 46px;
+	}
+	.postfix-2 {
+		margin-left: 52px;
+	}
+	#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+		font-size: 17px;
+	}
+	.menushka {
+
+		margin-top: -1%;
+	}
+	#mega-menu-wrap-primary #mega-menu-primary {
+		visibility: visible;
+		text-align: center;
+		padding: 0px 10px 0px 10px;
+		position: relative;
+		z-index: 999;
+	}
+	.page-title {
+		padding-top: 17%;
+		padding-bottom: 7%;
+		background-position: 50% 11%;
+		background-size: 121%;
+	}
+	.page-title-loco {
+
+		padding-top: 17%;
+		padding-bottom: 5%;
+		background-position: 51% 8%;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	.page-title-telo {
+
+		padding-top: 17%;
+		padding-bottom: 5%;
+		background-position: 51% 9%;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+		background: linear-gradient(#080921 24%, #ffffff 0);
+		background-size: 100% 142%;
+	}
+	.verh {
+		padding-top: 0.7%;
+		padding-bottom: 0.3%;
+	}
+	img.alignleft, .wp-caption.alignleft {
+		margin-right: 30px;
+		box-shadow: -35px 35px 0px 0px rgba(204, 204, 204, 0.83);
+		margin-left: 3%;
+		margin-bottom: 3%;
+	}
+	.visota {
+		margin-top: 6.7%;
+	}
+	.btn {
+		padding: 8px 147px!important;
+		font-size: 15px!important;
+	}
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.well-5 {
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+	.btn {
+		margin-bottom: 3%;
+	}
+	.page-header {
+		padding-bottom: 0px;
+		margin: 13px 0 0px;
+		border-bottom: 1px solid #eee;
+	}
+	.ml-listview > li:not(.ml-divider):after {
+		background: #58030c;
+	}
+	.ml-menu {
+		background: #080808;
+	}
+	.ml-listview > li > a, .ml-listview > li > span {
+		font-size: 20px;
+	}
+	#ml-logo{
+		font-size: 20px;
+		color: #ae2f3d;
+	}
+	.img_phon {
+		width: 13%;
+		float: right;
+	}
+	.obvod {
+		border: solid 1px black;
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+	.jpg{
+		margin-left: 17%;
+		margin-top: 6%;
+	}
+	.page-title{
+		padding-top: 17%;
+		padding-bottom: 7%;
+		background-position: 51% 37%;
+		background-size: 121%;
+	}
+	img.alignleft, .wp-caption.alignleft {
+		margin-left: 8%;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 767px){
+	.well-5 {
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+	.btn {
+		margin-bottom: 3%;
+	}
+	.page-header {
+		padding-bottom: 0px;
+		margin: 13px 0 0px;
+		border-bottom: 1px solid #eee;
+	}
+	.ml-listview > li:not(.ml-divider):after {
+		background: #58030c;
+	}
+	.ml-menu {
+		background: #080808;
+	}
+	.ml-listview > li > a, .ml-listview > li > span {
+		font-size: 20px;
+	}
+	#ml-logo{
+		font-size: 20px;
+		color: #ae2f3d;
+	}
+	.img_phon {
+		width: 13%;
+		float: right;
+	}
+	.block-menu-telo {
+		margin-right: 11%;
+	}
+	.bg-fixed {
+		background-attachment: local;
+	}
+	.img_phon {
+		width: 62%;
+	}
+
+	.page-title h2 {
+		font-size: 29px;
+	}
+	.page-title-loco h2 {
+		font-size: 29px;
+	}
+	.page-title-telo h2 {
+		font-size: 29px;
+	}
+	.bread-crumb li a {
+		font-size: 17px;
+	}
+	.page-title {
+		padding-top: 17%;
+		padding-bottom: 5%;
+		background-position: 51% 7%;
+		background-size: 121%;
+
+	}
+	.page-title-loco {
+		padding-top: 17%;
+		padding-bottom: 5%;
+		background-position: 50% 8%;
+		background-size: 100%;
+
+	}
+	.page-title-telo {
+		padding-top: 17%;
+		padding-bottom: 5%;
+		background-position: 51% 8%;
+		background-size: 100%;
+	}
+	div.dom > h1 {
+		font-size: 23px;
+	}
+	img.alignleft, .wp-caption.alignleft {
+		margin-left: 13%;
+	}
+	blockquote.aligncenter, .wp-caption.aligncenter, img.aligncenter {
+		margin-left: 9%;
+		margin-bottom: 11%;
+	}
+	.mnm-label{
+		display: none;
+	}
+	.block-menu-telo a {
+		padding: 5.1% 16% 45% 16%;
+	}
+	.block-menu-telo a:hover {
+		padding: 5.1% 16% 45% 16%;
+	}
+	.block-menu-telo-2 a:hover {
+		color: white;
+		padding: 4.5% 9.7% 45% 9.7%;
+	}
+	.block-menu-telo-2 a {
+		color: white;
+		padding: 4.5% 9.7% 45% 9.7%;
+	}
+	.mnm-icon-menu {
+		margin-top: 8%;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+	#ml-wrapnav {
+		height: 50px;
+	}
+	.mnm-label{
+		display: none;
+	}
+	.mnm-icon-menu {
+		margin-top: 8%;
+	}
+	.page-title {
+		padding-top: 17%;
+		padding-bottom: 7%;
+		background-position: 50% 11%;
+		background-size: 121%;
+	}
+	.page-title-loco {
+
+		padding-top: 17%;
+		padding-bottom: 5%;
+		background-position: 51% 8%;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	.page-title-telo {
+
+		padding-top: 17%;
+		padding-bottom: 5%;
+		background-position: 51% 9%;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	div.verh *+p {
+		margin-top: 49px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 927px){
+	.page-title {
+		background-position: 49% 8%;
+	}
+}
+@media screen and (min-width: 425px) and (max-width: 546px){
+	.page-title-loco {
+		padding-top: 21%;
+		padding-bottom: 3%;
+		background-position: 50% 8%;
+		background-size: 100%;
+	}
+	.page-title-telo {
+		padding-top: 21%;
+		padding-bottom: 3%;
+		background-position: 51% 8%;
+		background-size: 100%;
+	}
+	.page-title {
+		padding-top: 21%;
+		padding-bottom: 3%;
+		background-position: 51% 7%;
+		background-size: 121%;
+	}
+	.page-title{
+		display: none;
+	}
+	.page-title-loco{
+		display: none;
+	}
+	.page-title-telo{
+		display: none;
+	}
+	.dom {
+		margin-top: 33%;
+
+	}
+	.dom_kontakt {
+		margin-top: 33%;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 424px){
+	.dom {
+		margin-top: 33%;
+
+	}
+	.dom_kontakt {
+		margin-top: 33%;
+	}
+	.page-title{
+		display: none;
+	}
+	.page-title-loco{
+		display: none;
+	}
+	.page-title-telo{
+		display: none;
+	}
+	.rad {
+		font-size: 26px;
+	}
+
+	.piling {
+		width: 105.6%;
+		margin-left: -2.78%;
+	}
+	.tredlifting{
+
+		width: 105.6%;
+		margin-left: -2.78%;
+	}
+	.botylinoterapia {
+
+		width: 105.6%;
+		margin-left: -2.78%;
+	}
+	.plazmolifting {
+
+		width: 105.6%;
+		margin-left: -2.78%;
+	}
+	.biorevitalizacia {
+
+		width: 105.6%;
+		margin-left: -2.78%;
+	}
+	.fotoomoloshenie {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.biorevitalizacia2 {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.fotoomoloshenie2 {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.chistka-lico {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.mezoterapia {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+
+	.kontyrnaa-plastika {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+
+	.fermentoterapia {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.placentarnaa-terapia {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.fotoapilacia {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	/*----конец блокам лицо---*/
+	/*----начало блокам тело---*/
+	.shea{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.yxod{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.celulit {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.pyki {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.pybci {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.akne {
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	/*----конец блокам тело---*/
+	/*-----я могу----------*/
+	.chistka-koza-lico{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.osvechit-kochy-lico{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.yvlachnit-kochy-lico-shei{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.ydalit-sosydi{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.ydalit-mimi-morshini{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.yvelichit-gybi{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.ydalit-nosogybnie-skladki{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.ylichshit-formy-nosa{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.yvelichit-skuli{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.ymenshit-podborodok{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.yvelichit-oval-lico{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.tatyash-brovei{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+
+	}
+	.vipadenie-volos{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.shirovie-otloshenia{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	.masash-lico{
+
+		        
+   width: 105.8%;
+    margin-left: -2.9%;
+	}
+	/*-----конец я могу----------*/
+
+
+	img.alignleft, .wp-caption.alignleft {
+		margin-right: 30px;
+		box-shadow: -24px 24px 0px 0px rgba(204, 204, 204, 0.83);
+		margin-left: 3%;
+	}
+	.wp-image-567 {
+		box-shadow: -16px 16px 0px 0px rgba(204, 204, 204, 0.83);
+	}
+	.wp-image-551 {
+		box-shadow: -15px 15px 0px 0px rgba(204, 204, 204, 0.83);
+	}
+	div.dom > h1 {
+		font-size: 24px;
+	}
+	div.dom > blockquote > h2 {
+		font-size: 23px;
+	}
+	div.dom > blockquote > h3 {
+		font-size: 21px;
+	}
+	.brand-name-footer {
+		font-size: 30px;
+	}
+	*+.container {
+		margin-top: 0px;
+	}
+	.otstyp{
+		padding-top: 10%;
+	}
+	.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+		display: none;
+		max-width: 100%;
+		height: auto;
+	}
+	.well-1 {
+		padding-top: 0.95rem;
+		padding-bottom: 30px;
+	}
+	.well-3 {
+		padding-top: 0px;
+	}
+	.well-4 {
+		padding-bottom: 20px;
+	}
+	*+.container-fluid {
+		margin-top: 0px;
+	}
+	h3+.btn {
+		margin-top: 8px;
+	}
+	.brand-name {
+		position: relative;
+		display: block;
+		font-size: 34px;
+		font-family: 'Mon Amour One Medium', arial;
+		line-height: 1.8;
+		letter-spacing: 0.01em;
+	}
+	.text_01_02_title {
+		color: #989898;
+		font-size: 40px;
+		font-family: 'Mon Amour One Medium', arial;
+		margin-top: 4%;
+	}
+	.btn {
+		padding: 7px 65px!important;
+		font-size: 15px!important;
+	}
+	.well-5 {
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+	.btn {
+		margin-bottom: 3%;
+	}
+	.page-header {
+		padding-bottom: 0px;
+		margin: 13px 0 0px;
+		border-bottom: 1px solid #eee;
+	}
+	.ml-listview > li:not(.ml-divider):after {
+		background: #58030c;
+	}
+	.ml-menu {
+		background: #080808;
+	}
+	.ml-listview > li > a, .ml-listview > li > span {
+		font-size: 20px;
+	}
+	#ml-logo{
+		font-size: 20px;
+		color: #ae2f3d;
+	}
+	.fa.icons-mnm {
+		margin-top: 11%;
+	}
+	.mnm-label {
+		color: #0a0a0a;
+		display: none;
+	}
+	.img_phon {
+		width: 13%;
+		float: right;
+	}
+	.img_phon {
+		width: 84%;
+	}
+	.page-title-loco {
+		padding-top: 21%;
+		padding-bottom: 3%;
+		background-position: 51% 13%;
+		background-size: 100%;
+	}
+	.page-title-telo {
+		padding-top: 21%;
+		padding-bottom: 3%;
+		background-position: 51% 8%;
+		background-size: 100%;
+	}
+	.page-title {
+		padding-top: 27%;
+		padding-bottom: 5%;
+		background-position: 51% 9%;
+		background-size: 121%;
+
+	}
+	.page-title h2 {
+		color: white;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 0 black, -1px -1px 0 black;
+		font-size: 24px;
+	}
+	.bread-crumb li a {
+		position: relative;
+		display: inline-block;
+		line-height: 24px;
+		color: #ffffff;
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.bread-crumb {
+		position: relative;
+		display: block;
+		padding: 0px 25px;
+		border-radius: 7px;
+		-webkit-border-radius: 7px;
+		-ms-border-radius: 7px;
+		-o-border-radius: 7px;
+		-moz-border-radius: 7px;
+		margin-top: 1%;
+	}
+	.page-title-loco {
+		padding-top: 27%;
+		padding-bottom: 5%;
+		background-position: 52% 9%;
+		background-size: 100%;
+	}
+	.page-title-telo {
+		padding-top: 26%;
+		padding-bottom: 5%;
+		background-position: 51% 10%;
+		background-size: 100%;
+	}
+	.page-title-loco h2 {
+		color: white;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 0 black, -1px -1px 0 black;
+		font-size: 24px;
+	}
+	.page-title-telo h2 {
+		color: white;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 0 black, -1px -1px 0 black;
+		font-size: 24px;
+	}
+}

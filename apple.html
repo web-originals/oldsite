@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/examples.css"/>
     <link rel="stylesheet" type="text/css" href="css/style-form.css"/>
     <link rel="stylesheet" type="text/css" href="css/main-style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <!--[if IE]>
     <script type="text/javascript">
@@ -41,14 +42,27 @@
     <center>
         <div class="contact-center">
             <h2>Онлайн заявка</h2>
+
             <form id="contact" name="contact" action="#" method="post">
-                <input type="name" id="name" name="name" class="txt" placeholder="Ваше имя">
-                <input type="phone" id="phone" name="phone" class="txt" placeholder="Ваш телефон">
-                <input type="email" id="email" name="email" class="txt" placeholder="Ваш e-mail">
-                <textarea id="msg" name="msg" class="txtarea" placeholder="Ваше сообщение:"></textarea>
-                <button id="send">Отправить</button>
+                <div class="col-lg-6 pull-left">
+                    <input type="name" id="name" name="name" class="txt" placeholder="Ваше имя">
+                </div>
+                <div class="col-lg-6 pull-right">
+                    <textarea id="msg" name="msg" class="txtarea" placeholder="Ваше сообщение:"></textarea>
+                </div>
+                <div class="col-lg-6 pull-left">
+                    <input type="phone" id="phone" name="phone" class="txt" placeholder="Ваш телефон">
+                </div>
+
+                <div class="col-lg-6 pull-left">
+                    <button id="send">Отправить</button>
+                </div>
+
             </form>
-            <button id="hide-contact">Отмена</button>
+            <div class="col-lg-6 otmena">
+                <button id="hide-contact">Отмена</button>
+            </div>
+
         </div>
     </center>
 </div>
@@ -67,12 +81,17 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul id="menu" class="border-text">
-                    <li style="float: left;"><a class="" href="#">Web-студия "Originals"</a></li>
+                    <li class="logotip" style="float: left;">
+
+
+                        <a class="logo" href="#">Web-студия "Originals"</a>
+
+                   </li>
                     <li data-menuanchor="anchor1" class="active"><a href="#anchor1">О нас</a></li>
-                    <li><a href="#">Наши проекты</a></li>
+                    <li><a href="job.html">Наши проекты</a></li>
                     <li data-menuanchor="anchor2"><a href="#anchor2">Наши услуги</a></li>
                     <li data-menuanchor="anchor3"><a href="#anchor3">Контакты</a></li>
-                    <li style="float: right;"><a class="tel" href="tel:+79002475139">+79002475139</a></li>
+                    <li style="float: right;"><a class="phone" href="tel:+79002475139">+79002475139</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -88,7 +107,7 @@
         <div class="col-lg-3 text-center">
             <button class="modalbox" id="backcall">Обратный звонок</button>
         </div>
-        <div class="col-lg-2"><p>e-mail</p></div>
+        <div class="col-lg-2"><p>Web-lily@yandex.ru</p></div>
         <div class="col-lg-2 text-center">
             <a class="social" href="http://facebook.com/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
             <a class="social" href="http://instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
@@ -205,7 +224,7 @@
                 </p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div id="coordmap" style="width:945px; height:971px"></div>
+                <div id="coordmap" style="width:945px; height:971px; text-shadow: none;"></div>
         </div>
     </div>
 </div>

@@ -49,17 +49,19 @@ h2 {
     background: #fff;
     padding: 10px 20px;
 }
-.txt { 
+.txt {
+    text-align: center;
     display: block;
     color: #676767;
-    width: 190px;
+    width: 500px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     padding: 5px 9px;
     font-size: 15px!important;
     line-height: 1.4em;
 }
-.txtarea { 
+.txtarea {
+    text-align: center;
     display: block;
     color: #676767;
     width: 617px;
@@ -68,7 +70,7 @@ h2 {
     padding: 5px 9px;
     font-size: 15px!important;
     line-height: 1.4em;
-    height: 80px;
+    height: 170px;
 }
 .txt:focus, .txtarea:focus {
  border-style: solid; 
@@ -94,7 +96,7 @@ input.error:focus, textarea.error:focus {
     border: solid 1px #F9F9F9;
     border-radius: 2px;
     background: #70C6B9;
-    width: 210px;
+    width: 500px;
     margin-bottom: 20px;
 }
 #hide-contact {
@@ -106,7 +108,14 @@ input.error:focus, textarea.error:focus {
     border: solid 1px #F9F9F9;
     border-radius: 2px;
     background: #c65d4e;
-    width: 210px;
+    width: 500px;
+}
+.otmena {
+    margin-top: 3%;
+    margin-left: -50%;
+}
+#hide-contact:hover{
+    background: #979797;
 }
 #send:hover {
     background: #979797;
