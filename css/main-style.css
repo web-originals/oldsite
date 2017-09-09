@@ -27,12 +27,20 @@ h1 {
 /* Defining each section background and styles
 * --------------------------------------- */
 #section0 {
-    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
+    background-image: url("../images/cvb.png");
+    background-position: center ;
+    background-repeat: no-repeat ;
+    position: relative;
+    z-index: -3;
+    opacity: 1;
+
 }
+
 #section0 h2 {
     top: 25%;
     transform: translateY(-15%);
     position: relative;
+    letter-spacing: 0.1em;
 }
 
 #section0 .text {
@@ -40,33 +48,47 @@ h1 {
     transform: translateY(2%);
     position: relative;
     padding: 0 5%;
+    z-index: 999;
+    opacity: 1;
 }
 
 #section0 .text span {
     color: #b7192a;
 
 }
-
-#section2 {
+#section2 h2 {
+    top: 25%;
+    transform: translateY(35%);
+    position: relative;
+    letter-spacing: 2px
+}
+#section2 h2:nth-child(2) {
+    top: 25%;
+    transform: translateY(625%);
+    position: relative;
+    letter-spacing: 2px
+}
+#section3 {
     background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
     padding: 0% 0 0 0;
 }
 
-#section2 h2 {
+#section3 h2 {
     transform: translateY(576%);
     position: relative;
     text-align: right;
+    letter-spacing: 2px
 }
 
-#section2 p {
+#section3 p {
     transform: translateY(351%);
     position: relative;
     text-align: right;
 }
 
 #section3 {
-    background-image: url(../images/bg4.jpg);
-    padding: 6% 0 0 0;
+
+
 }
 
 #section3 h1 {
@@ -97,6 +119,8 @@ h1 {
 
 #section1 h2 {
     transform: translateY(193%);
+    letter-spacing: 0.1em;
+    margin-bottom: 6%;
 }
 
 .linkblock {
@@ -144,13 +168,23 @@ h1 {
     background-image: url("../images/laptop.jpg");
     background-color: rgba(0, 0, 0, .3);
     padding: 6% 0 0 0;
+    overflow: hidden;
 }
 
 #slide2 {
-    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
+    background-image: url(../images/calltoaction.jpg);
+    background-repeat: no-repeat;
+    background-position: 53% 37%;
+    background-size: 120%;
     padding: 6% 0 0 0;
-}
 
+}
+.slide2 {
+    background-image: url(../images/adaptiv-dizain.jpg);
+    background-repeat: no-repeat;
+    background-position: 53% 28%;
+    background-size: 37%;
+}
 /* Bottom menu
 * --------------------------------------- */
 #infoMenu li a {
@@ -235,12 +269,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-auto-rows: 160px 160px 160px ;
     grid-auto-flow: row;
 }
-.grid div:nth-child(even){
-    background: red;
-}
-.grid div:nth-child(odd){
-    background: rebeccapurple;
-}
+
 
 [class*="ymaps-2"][class*="-ground-pane"] {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
@@ -347,6 +376,7 @@ li.logotip:before {
 .contact-center h2{
     transform: translateY(221%);
     margin-bottom: 15%;
+    letter-spacing: 2px;
 }
 a.knopka {
     color: #fff; /* цвет текста */
@@ -421,8 +451,9 @@ body {
 .lightbox, .grid {
     width: 100%;
     position: fixed;
-    top: 0;
+    top: 0%;
     left: 0;
+
 }
 
 .lightbox {
@@ -474,7 +505,7 @@ input[type="checkbox"]:checked ~ .grid {
     align-content: flex-start;
     z-index: 0;
     height: 100%;
-    padding: 16px;
+    padding: 5% 16px 16px 16px;
     overflow: auto;
     background-color: #222;
     text-align: center;
@@ -489,9 +520,9 @@ input[type="checkbox"]:checked ~ .grid {
     -webkit-transition: opacity .5s;
     transition: opacity .5s;
 }
-.grid .grid-item:hover {
-    opacity: 1;
-}
+
+
+
 @media screen and (max-width: 1024px) {
     .grid .grid-item {
         width: 50%;
@@ -507,4 +538,59 @@ input[type="checkbox"]:checked ~ .grid {
     max-height: 100%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
-.grid .grid-item
+.effect {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.effect img {
+    width: 100%;
+    height: 100%;
+}
+
+.effect .caption {
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.effect:hover .caption {
+    left: 0px;
+}
+.effect .caption h4 {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.effect .caption p {
+    margin: 15px 0px;
+    text-align: center;
+    font-style: italic;
+    padding: 0px 10px;
+}
+
+.effect .caption a.btn {
+    width: 120px;
+    text-align: center;
+    display: block;
+    background: #68432d;
+    color: #fff;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin: 0px auto 0px auto;
+}

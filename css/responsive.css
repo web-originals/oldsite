@@ -20,4 +20,27 @@
 	#sh_dot01 {
 		font-size: 17px;
 	}
+	.slide2 {
+		background-image: url(../images/adaptiv-dizain.jpg);
+		background-repeat: no-repeat;
+		background-position: 53% 28%;
+		background-size: 31%;
+	}
+	#section2 h2:nth-child(2) {
+		top: 25%;
+		transform: translateY(486%);
+		position: relative;
+		letter-spacing: 2px;
+	}
+	#slide2 {
+		background-image: url(../images/calltoaction.jpg);
+		background-repeat: no-repeat;
+		background-position: 53% 37%;
+		background-size: 135%;
+		padding: 6% 0 0 0;
+	}
+	#contact2 {
+		margin-top: 23%;
+		margin-left: 19%;
+	}
 }

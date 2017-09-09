@@ -5,7 +5,9 @@
 jQuery(function ($) {
     $("#phone").mask("+7 (999) 999-9999");
     $("#phone2").mask("+7 (999) 999-9999");
+    $("#phone3").mask("+7 (999) 99-99-999");
 });
+
 
 function validateEmail(email) {
     var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -84,11 +86,11 @@ $(document).ready(function () {
         'verticalCentered': false,
         'css3': true,
         'sectionsColor': ['#F0F2F4', '#fff', '#fff'],
-        'anchors': ['anchor1', 'anchor2', 'anchor3'],
+        'anchors': ['anchor1', 'anchor2', 'anchor3' , 'anchor4'],
         'menu': '#menu',
         'navigation': true,
         'navigationPosition': 'right',
-        'navigationTooltips': ['О нас', 'Наши услуга', 'Контакты']
+        'navigationTooltips': ['О нас', 'Наши услуга','Адаптивный дизайн','Контакты']
     });
 });
 
@@ -144,7 +146,7 @@ var step = 0;
 var colorIndices = [0,1,2,3];
 
 //transition speed
-var gradientSpeed = 0.002;
+var gradientSpeed = 0.001;
 
 function updateGradient()
 {
@@ -187,3 +189,4 @@ function updateGradient()
 }
 
 setInterval(updateGradient,10);
+
