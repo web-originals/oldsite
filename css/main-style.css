@@ -73,14 +73,14 @@ h1 {
 }
 #section2 h2 {
     top: 25%;
-    transform: translateY(35%);
+    transform: translateY(4%);
     position: relative;
     letter-spacing: 2px;
 
 }
 #section2 h2:nth-child(2) {
     top: 25%;
-    transform: translateY(625%);
+    transform: translateY(550%);
     position: relative;
     letter-spacing: 2px
 }
@@ -90,14 +90,14 @@ h1 {
 }
 
 #section3 h2 {
-    transform: translateY(576%);
+    transform: translateY(460%);
     position: relative;
     text-align: right;
     letter-spacing: 2px
 }
 
 #section3 p {
-    transform: translateY(351%);
+    transform: translateY(171%);
     position: relative;
     text-align: right;
 }
@@ -125,7 +125,7 @@ details, summary:focus{
 
 #section1 .block-menu {
     top: 50%;
-    transform: translateY(-105%);
+    transform: translateY(-90%);
     position: relative;
 
     margin: 0 3% 0 3%;
@@ -196,7 +196,7 @@ position: relative;
 }
 
 .img {
-    width: 30%;
+    width: 35%;
 }
 
 .block-menu {
@@ -223,7 +223,7 @@ position: relative;
 .slide2 {
     background-image: url(../images/adaptiv-dizain.jpg);
     background-repeat: no-repeat;
-    background-position: 53% 28%;
+    background-position: 53% 29%;
     background-size: 37%;
 }
 /* Bottom menu
@@ -235,7 +235,7 @@ position: relative;
 h1:first-letter {
     text-transform: capitalize;
     color: #b7192a !important;
-    font-family: 'PT Sans', arial;
+    font-family: 'Mon Amour One Medium', arial;
     margin-top: 4%;
     font-size: 2em;
 }
@@ -243,7 +243,7 @@ h1:first-letter {
 h2:first-letter {
     text-transform: capitalize;
     color: #b7192a !important;
-    font-family: 'PT Sans', arial;
+    font-family: 'Mon Amour One Medium', arial;
     margin-top: 4%;
     font-size: 1.5em;
 }
@@ -650,7 +650,7 @@ input[type="checkbox"]:checked ~ .grid {
     position: fixed;
     width: 100%;
     top: 0;
-    left: 16px;
+    left: 15px;
     transform: translateY(100%);
 }
 .mask3 {
@@ -660,5 +660,12 @@ input[type="checkbox"]:checked ~ .grid {
     width: 100%;
     top: 0;
     left: 16px;
-
+   /* background-image: url(../images/cvb.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 20%;*/
+}
+li{
+    font-size: 18px;
+    line-height: 1.2em;
 }

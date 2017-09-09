@@ -23,12 +23,12 @@
 	.slide2 {
 		background-image: url(../images/adaptiv-dizain.jpg);
 		background-repeat: no-repeat;
-		background-position: 53% 28%;
+		background-position: 54% 36%;
 		background-size: 31%;
 	}
 	#section2 h2:nth-child(2) {
 		top: 25%;
-		transform: translateY(486%);
+		transform: translateY(610%);
 		position: relative;
 		letter-spacing: 2px;
 	}
@@ -40,7 +40,24 @@
 		padding: 6% 0 0 0;
 	}
 	#contact2 {
-		margin-top: 23%;
+		margin-top: 30%;
 		margin-left: 19%;
+	}
+	#section1 .block-menu {
+		top: 50%;
+		transform: translateY(-84%);
+		position: relative;
+		margin: 0 3% 0 3%;
+		border-radius: 15px;
+		/* opacity: 0.7; */
+	}
+	.img {
+		width: 50%;
+	}
+	#section2 h2 {
+		top: 25%;
+		transform: translateY(115%);
+		position: relative;
+		letter-spacing: 2px;
 	}
 }
