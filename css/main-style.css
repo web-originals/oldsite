@@ -37,15 +37,30 @@ h1 {
 }
 
 #section0 h2 {
-    top: 25%;
-    transform: translateY(-15%);
+    top: 50%;
+    /*transform: translateY(350%);*/
     position: relative;
     letter-spacing: 0.1em;
+    margin-bottom: 3%;
 }
-
+#section0 > .container-fluid > .row > .centrovka > .text > h2{
+    position: relative;
+    letter-spacing: 0.1em;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.centrovka{
+    margin-top:12%;
+    position: relative;
+}
+.o-nas{
+    font-size: 20px;
+    color: white;
+    padding: 15px 0 15px 0;
+}
 #section0 .text {
-    top: 30%;
-    transform: translateY(2%);
+
+
     position: relative;
     padding: 0 5%;
     z-index: 999;
@@ -60,7 +75,8 @@ h1 {
     top: 25%;
     transform: translateY(35%);
     position: relative;
-    letter-spacing: 2px
+    letter-spacing: 2px;
+
 }
 #section2 h2:nth-child(2) {
     top: 25%;
@@ -69,7 +85,7 @@ h1 {
     letter-spacing: 2px
 }
 #section3 {
-    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(30, 39, 58)), to(rgb(67, 49, 58)));
+    background-image: url(../images/web-user-acceptance.jpg);
     padding: 0% 0 0 0;
 }
 
@@ -86,20 +102,42 @@ h1 {
     text-align: right;
 }
 
-#section3 {
-
-
+/* Chrome, Opera, Safari */
+details summary::-webkit-details-marker {
+    display: none;
 }
-
+/* Firefox */
+details, summary {
+    display: block;
+}
+details summary:before {
+    content: " + ";
+}
+details[open] summary:before {
+    content: " - ";
+}
+details, summary:focus{
+    outline: none;
+}
 #section3 h1 {
     color: #000;
 }
 
 #section1 .block-menu {
     top: 50%;
-    transform: translateY(50%);
+    transform: translateY(-105%);
     position: relative;
+
+    margin: 0 3% 0 3%;
+    border-radius: 15px;
+    /* opacity: 0.7; */
 }
+#section1 .block-menu > div > img{
+    position: relative;
+    opacity: 1;
+
+}
+
 
 .container {
     width: 1400px;
@@ -108,6 +146,7 @@ h1 {
 #section1 .block-menu:hover {
     background: black;
     border-radius: 15px;
+    opacity: 1;
 }
 
 .block-menu-telo {
@@ -115,10 +154,12 @@ h1 {
     color: white;
     text-align: center;
     padding: 4% 0% 4% 0%;
+position: relative;
+
 }
 
 #section1 h2 {
-    transform: translateY(193%);
+    transform: translateY(380%);
     letter-spacing: 0.1em;
     margin-bottom: 6%;
 }
@@ -165,7 +206,7 @@ h1 {
 /*Adding background for the slides
 * --------------------------------------- */
 #slide1 {
-    background-image: url("../images/laptop.jpg");
+    background-image: url("../images/picjumbo.com_HNCK4536.jpg");
     background-color: rgba(0, 0, 0, .3);
     padding: 6% 0 0 0;
     overflow: hidden;
@@ -593,4 +634,31 @@ input[type="checkbox"]:checked ~ .grid {
     padding: 10px 0px;
     border-radius: 5px;
     margin: 0px auto 0px auto;
+}
+.mask {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 31px;
+    transform: translateY(300%);
+}
+.mask2 {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 16px;
+    transform: translateY(100%);
+}
+.mask3 {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 16px;
+
 }
