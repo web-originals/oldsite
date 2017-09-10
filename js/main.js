@@ -16,7 +16,7 @@ function validateEmail(email) {
 }
 
 $(document).ready(function () {
-    $("#backcall").on("click", function () {
+    $(".backcall").on("click", function () {
         $("#form-contact").fadeIn();
     });
     $("#hide-contact").on("click", function () {
