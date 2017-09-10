@@ -16,7 +16,7 @@ function RainyDay(options, canvas) {
 		blur: 10,
 		crop: [0, 0, this.img.naturalWidth, this.img.naturalHeight],
 		enableSizeChange: true,
-		parentElement: document.getElementsByTagName('#slide1')[0],
+		parentElement: document.getElementsByTagName('body')[0],
 		fps: 30,
 		fillStyle: '#8ED6FF',
 		enableCollisions: true,

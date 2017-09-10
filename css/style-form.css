@@ -50,10 +50,22 @@ h2 {
     padding: 10px 20px;
 }
 .txt {
+     text-align: center;
+     display: block;
+     color: #676767;
+     width: 500px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     padding: 5px 9px;
+     font-size: 15px!important;
+     line-height: 1.4em;
+ }
+.txt2 {
     text-align: center;
     display: block;
     color: #676767;
-    width: 500px;
+    width: 100%;
+    height: 50px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     padding: 5px 9px;
@@ -70,7 +82,7 @@ h2 {
     padding: 5px 9px;
     font-size: 15px!important;
     line-height: 1.4em;
-    height: 170px;
+    height: 76px;
 }
 .txt:focus, .txtarea:focus {
  border-style: solid; 
@@ -99,6 +111,23 @@ input.error:focus, textarea.error:focus {
     width: 500px;
     margin-bottom: 20px;
 }
+#send2 {
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    padding: 5px 11px;
+    font-size: 1.2em;
+    border: solid 1px #F9F9F9;
+    border-radius: 2px;
+    background: #b7192a;
+    width: 100%;
+    height: 51px;
+    margin-bottom: 20px;
+}
+#contact2 {
+    margin-top: 38%;
+    margin-left: 19%;
+}
 #hide-contact {
     color: #FFFFFF;
     display: block;
@@ -118,6 +147,9 @@ input.error:focus, textarea.error:focus {
     background: #979797;
 }
 #send:hover {
+    background: #979797;
+}
+#send2:hover {
     background: #979797;
 }
 /* Форма обратной связи */

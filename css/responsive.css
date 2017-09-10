@@ -20,4 +20,44 @@
 	#sh_dot01 {
 		font-size: 17px;
 	}
+	.slide2 {
+		background-image: url(../images/adaptiv-dizain.jpg);
+		background-repeat: no-repeat;
+		background-position: 54% 36%;
+		background-size: 31%;
+	}
+	#section2 h2:nth-child(2) {
+		top: 25%;
+		transform: translateY(610%);
+		position: relative;
+		letter-spacing: 2px;
+	}
+	#slide2 {
+		background-image: url(../images/calltoaction.jpg);
+		background-repeat: no-repeat;
+		background-position: 53% 37%;
+		background-size: 135%;
+		padding: 6% 0 0 0;
+	}
+	#contact2 {
+		margin-top: 30%;
+		margin-left: 19%;
+	}
+	#section1 .block-menu {
+		top: 50%;
+		transform: translateY(-84%);
+		position: relative;
+		margin: 0 3% 0 3%;
+		border-radius: 15px;
+		/* opacity: 0.7; */
+	}
+	.img {
+		width: 50%;
+	}
+	#section2 h2 {
+		top: 25%;
+		transform: translateY(115%);
+		position: relative;
+		letter-spacing: 2px;
+	}
 }
