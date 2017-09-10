@@ -226,6 +226,51 @@ position: relative;
     background-position: 53% 29%;
     background-size: 37%;
 }
+#section4{
+    background-image: url("../images/271.jpg");
+
+    background-position: 0% 0%;
+    background-size: 102%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#section4 h2{
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+#section4 .block-menu{
+ margin-top: 5%;
+    height: 403px;
+}
+#section4 .block-menu:hover {
+    background: black;
+    border-radius: 15px;
+    opacity: 1;
+}
+#section4 li:last-child{
+    font-size: 50px;
+    font-family: 'Mon Amour One Medium', arial;
+
+}
+
+#section4 li:last-child:after{
+    content: '\f158';
+    font-family: FontAwesome;
+    width: 1.4em;
+
+}
+.clear{
+    clear: both;
+    height: 63px;
+}
+.clear1{
+    clear: both;
+    height: 42px;
+}
+
+.bloc-{
+    margin-top: -1%;
+}
 /* Bottom menu
 * --------------------------------------- */
 #infoMenu li a {
@@ -664,6 +709,21 @@ input[type="checkbox"]:checked ~ .grid {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 20%;*/
+}
+.mask4 {
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 999;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+
+   /* background-image: url(../images/cvb.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 20%;*/
+
 }
 li{
     font-size: 18px;
