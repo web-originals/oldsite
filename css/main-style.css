@@ -28,8 +28,8 @@ h1 {
 * --------------------------------------- */
 #section0 {
     background-image: url("../images/cvb.png");
-    background-position: center ;
-    background-repeat: no-repeat ;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     z-index: -3;
     opacity: 1;
@@ -43,23 +43,26 @@ h1 {
     letter-spacing: 0.1em;
     margin-bottom: 3%;
 }
-#section0 > .container-fluid > .row > .centrovka > .text > h2{
+
+#section0 > .container-fluid > .row > .centrovka > .text > h2 {
     position: relative;
     letter-spacing: 0.1em;
     margin-bottom: 3%;
     margin-top: 3%;
 }
-.centrovka{
-    margin-top:12%;
+
+.centrovka {
+    margin-top: 12%;
     position: relative;
 }
-.o-nas{
+
+.o-nas {
     font-size: 20px;
     color: white;
     padding: 15px 0 15px 0;
 }
-#section0 .text {
 
+#section0 .text {
 
     position: relative;
     padding: 0 5%;
@@ -71,6 +74,7 @@ h1 {
     color: #b7192a;
 
 }
+
 #section2 h2 {
     top: 25%;
     transform: translateY(4%);
@@ -78,12 +82,14 @@ h1 {
     letter-spacing: 2px;
 
 }
+
 #section2 h2:nth-child(2) {
     top: 25%;
     transform: translateY(550%);
     position: relative;
     letter-spacing: 2px
 }
+
 #section3 {
     background-image: url(../images/web-user-acceptance.jpg);
     padding: 0% 0 0 0;
@@ -106,19 +112,24 @@ h1 {
 details summary::-webkit-details-marker {
     display: none;
 }
+
 /* Firefox */
 details, summary {
     display: block;
 }
+
 details summary:before {
     content: " + ";
 }
+
 details[open] summary:before {
     content: " - ";
 }
-details, summary:focus{
+
+details, summary:focus {
     outline: none;
 }
+
 #section3 h1 {
     color: #000;
 }
@@ -132,15 +143,18 @@ details, summary:focus{
     border-radius: 15px;
     /* opacity: 0.7; */
 }
-#section1 .block-menu > div > img{
+
+#section1 .block-menu > div > img {
     position: relative;
     opacity: 1;
 
 }
 
-
-.container {
-    width: 1400px;
+.top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999999;
 }
 
 #section1 .block-menu:hover {
@@ -154,7 +168,7 @@ details, summary:focus{
     color: white;
     text-align: center;
     padding: 4% 0% 4% 0%;
-position: relative;
+    position: relative;
 
 }
 
@@ -217,12 +231,79 @@ position: relative;
     padding: 6% 0 0 0;
 
 }
+
 .slide2 {
     background-image: url(../images/adaptiv-dizain.jpg);
     background-repeat: no-repeat;
     background-position: 53% 29%;
     background-size: 37%;
 }
+
+#section4 {
+    background-image: url("../images/271.jpg");
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*-webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);*/
+    z-index: 99;
+}
+
+#section4 h2 {
+    z-index: 100;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+#section4 .block-menu {
+    z-index: 100;
+    margin-top: 5%;
+    height: 403px;
+}
+
+#section4 .block-menu:hover {
+    z-index: 100;
+    background: black;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+#section4 li:last-child {
+    z-index: 100;
+    font-size: 50px;
+    font-family: 'Mon Amour One Medium', arial;
+
+}
+
+#section4 li:last-child:after {
+    z-index: 100;
+    content: '\f158';
+    font-family: FontAwesome;
+    width: 1.4em;
+
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+
+.clear1 {
+    clear: both;
+    height: 65px;
+}
+
+.clear2 {
+    clear: both;
+    height: 85px;
+}
+
+.bloc- {
+    margin-top: -1%;
+}
+
 /* Bottom menu
 * --------------------------------------- */
 #infoMenu li a {
@@ -356,7 +437,8 @@ a {
     color: white;
 
 }
-.tel:hover{
+
+.tel:hover {
     color: white;
     text-decoration: none;
 }
@@ -371,6 +453,19 @@ footer a {
 }
 
 footer a:hover {
+    color: #b7192a;
+}
+
+footer1 p {
+    font-size: 18px;
+}
+
+footer1 a {
+    font-size: 18px;
+    color: white;
+}
+
+footer1 a:hover {
     color: #b7192a;
 }
 
@@ -448,12 +543,26 @@ a.knopka:active {
     padding: 20px 0 0 0;
 }
 
+a.logo1 {
+    width: 130%;
+    margin-top: -19%;
+
+}
+
 #header {
     top: 3%;
 }
 
 #footer {
+
     bottom: 3%;
+}
+
+#footer1 {
+    border-top: 2px solid #b7192a;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-top: 2%;
 }
 
 #form-contact {
@@ -493,7 +602,6 @@ body {
     position: fixed;
     top: 0%;
     left: 0;
-
 }
 
 .lightbox {
@@ -580,6 +688,7 @@ input[type="checkbox"]:checked ~ .grid {
     max-height: 100%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
+
 .effect {
     position: relative;
     width: 100%;
@@ -595,7 +704,7 @@ input[type="checkbox"]:checked ~ .grid {
     position: absolute;
     top: 0px;
     left: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
     color: #fff;
@@ -609,6 +718,7 @@ input[type="checkbox"]:checked ~ .grid {
 .effect:hover .caption {
     left: 0px;
 }
+
 .effect .caption h4 {
     font-size: 21px;
     font-weight: 700;
@@ -636,8 +746,9 @@ input[type="checkbox"]:checked ~ .grid {
     border-radius: 5px;
     margin: 0px auto 0px auto;
 }
+
 .mask {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     position: fixed;
     width: 100%;
@@ -645,8 +756,9 @@ input[type="checkbox"]:checked ~ .grid {
     left: 31px;
     transform: translateY(300%);
 }
+
 .mask2 {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     position: fixed;
     width: 100%;
@@ -654,19 +766,37 @@ input[type="checkbox"]:checked ~ .grid {
     left: 15px;
     transform: translateY(100%);
 }
+
 .mask3 {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     position: fixed;
     width: 100%;
     top: 0;
     left: 16px;
-   /* background-image: url(../images/cvb.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 20%;*/
+    /* background-image: url(../images/cvb.png);
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-size: 20%;*/
 }
-li{
+
+.mask4 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 999;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+
+    /* background-image: url(../images/cvb.png);
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-size: 20%;*/
+
+}
+
+li {
     font-size: 18px;
     line-height: 1.2em;
 }

@@ -125,8 +125,13 @@ input.error:focus, textarea.error:focus {
     margin-bottom: 20px;
 }
 #contact2 {
-    margin-top: 38%;
+    margin-top: 46%;
     margin-left: 19%;
+}
+#contact3 {
+    margin-top: 43%;
+    margin-left: 19%;
+    margin-bottom: 5%;
 }
 #hide-contact {
     color: #FFFFFF;
