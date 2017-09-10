@@ -130,13 +130,13 @@ function showHide(sh_cont, sh_dot) {
     }
 }
 
-var colors = new Array(
+var colors = [
     [135,34,119 ],
-    [117, 00, 99],
+    [117, 0, 99],
     [30,119,110],
-    [00,103,92],
+    [0,103,92],
     [191,152,48],
-    [166,121,00]);
+    [166,121,0]];
 
 var step = 0;
 //color table indices for:
