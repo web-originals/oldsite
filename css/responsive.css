@@ -1,25 +1,20 @@
 @media screen and (min-width: 1240px) and (max-width: 1440px){
 	a.logo {
-
 		margin-top: -19%;
-		margin-left: 32%;
+		margin-left: -13%;
 	}
 	li.logotip:before {
-
-		margin-left: -40%;
+		margin-left: -122%;
 		margin-top: -6%;
 	}
-	p {
-
-		font-size: 16px;
-
-	}
+	
 	h2 {
 		font-size: 24px;
 	}
 	#sh_dot01 {
 		font-size: 17px;
 	}
+
 	.slide2 {
 		background-image: url(../images/adaptiv-dizain.jpg);
 		background-repeat: no-repeat;
@@ -27,10 +22,7 @@
 		background-size: 31%;
 	}
 	#section2 h2:nth-child(2) {
-		top: 25%;
-		transform: translateY(610%);
-		position: relative;
-		letter-spacing: 2px;
+		transform: translateY(458%);
 	}
 	#slide2 {
 		background-image: url(../images/calltoaction.jpg);
@@ -55,9 +47,103 @@
 		width: 50%;
 	}
 	#section2 h2 {
-		top: 25%;
-		transform: translateY(115%);
-		position: relative;
-		letter-spacing: 2px;
+
+		transform: translateY(21%);
+
+	}
+	#section1 h2 {
+		transform: translateY(291%);
+	}
+	#footer1 {
+		border-top: 2px solid #b7192a;
+		padding-top: 3%;
+		padding-bottom: 2%;
+		margin-top: 0%;
+	}
+	#contact3 {
+		margin-top: 41%;
+		margin-left: 19%;
+		margin-bottom: 6%;
+	}
+	.clear1 {
+		clear: both;
+		height: 67px;
+	}
+	.clear:nth-child(1) {
+		clear: both;
+		height: 93px;
+	}
+}
+@media screen and (min-width: 1200px) and (max-width: 1239px){
+	a.logo {
+		width: 130%;
+		margin-top: -19%;
+		margin-left: -8%;
+	}
+	li.logotip:before {
+		content: url(../images/lili2.png);
+		display: inline-block;
+		vertical-align: middle;
+		font-style: normal;
+		margin-left: -109%;
+		margin-top: -6%;
+	}
+	p{
+		font-size: 22px;
+	}
+
+}
+@media screen and (min-width: 991px) and (max-width: 1199px){
+	li.logotip:before {
+		display: none;
+	}
+	ul#menu1 li.logotip1 {
+		text-indent: -1.4em;
+	}
+	li.logotip1:before {
+		content: url(../images/lili2.png);
+		display: inline-block;
+		vertical-align: middle;
+		font-style: normal;
+		margin-left: 0%;
+		margin-top: 0%;
+		text-indent: -4.4em;
+	}
+	#menu1 li:last-child{
+		float: right;
+		margin-top: 1%;
+	}
+	#menu{
+		position:fixed;
+		top:8.5%;
+		left:0;
+		height: 40px;
+		z-index: 70;
+		width: 100%;
+		padding: 0;
+		margin:0;
+	}
+	#section1 .block-menu {
+		top: 57%;
+
+	}
+	.grid {
+		padding: 12% 16px 16px 16px;
+	}
+	.grid .grid-item {
+		width: 35%;
+	}
+	#section4 h2 {
+
+		margin-top: 16%;
+
+	}
+	#section4 li:last-child {
+		font-size: 38px;
+	}
+	.top-backgraund {
+		top: 0% !important;
+		background: rgba(105, 103, 103, 0.9);
+		height: 16% !important;
 	}
 }

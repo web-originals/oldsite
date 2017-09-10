@@ -137,11 +137,14 @@ details, summary:focus{
     opacity: 1;
 
 }
-
-
-.container {
-    width: 1400px;
+.top{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999999;
 }
+
+
 
 #section1 .block-menu:hover {
     background: black;
@@ -228,44 +231,58 @@ position: relative;
 }
 #section4{
     background-image: url("../images/271.jpg");
-
     background-position: 0% 0%;
-    background-size: 102%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /*-webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);*/
+    z-index: 99;
 }
-#section4 h2{
+
+#section4  h2{
+    z-index: 100;
     margin-top: 10%;
     margin-bottom: 3%;
 }
-#section4 .block-menu{
+#section4  .block-menu{
+    z-index: 100;
  margin-top: 5%;
     height: 403px;
 }
-#section4 .block-menu:hover {
+#section4  .block-menu:hover {
+    z-index: 100;
     background: black;
     border-radius: 15px;
     opacity: 1;
 }
-#section4 li:last-child{
+#section4  li:last-child{
+    z-index: 100;
     font-size: 50px;
     font-family: 'Mon Amour One Medium', arial;
 
 }
 
-#section4 li:last-child:after{
+#section4  li:last-child:after{
+    z-index: 100;
     content: '\f158';
     font-family: FontAwesome;
     width: 1.4em;
 
 }
+
 .clear{
     clear: both;
     height: 63px;
 }
 .clear1{
     clear: both;
-    height: 42px;
+    height: 65px;
+}
+.clear2{
+    clear: both;
+    height: 85px;
 }
 
 .bloc-{
@@ -422,6 +439,18 @@ footer a {
 footer a:hover {
     color: #b7192a;
 }
+footer1 p {
+    font-size: 18px;
+}
+
+footer1 a {
+    font-size: 18px;
+    color: white;
+}
+
+footer1 a:hover {
+    color: #b7192a;
+}
 
 #sh_dot01 {
     font-size: 22px;
@@ -440,6 +469,7 @@ a.logo {
     margin-left: 81%;
 }
 
+
 li.logotip:before {
     content: url(../images/lili2.png);
     display: inline-block;
@@ -447,10 +477,8 @@ li.logotip:before {
     font-style: normal;
     margin-left: 29%;
     margin-top: -6%;
-
-
-
 }
+
 .phone{
     border: none !important;
 }
@@ -495,13 +523,27 @@ a.knopka:active {
     color: #f2f2f2;
     padding: 20px 0 0 0;
 }
+a.logo1 {
+    width: 130%;
+    margin-top: -19%;
+
+}
+
+
 
 #header {
     top: 3%;
 }
 
 #footer {
+
     bottom: 3%;
+}
+#footer1 {
+    border-top: 2px solid #b7192a;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-top: 2%;
 }
 
 #form-contact {
