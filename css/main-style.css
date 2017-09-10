@@ -485,7 +485,7 @@ a.logo:hover {
 a.logo {
     width: 130%;
     margin-top: -19%;
-    margin-left: 81%;
+    margin-left: -10%;
 }
 
 li.logotip:before {
@@ -493,7 +493,7 @@ li.logotip:before {
     display: inline-block;
     vertical-align: middle;
     font-style: normal;
-    margin-left: 29%;
+    margin-left: -113%;
     margin-top: -6%;
 }
 
