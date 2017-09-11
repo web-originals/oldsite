@@ -1,4 +1,15 @@
 @media screen and (min-width: 1240px) and (max-width: 1440px){
+	.centrovka {
+		margin-top: 7%;
+
+	}
+	.centrovka p{
+		font-size: 18px;
+	}
+	#section0 > .container-fluid > .row > .centrovka > .text > h2 {
+
+		margin-top: 1%;
+	}
 	a.logo {
 		margin-top: -19%;
 		margin-left: -13%;
@@ -16,13 +27,11 @@
 	}
 
 	.slide2 {
-		background-image: url(../images/adaptiv-dizain.jpg);
-		background-repeat: no-repeat;
-		background-position: 54% 36%;
+		background-position: 54% 26%;
 		background-size: 31%;
 	}
 	#section2 h2:nth-child(2) {
-		transform: translateY(458%);
+		transform: translateY(359%);
 	}
 	#slide2 {
 		background-image: url(../images/calltoaction.jpg);
@@ -32,24 +41,17 @@
 		padding: 6% 0 0 0;
 	}
 	#contact2 {
-		margin-top: 30%;
+		margin-top: 26%;
 		margin-left: 19%;
 	}
 	#section1 .block-menu {
-		top: 50%;
-		transform: translateY(-84%);
-		position: relative;
-		margin: 0 3% 0 3%;
-		border-radius: 15px;
-		/* opacity: 0.7; */
+		transform: translateY(-74%);
 	}
 	.img {
 		width: 50%;
 	}
 	#section2 h2 {
-
-		transform: translateY(21%);
-
+		transform: translateY(10%);
 	}
 	#section1 h2 {
 		transform: translateY(291%);
@@ -67,11 +69,38 @@
 	}
 	.clear1 {
 		clear: both;
-		height: 67px;
+		height: 62px;
 	}
 	.clear:nth-child(1) {
 		clear: both;
 		height: 93px;
+	}
+	#footer p{
+		font-size: 21px;
+	}
+	#footer1 p{
+		font-size: 21px;
+	}
+	.height{
+		width: 18% !important;
+	}
+	#section3 h2 {
+		transform: translateY(332%);
+	}
+	#section3 p {
+		transform: translateY(123%);
+		font-size: 19px;
+	}
+	#section4 p {
+		font-size: 19px;
+	}
+	.grid .grid-item {
+		width: 30%;
+	}
+	.top-backgraund {
+		top: 0% !important;
+		background: rgba(4, 4, 4, 0.9);
+		height: 15% !important;
 	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1239px){
