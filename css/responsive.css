@@ -1,6 +1,41 @@
-@media screen and (min-width: 1240px) and (max-width: 1440px){
+@media screen and (min-width: 1440px) and (max-width: 1600px){
+	#section0 > .container-fluid > .row > .centrovka > .text > h2 {
+		position: relative;
+		letter-spacing: 0.1em;
+		margin-bottom: 3%;
+		margin-top: 1%;
+	}
 	.centrovka {
 		margin-top: 7%;
+	}
+	#section1 h2 {
+		transform: translateY(270%);
+		letter-spacing: 0.1em;
+		margin-bottom: 6%;
+	}
+	.slide2 {
+		background-position: 53% 33%;
+		background-size: 32%;
+	}
+	#section2 h2:nth-child(2) {
+		transform: translateY(331%);
+	}
+	#contact2 {
+		margin-top: 31%;
+		margin-left: 19%;
+	}
+	#section3 h2 {
+		transform: translateY(302%);
+	}
+	#section3 p {
+		transform: translateY(134%);
+		position: relative;
+		text-align: right;
+	}
+}
+@media screen and (min-width: 1240px) and (max-width: 1440px){
+	.centrovka {
+		margin-top: 11%;
 
 	}
 	.centrovka p{
@@ -27,18 +62,18 @@
 	}
 
 	.slide2 {
-		background-position: 54% 26%;
-		background-size: 31%;
+		background-position: 54% 28%;
+		background-size: 35%;
 	}
 	#section2 h2:nth-child(2) {
-		transform: translateY(359%);
+		transform: translateY(438%);
 	}
 	#slide2 {
 
 		padding: 6% 0 0 0;
 	}
 	#contact2 {
-		margin-top: 26%;
+		margin-top: 33%;
 		margin-left: 19%;
 	}
 	#section1 .block-menu {
@@ -51,7 +86,7 @@
 		transform: translateY(10%);
 	}
 	#section1 h2 {
-		transform: translateY(291%);
+		transform: translateY(354%);
 	}
 	#footer1 {
 		border-top: 2px solid #b7192a;
@@ -85,7 +120,7 @@
 		transform: translateY(332%);
 	}
 	#section3 p {
-		transform: translateY(123%);
+		transform: translateY(168%);
 		font-size: 19px;
 	}
 	#section4 p {
@@ -99,6 +134,14 @@
 		background: rgba(4, 4, 4, 0.9);
 		height: 15% !important;
 		border-bottom: 2px solid #b7192a;
+	}
+	#section4 h2 {
+		z-index: 100;
+		margin-top: 12%;
+		margin-bottom: 3%;
+	}
+	.grid {
+		padding: 6% 16px 16px 16px;
 	}
 
 }
