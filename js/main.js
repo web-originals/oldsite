@@ -173,6 +173,9 @@ function updateGradient()
     $('#section0').css({
         background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
         background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+    $('#section2').css({
+        background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+        background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
 
     step += gradientSpeed;
     if ( step >= 1 )
