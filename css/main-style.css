@@ -27,7 +27,6 @@ h1 {
 /* Defining each section background and styles
 * --------------------------------------- */
 #section0 {
-    background-image: url("../images/cvb.png");
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -53,7 +52,7 @@ h1 {
 
 .centrovka {
     margin-top: 12%;
-    position: relative;
+
 }
 
 .o-nas {
@@ -85,14 +84,14 @@ h1 {
 
 #section2 h2:nth-child(2) {
     top: 25%;
-    transform: translateY(550%);
+    transform: translateY(477%);
     position: relative;
     letter-spacing: 2px
 }
 
 #section3 {
     background-image: url(../images/web-user-acceptance.jpg);
-    padding: 0% 0 0 0;
+    padding: 0 0 0 0;
 }
 
 #section3 h2 {
@@ -167,7 +166,7 @@ details, summary:focus {
     background: none;
     color: white;
     text-align: center;
-    padding: 4% 0% 4% 0%;
+    padding: 4% 0 4% 0;
     position: relative;
 
 }
@@ -224,10 +223,7 @@ details, summary:focus {
 }
 
 #slide2 {
-    background-image: url(../images/calltoaction.jpg);
-    background-repeat: no-repeat;
-    background-position: 53% 37%;
-    background-size: 120%;
+
     padding: 6% 0 0 0;
 
 }
@@ -241,7 +237,7 @@ details, summary:focus {
 
 #section4 {
     background-image: url("../images/271.jpg");
-    background-position: 0% 0%;
+    background-position: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -260,7 +256,7 @@ details, summary:focus {
 #section4 .block-menu {
     z-index: 100;
     margin-top: 5%;
-    height: 403px;
+
 }
 
 #section4 .block-menu:hover {
@@ -327,9 +323,10 @@ h2:first-letter {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 36px;
 }
 
+/*обводка всего текста*/
 .border-text {
     text-shadow: -0 -1px 0 #000000,
     0 -1px 0 #000000,
@@ -600,7 +597,7 @@ body {
 .lightbox, .grid {
     width: 100%;
     position: fixed;
-    top: 0%;
+    top: 0;
     left: 0;
 }
 
@@ -702,7 +699,7 @@ input[type="checkbox"]:checked ~ .grid {
 
 .effect .caption {
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 100%;
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -716,7 +713,7 @@ input[type="checkbox"]:checked ~ .grid {
 }
 
 .effect:hover .caption {
-    left: 0px;
+    left: 0;
 }
 
 .effect .caption h4 {
@@ -730,10 +727,10 @@ input[type="checkbox"]:checked ~ .grid {
 }
 
 .effect .caption p {
-    margin: 15px 0px;
+    margin: 15px 0;
     text-align: center;
     font-style: italic;
-    padding: 0px 10px;
+    padding: 0 10px;
 }
 
 .effect .caption a.btn {
@@ -742,9 +739,9 @@ input[type="checkbox"]:checked ~ .grid {
     display: block;
     background: #68432d;
     color: #fff;
-    padding: 10px 0px;
+    padding: 10px 0;
     border-radius: 5px;
-    margin: 0px auto 0px auto;
+    margin: 0 auto 0 auto;
 }
 
 .mask {
@@ -795,6 +792,22 @@ input[type="checkbox"]:checked ~ .grid {
      background-size: 20%;*/
 
 }
+.mask5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 999;
+    width: 100%;
+height: 100%;
+    top: 0;
+    left: 0;
+
+    /* background-image: url(../images/cvb.png);
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-size: 20%;*/
+
+}
+
 
 li {
     font-size: 18px;

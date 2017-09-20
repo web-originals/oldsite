@@ -1,30 +1,31 @@
 /**
  * Created by Igor on 07.09.2017.
  */
-
-jQuery(function ($) {
-    $("#phone").mask("+7 (999) 999-9999");
-    $("#phone2").mask("+7 (999) 999-9999");
-    $("#phone3").mask("+7 (999) 99-99-999");
-    $("#phone4").mask("+7 (999) 99-99-999");
-});
-
-
+//валидация мыла в модалке
 function validateEmail(email) {
     var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return reg.test(email);
 }
 
 $(document).ready(function () {
+    //маски для полей
+    $("#phone").mask("+7 (999) 999-9999");
+    $("#phone2").mask("+7 (999) 999-9999");
+    $("#phone3").mask("+7 (999) 99-99-999");
+    $("#phone4").mask("+7 (999) 99-99-999");
+
+    //кнопка просбы позвонить
     $(".backcall").on("click", function () {
         $("#form-contact").fadeIn();
     });
+    //кнопка скрытия модалки обратного звонка
     $("#hide-contact").on("click", function () {
         $("#form-contact").fadeOut();
     });
     $("#contact").submit(function () {
         return false;
     });
+    //кнопка отправки заявки
     $("#send").on("click", function () {
         var emailval = $("#email").val();
         var namevl = $("#name").val();
@@ -80,9 +81,8 @@ $(document).ready(function () {
             });
         }
     });
-});
 
-$(document).ready(function () {
+    // js для вертикального скрулла
     $('#fullpage').fullpage({
         'verticalCentered': false,
         'css3': true,
@@ -93,9 +93,8 @@ $(document).ready(function () {
         'navigationPosition': 'right',
         'navigationTooltips': ['О нас', 'Наши услуга','Адаптивный дизайн','Контакты']
     });
-});
 
-$(document).ready(function () {
+    // карта в контактах
     var coordmap;
     ymaps.ready(function(){
         coordmap = new ymaps.Map("coordmap", {
@@ -116,8 +115,12 @@ $(document).ready(function () {
         coordmap.geoObjects.add(placemark);
         coordmap.behaviors.disable('scrollZoom');
     });
+
+    //интервала переливающегося фона
+    setInterval(updateGradient,10);
 });
 
+//функция открытия полного текста
 var sh_cont;
 var sh_dot;
 function showHide(sh_cont, sh_dot) {
@@ -130,6 +133,7 @@ function showHide(sh_cont, sh_dot) {
     }
 }
 
+//переливающийся фон
 var colors = [
     [135,34,119 ],
     [117, 0, 99],
@@ -173,6 +177,9 @@ function updateGradient()
     $('#section0').css({
         background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
         background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+    $('#section2').css({
+        background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+        background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
 
     step += gradientSpeed;
     if ( step >= 1 )
@@ -189,5 +196,6 @@ function updateGradient()
     }
 }
 
-setInterval(updateGradient,10);
+
+//конец переливающегося фона
 
