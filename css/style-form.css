@@ -1,0 +1,181 @@
+body {
+    /*background: url(img/bg.png) repeat ;*/
+    font: normal normal 14px/20px Arial, Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+    color: #39c6b9;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+h2 {
+    color: #39c6b9;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.clr {
+    clear: both;
+}
+
+
+.content {
+  width: 800px;
+  margin: 20px auto;
+  z-index: 20;
+}
+.post {
+  background: #F5F5F5;
+  width: 100%;
+  padding: 20px;
+  float: left;
+}
+.description {
+  color: #252736;
+  font-family: Calibri Light;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+
+
+/* Форма обратной связи */
+#inline {
+  display:none;
+  margin-left: 30px;
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px 20px;
+}
+.txt {
+     text-align: center;
+     display: block;
+     color: #676767;
+     width: 500px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     padding: 5px 9px;
+     font-size: 15px!important;
+     line-height: 1.4em;
+ }
+.txt2 {
+    text-align: center;
+    display: block;
+    color: #676767;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 5px 9px;
+    font-size: 15px!important;
+    line-height: 1.4em;
+}
+.txtarea {
+    text-align: center;
+    display: block;
+    color: #676767;
+    width: 617px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 5px 9px;
+    font-size: 15px!important;
+    line-height: 1.4em;
+    height: 76px;
+}
+.txt:focus, .txtarea:focus {
+ border-style: solid; 
+ border-color: #bababa; 
+ color: #444; 
+ }
+input.error, textarea.error { 
+    border-color: #973d3d; 
+    border-style: solid; 
+    background: #f0bebe; 
+    color: #a35959; 
+    }
+input.error:focus, textarea.error:focus { 
+    border-color: #973d3d; 
+    color: #a35959;
+     }
+#send { 
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    padding: 5px 11px;
+    font-size: 1.2em;
+    border: solid 1px #F9F9F9;
+    border-radius: 2px;
+    background: #70C6B9;
+    width: 500px;
+    margin-bottom: 20px;
+}
+#send2 {
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    padding: 5px 11px;
+    font-size: 1.2em;
+    border: solid 1px #F9F9F9;
+    border-radius: 2px;
+    background: #b7192a;
+    width: 100%;
+    height: 51px;
+    margin-bottom: 20px;
+}
+#contact2 {
+    margin-top: 46%;
+    margin-left: 19%;
+}
+#contact3 {
+    margin-top: 43%;
+    margin-left: 19%;
+    margin-bottom: 5%;
+}
+#hide-contact {
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    padding: 5px 11px;
+    font-size: 1.2em;
+    border: solid 1px #F9F9F9;
+    border-radius: 2px;
+    background: #c65d4e;
+    width: 500px;
+}
+.otmena {
+    margin-top: 3%;
+    margin-left: -50%;
+}
+#hide-contact:hover{
+    background: #979797;
+}
+#send:hover {
+    background: #979797;
+}
+#send2:hover {
+    background: #979797;
+}
+/* Форма обратной связи */
+.ymaps-2-1-55-float-button-icon_icon_geolocation{
+    display: none;
+}
+.modalbox {
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    padding: 10px 11px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 2px;
+    background: #b7192a;
+    width: 210px;
+    text-decoration: none;
+    text-align: center;
+    margin:-2% auto 20px;
+}
+
+.modalbox:hover {
+    background: #979797;
+}
