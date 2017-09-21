@@ -2,7 +2,7 @@
  * Created by Igor on 07.09.2017.
  */
 
-$(document).ready(function($){
+$(document).ready(function ($) {
     // js для вертикального скрулла
     $('#fullpage').fullpage({
         'verticalCentered': false,

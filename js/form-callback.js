@@ -7,7 +7,7 @@ function validateEmail(email) {
     return reg.test(email);
 }
 
-$(document).ready(function($){
+$(document).ready(function ($) {
     //маски для полей
     $(".phone-mask").mask("+7 (999) 99-99-999");
 
