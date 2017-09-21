@@ -51,3 +51,18 @@ _нажать shift+; и если появилось двоеточие в ле�
 **Переключиться на отдельный коммит**
 
 `git checkout commit_hash`
+
+**Модифицированный js - scrollovers.js строка 1200**
+`       
+                //когда достигли конца прокрутки следует включить прокрутку на следующий слайд
+                if(tempscrool == newY){
+                    if(tempwheel == 0) tempwheel =  that.wheelTimeout;
+                    if(tempwheel + 5 < that.wheelTimeout){
+                        $.fn.fullpage.setAllowScrolling(true);
+                    }
+                }else{
+                    $.fn.fullpage.setAllowScrolling(false);
+                    tempwheel = 0;
+                    tempscrool = newY;
+                }
+        `

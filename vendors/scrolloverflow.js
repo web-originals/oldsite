@@ -3,6 +3,8 @@
 * It fixes bugs affecting its integration with fullpage.js
 */
 /*! iScroll v5.2.0 ~ (c) 2008-2016 Matteo Spinelli ~ http://cubiq.org/license */
+var tempscrool = 0;
+var tempwheel = 0;
 (function (window, document, Math) {
 var rAF = window.requestAnimationFrame  ||
     window.webkitRequestAnimationFrame  ||
@@ -1195,6 +1197,18 @@ IScroll.prototype = {
             newY = 0;
         } else if ( newY < this.maxScrollY ) {
             newY = this.maxScrollY;
+        }
+
+        //когда достигли конца прокрутки следует включить прокрутку на следующий слайд
+        if(tempscrool == newY){
+            if(tempwheel == 0) tempwheel =  that.wheelTimeout;
+            if(tempwheel + 5 < that.wheelTimeout){
+                $.fn.fullpage.setAllowScrolling(true);
+            }
+        }else{
+            $.fn.fullpage.setAllowScrolling(false);
+            tempwheel = 0;
+            tempscrool = newY;
         }
 
         this.scrollTo(newX, newY, 0);

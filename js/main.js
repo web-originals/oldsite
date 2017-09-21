@@ -5,6 +5,8 @@
 $(document).ready(function ($) {
     // js для вертикального скрулла
     $('#fullpage').fullpage({
+        'recordHistory':false,
+        'animateAnchor':true,
         'scrollOverflow': true,
         'verticalCentered': false,
         'css3': true,
