@@ -5,6 +5,7 @@
 $(document).ready(function ($) {
     // js для вертикального скрулла
     $('#fullpage').fullpage({
+        'scrollOverflow': true,
         'verticalCentered': false,
         'css3': true,
         'sectionsColor': ['#F0F2F4', '#fff', '#fff'],
