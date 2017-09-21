@@ -32,13 +32,36 @@
     <script type="text/javascript" src="js/examples.js"></script>
     <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/form-callback.js"></script>
 </head>
 <body>
+<div id="form-contact">
+    <center>
+        <div class="contact-center">
+            <h2>Онлайн заявка</h2>
+            <form id="contact" name="contact" action="#" method="post">
+                <div class="col-lg-6 pull-left">
+                    <input type="name" id="name" name="name" class="txt" placeholder="Ваше имя">
+                </div>
+                <div class="col-lg-6 pull-right">
+                    <textarea id="msg" name="msg" class="txtarea" placeholder="Ваше сообщение:"></textarea>
+                </div>
+                <div class="col-lg-6 pull-left">
+                    <input type="phone" name="phone" class="txt phone-mask" placeholder="Ваш телефон">
+                </div>
+                <div class="col-lg-6 pull-left">
+                    <button id="send">Отправить</button>
+                </div>
+            </form>
+            <div class="col-lg-6 otmena">
+                <button id="hide-contact">Отмена</button>
+            </div>
+        </div>
+    </center>
+</div>
 <div id="header">
-
     <div class="navbar  navbar-fixed-top" role="navigation">
         <div class="container">
-
             <div class="navbar-header ">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -50,31 +73,31 @@
             <div class="collapse navbar-collapse">
                 <div class=" col-md-12 col-xs-12  visible-md top">
                     <ul id="menu1" class="border-text">
-                        <li class="logotip1" >
+                        <li class="logotip1">
                             <a class="logo1 " href="#">Web-студия "Originals"</a>
                         </li>
-                        <li><p>Старомышастовская Садовая №211&nbsp; &nbsp; <a class="tel" href="tel:+7902475139">+7902475139</a></p>
+                        <li><p>Старомышастовская Садовая №211&nbsp; &nbsp; <a class="tel" href="tel:+7902475139">+7902475139</a>
+                        </p>
                         </li>
-                        <li >
+                        <li>
                             <button class="modalbox backcall">Обратный звонок</button>
                         </li>
                     </ul>
                 </div>
                 <ul id="menu" class="border-text">
-                    <li class="logotip" >
+                    <li class="logotip">
                         <a class="logo hidden-md hidden-sm" href="#">Web-студия "Originals"</a>
                     </li>
                     <li data-menuanchor="anchor1" class="active"><a href="apple.html">О нас</a></li>
                     <li><a href="job.html">Наши проекты</a></li>
                     <li data-menuanchor="anchor2"><a href="#anchor2">Наши услуги</a></li>
                     <li data-menuanchor="anchor4"><a href="#anchor4">Контакты</a></li>
-                    <li ><a class="phone hidden-md hidden-sm" href="tel:+79002475139">+79002475139</a></li>
+                    <li><a class="phone hidden-md hidden-sm" href="tel:+79002475139">+79002475139</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
     </div>
 </div>
-
 <div id="footer" class="border-text hidden-md hidden-sm">
     <div class="container-fluid">
         <div class="col-lg-5 navbar-left">
