@@ -58,7 +58,6 @@ $(document).ready(function () {
         else if (msglen >= 4) {
             $("#msg").removeClass("error");
         }
-
         if (mailvalid == true && msglen >= 4) {
             // если обе проверки пройдены
             // сначала мы скрываем кнопку отправки
@@ -141,7 +140,6 @@ var colors = [
     [0,103,92],
     [191,152,48],
     [166,121,0]];
-
 var step = 0;
 //color table indices for:
 // current color left
@@ -149,13 +147,10 @@ var step = 0;
 // current color right
 // next color right
 var colorIndices = [0,1,2,3];
-
 //transition speed
 var gradientSpeed = 0.001;
-
 function updateGradient()
 {
-
     if ( $===undefined ) return;
 
     var c0_0 = colors[colorIndices[0]];
@@ -187,15 +182,10 @@ function updateGradient()
         step %= 1;
         colorIndices[0] = colorIndices[1];
         colorIndices[2] = colorIndices[3];
-
         //pick two new target color indices
         //do not pick the same as the current one
         colorIndices[1] = ( colorIndices[1] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
         colorIndices[3] = ( colorIndices[3] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
-
     }
 }
-
-
 //конец переливающегося фона
-
