@@ -567,9 +567,9 @@ a.logo1 {
     margin-top: 100px;
 }
 
-* {
-    box-sizing: border-box;
-}
+/** {*/
+    /*box-sizing: border-box;*/
+/*}*/
 
 label[for] {
     cursor: pointer;
