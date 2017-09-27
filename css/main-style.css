@@ -23,23 +23,23 @@ h1 {
     z-index: -3
 }
 
-#section0 h2 {
-    top: 50%;
-    position: relative;
-    letter-spacing: .1em;
-    margin-bottom: 3%
-}
+/*#section0 h2 {*/
+    /*top: 50%;*/
+    /*position: relative;*/
+    /*letter-spacing: .1em;*/
+    /*margin-bottom: 3%*/
+/*}*/
 
-#section0>.container-fluid>.row>.centrovka>.text>h2 {
-    position: relative;
-    letter-spacing: .1em;
-    margin-bottom: 3%;
-    margin-top: 3%
-}
+/*#section0>.container-fluid>.row>.centrovka>.text>h2 {*/
+    /*position: relative;*/
+    /*letter-spacing: .1em;*/
+    /*margin-bottom: 3%;*/
+    /*margin-top: 3%*/
+/*}*/
 
-.centrovka {
-    margin-top: 12%
-}
+/*.centrovka {*/
+    /*margin-top: 12%*/
+/*}*/
 
 .o-nas {
     font-size: 20px;
@@ -47,28 +47,28 @@ h1 {
     padding: 15px 0
 }
 
-#section0 .text {
-    padding: 0 5%;
-    z-index: 999
-}
+/*#section0 .text {*/
+    /*padding: 0 5%;*/
+    /*z-index: 999*/
+/*}*/
 
 #section0 .text span,a {
     color: #b7192a
 }
 
-#section2 h2 {
-    top: 25%;
-    transform: translateY(4%);
-    position: relative;
-    letter-spacing: 2px
-}
+/*#section2 h2 {*/
+    /*top: 25%;*/
+    /*transform: translateY(4%);*/
+    /*position: relative;*/
+    /*letter-spacing: 2px*/
+/*}*/
 
-#section2 h2:nth-child(2) {
-    top: 25%;
-    transform: translateY(477%);
-    position: relative;
-    letter-spacing: 2px
-}
+/*#section2 h2:nth-child(2) {*/
+    /*top: 25%;*/
+    /*transform: translateY(477%);*/
+    /*position: relative;*/
+    /*letter-spacing: 2px*/
+/*}*/
 
 #section3 {
     background-image: url(../images/web-user-acceptance.jpg);
@@ -147,11 +147,11 @@ details,summary:focus {
     position: relative
 }
 
-#section1 h2 {
-    transform: translateY(380%);
-    letter-spacing: .1em;
-    margin-bottom: 6%
-}
+/*#section1 h2 {*/
+    /*transform: translateY(380%);*/
+    /*letter-spacing: .1em;*/
+    /*margin-bottom: 6%*/
+/*}*/
 
 .linkblock,label[for] {
     cursor: pointer
@@ -164,23 +164,23 @@ details,summary:focus {
     background-size: 137%
 }
 
-.img {
-    width: 35%
-}
+/*.img {*/
+    /*width: 35%*/
+/*}*/
 
 .block-menu {
     padding: 1% 15px
 }
 
-#slide1 {
+#section4 {
     background-image: url(../images/picjumbo.com_HNCK4536.jpg);
     background-color: rgba(0,0,0,.3);
     overflow: hidden
 }
 
-#slide1,#slide2 {
-    padding: 6% 0 0
-}
+/*#slide1,#slide2 {*/
+    /*padding: 6% 0 0*/
+/*}*/
 
 #section4,.slide2 {
     background-image: url(../images/adaptiv-dizain.jpg);
@@ -197,16 +197,16 @@ details,summary:focus {
     z-index: 99
 }
 
-#section4 h2 {
-    z-index: 100;
-    margin-top: 10%;
-    margin-bottom: 3%
-}
+/*#section4 h2 {*/
+    /*z-index: 100;*/
+    /*margin-top: 10%;*/
+    /*margin-bottom: 3%*/
+/*}*/
 
-#section4 .block-menu {
-    z-index: 100;
-    margin-top: 5%
-}
+/*#section4 .block-menu {*/
+    /*z-index: 100;*/
+    /*margin-top: 5%*/
+/*}*/
 
 #section4 .block-menu:hover {
     z-index: 100
@@ -239,9 +239,9 @@ details,summary:focus {
     height: 85px
 }
 
-.bloc- {
-    margin-top: -1%
-}
+/*.bloc- {*/
+    /*margin-top: -1%*/
+/*}*/
 
 #infoMenu li a,.navbar a {
     color: #fff
@@ -269,7 +269,7 @@ h2 {
 
 p {
     line-height: 1.3em;
-    width: 100%;
+    /*width: 100%;*/
     text-align: center
 }
 
@@ -278,10 +278,10 @@ h1,h2,h3,h4,h5,h6,p {
     font-family: 'PT Sans',arial
 }
 
-.rown {
-    margin-right: -30px;
-    margin-left: -30px
-}
+/*.rown {*/
+    /*margin-right: -30px;*/
+    /*margin-left: -30px*/
+/*}*/
 
 .fp-tooltip {
     color: #aaa
