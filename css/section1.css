@@ -1,0 +1,30 @@
+#section1 .block-menu {
+    top: 50%;
+    transform: translateY(-90%);
+    position: relative;
+    margin: 0 3%;
+    border-radius: 15px
+}
+
+#section1 .block-menu>div>img {
+    position: relative;
+    opacity: 1
+}
+
+#section1 .block-menu:hover,#section4 .block-menu:hover {
+    background: #000;
+    border-radius: 15px;
+    opacity: 1
+}
+
+#section1 h2 {
+    transform: translateY(380%);
+    letter-spacing: .1em;
+    margin-bottom: 6%
+}
+
+#slide1 {
+    background-image: url(../images/picjumbo.com_HNCK4536.jpg);
+    background-color: rgba(0,0,0,.3);
+    overflow: hidden
+}

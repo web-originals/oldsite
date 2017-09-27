@@ -5,8 +5,8 @@
 $(document).ready(function ($) {
     // js для вертикального скрулла
     $('#fullpage').fullpage({
-        'paddingTop':'80px',
-        'paddingBottom':'80px',
+        // 'paddingTop':'80px',
+        // 'paddingBottom':'80px',
         'recordHistory':false,
         'animateAnchor':true,
         'scrollOverflow': true,

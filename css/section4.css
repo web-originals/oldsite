@@ -1,0 +1,42 @@
+#section4,.slide2 {
+    background-image: url(../images/adaptiv-dizain.jpg);
+    background-repeat: no-repeat;
+    background-position: 53% 29%;
+    background-size: 37%
+}
+
+#section4 {
+    background-image: url(../images/271.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 99
+}
+
+#section4 h2 {
+    z-index: 100;
+    margin-top: 10%;
+    margin-bottom: 3%
+}
+
+#section4 .block-menu {
+    z-index: 100;
+    margin-top: 5%
+}
+
+#section4 .block-menu:hover {
+    z-index: 100
+}
+
+#section4 li:last-child {
+    z-index: 100;
+    font-size: 50px;
+    font-family: 'Mon Amour One Medium',arial
+}
+
+#section4 li:last-child:after {
+    z-index: 100;
+    content: '\f158';
+    font-family: FontAwesome;
+    width: 1.4em
+}

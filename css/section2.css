@@ -1,0 +1,13 @@
+#section2 h2 {
+    top: 25%;
+    transform: translateY(4%);
+    position: relative;
+    letter-spacing: 2px
+}
+
+#section2 h2:nth-child(2) {
+    top: 25%;
+    transform: translateY(477%);
+    position: relative;
+    letter-spacing: 2px
+}
