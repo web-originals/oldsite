@@ -1,0 +1,30 @@
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    color: #000
+}
+
+#menu li a,#menu li.active a {
+    padding: 9px 18px;
+    display: block
+}
+
+#menu li.active,#menu li.active a,#menu li.active a:hover,#menu li:hover {
+    color: #fff
+}
+
+#menu li>a:hover {
+    background: 0 0;
+    border-bottom: 2px solid #fff
+}
+
+#menu {
+    position: fixed;
+    top: 3.5%;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
