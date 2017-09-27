@@ -1,25 +1,24 @@
 
- .block-menu:hover,#section4 .block-menu:hover {
-     background-color: rgba(5,5,5,0.8);
+.block-menu:hover, #section4 .block-menu:hover {
+    background-color: rgba(5, 5, 5, 0.8);
     border-radius: 15px;
-
 }
 
- .block-menu{
-     border: groove;
-     border-radius: 15px;
-     text-align: center;
-     margin-left: 10px;
- }
+.block-menu {
+    border: groove;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
 
- .block-menu-telo{
-     display: inline-block;
-     height: 150px;
-     width: 170px;
- }
+.block-menu-telo {
+    display: inline-block;
+    height: 150px;
+    width: 170px;
+}
 
 #section1 {
     background-image: url(../images/picjumbo.com_HNCK4536.jpg);
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, .3);
     overflow: hidden
 }

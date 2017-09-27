@@ -1,24 +1,5 @@
-#section3 h1 {
-    color: #000
-}
-
-#section3 {
-    background-image: url(../images/web-user-acceptance.jpg);
-    padding: 0
-}
-
-#section3 h2,#section3 p {
-    position: relative;
-    text-align: right
-}
-
-#section3 h2 {
-    letter-spacing: 2px;
-    transform: translateY(460%)
-}
-
-#section3 p {
-    transform: translateY(171%)
+#section3 h2, #section3 p {
+    color: #fff;
 }
 
 [class*=ymaps-2][class*=-ground-pane] {

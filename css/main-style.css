@@ -1,47 +1,62 @@
 @CHARSET "ISO-8859-1";
 /* Reset CSS
  * --------------------------------------- */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
-form,fieldset,input,textarea,p,blockquote,th,td {
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, textarea, p, blockquote, th, td {
     padding: 0;
     margin: 0;
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
 table {
     border-spacing: 0;
 }
-fieldset,img {
+
+fieldset, img {
     border: 0;
 }
-address,caption,cite,code,dfn,em,strong,th,var {
+
+address, caption, cite, code, dfn, em, strong, th, var {
     font-weight: normal;
     font-style: normal;
 }
-strong{
+
+strong {
     font-weight: bold;
 }
-ol,ul {
+
+ol, ul {
     list-style: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
-caption,th {
+
+caption, th {
     text-align: left;
 
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-size: 100%;
-    margin:0;
-    padding:0;
-    color:#444;
+    margin: 0;
+    padding: 0;
+    color: #444;
 }
-q:before,q:after {
-    content:'';
+
+q:before, q:after {
+    content: '';
 }
-abbr,acronym { border: 0;
+
+abbr, acronym {
+    border: 0;
 }
 
 /*!* custom styles**/
@@ -54,7 +69,7 @@ body {
     vertical-align: middle;
 }
 
-.section,.slide {
+.section, .slide {
     background-size: cover;
 }
 
@@ -65,12 +80,13 @@ body {
     left: 0;
     z-index: 999999;
 }
+
 .clear {
     clear: both;
     height: 63px;
 }
 
-.clear1,.clear2 {
+.clear1, .clear2 {
     clear: both;
     height: 65px;
 }
@@ -78,13 +94,14 @@ body {
 .clear2 {
     height: 85px;
 }
+
 /*перенести до сюда*/
 
 /*переделать на классы!!!*/
-h1:first-letter,h2:first-letter {
+h1:first-letter, h2:first-letter {
     text-transform: capitalize;
-    color: #b7192a!important;
-    font-family: 'Mon Amour One Medium',arial;
+    color: #b7192a !important;
+    font-family: 'Mon Amour One Medium', arial;
     margin-top: 4%;
     font-size: 2em;
 }
@@ -93,65 +110,19 @@ h2:first-letter {
     font-size: 1.5em;
 }
 
-.center-content{
+/*блок с всем контентом для правильного отображения хэдера и футера*/
+.center-content {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-/*------------------------*/
 
-/* разобраться где что */
-/*.grid {*/
-    /*display: grid;*/
-    /*grid-template-columns: 1fr 1fr 1fr;*/
-    /*grid-gap: 20px;*/
-    /*grid-auto-rows: minmax(100px,auto);*/
-    /*grid-auto-rows: 160px 160px 160px;*/
-    /*grid-auto-flow: row;*/
-/*}*/
+@media screen and (max-width: 911px) {
+    .center-content {
+        padding-top: 10px;
+    }
+}
 
-/*.grid {*/
-    /*width: 100%;*/
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*left: 0;*/
-/*}*/
-
-/*.grid {*/
-    /*display: -webkit-box;*/
-    /*display: -webkit-flex;*/
-    /*display: -ms-flexbox;*/
-    /*display: flex;*/
-    /*-webkit-flex-wrap: wrap;*/
-    /*-ms-flex-wrap: wrap;*/
-    /*flex-wrap: wrap;*/
-    /*-webkit-box-align: start;*/
-    /*-webkit-align-items: flex-start;*/
-    /*-ms-flex-align: start;*/
-    /*align-items: flex-start;*/
-    /*-webkit-align-content: flex-start;*/
-    /*-ms-flex-line-pack: start;*/
-    /*align-content: flex-start;*/
-    /*z-index: 0;*/
-    /*height: 100%;*/
-    /*padding: 5% 16px 16px;*/
-    /*overflow: auto;*/
-    /*background-color: #222;*/
-    /*text-align: center;*/
-    /*-webkit-transition: opacity .75s;*/
-    /*transition: opacity .75s*/
-/*}*/
-
-/*.grid .grid-item {*/
-    /*display: inline-block;*/
-    /*width: 25%;*/
-    /*padding: 16px;*/
-    /*opacity: .75;*/
-    /*-webkit-transition: opacity .5s;*/
-    /*transition: opacity .5s*/
-/*}*/
-
-/*.grid img {*/
-    /*max-width: 100%;*/
-    /*max-height: 100%;*/
-    /*box-shadow: 0 2px 8px rgba(0,0,0,.25)*/
-/*}*/
+/*скрытие иконки нужно переделать на js*/
+.ymaps-2-1-55-float-button-icon_icon_geolocation {
+    display: none
+}

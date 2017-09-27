@@ -5,10 +5,8 @@
 $(document).ready(function ($) {
     // js для вертикального скрулла
     $('#fullpage').fullpage({
-        // 'paddingTop':'80px',
-        // 'paddingBottom':'80px',
-        'recordHistory':false,
-        'animateAnchor':true,
+        'recordHistory': false,
+        'animateAnchor': true,
         'scrollOverflow': true,
         'verticalCentered': false,
         'css3': true,
@@ -21,14 +19,14 @@ $(document).ready(function ($) {
     });
 
     //начальные размеры
-    var divmap = $("#coordmap"),mobileWidth = 991;
-    divmap.width($(window).width()/($(window).width()>mobileWidth?2:1));
-    divmap.height($(window).height()/($(window).width()<mobileWidth?2:1));
+    var divmap = $("#coordmap"), mobileWidth = 991;
+    divmap.width($(window).width() / ($(window).width() > mobileWidth ? 2 : 1));
+    divmap.height($(window).height() / ($(window).width() < mobileWidth ? 2 : 1));
 
     //resize map
-    $(window).resize(function (){
-        divmap.width($(window).width()/($(window).width()>mobileWidth?2:1));
-        divmap.height($(window).height()/($(window).width()<mobileWidth?2:1));
+    $(window).resize(function () {
+        divmap.width($(window).width() / ($(window).width() > mobileWidth ? 2 : 1));
+        divmap.height($(window).height() / ($(window).width() < mobileWidth ? 2 : 1));
     });
 
     // карта в контактах
