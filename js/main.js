@@ -20,6 +20,17 @@ $(document).ready(function ($) {
         'navigationTooltips': ['О нас', 'Наши услуга', 'Адаптивный дизайн', 'Контакты']
     });
 
+    //начальные размеры
+    var $divmap = $("#coordmap");
+    $divmap.width($(window).width()/2);
+    $divmap.height($(window).height());
+
+    //resize map
+    $(window).resize(function (){
+        $divmap.width($(window).width()/2);
+        $divmap.height($(window).height());
+    });
+
     // карта в контактах
     var coordmap;
     ymaps.ready(function () {
