@@ -51,6 +51,7 @@ body {
 
 .section {
     text-align: center;
+    vertical-align: middle;
 }
 
 .section,.slide {
@@ -90,6 +91,11 @@ h1:first-letter,h2:first-letter {
 
 h2:first-letter {
     font-size: 1.5em;
+}
+
+.center-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 /*------------------------*/
 

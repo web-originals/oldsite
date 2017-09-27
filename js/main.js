@@ -21,14 +21,14 @@ $(document).ready(function ($) {
     });
 
     //начальные размеры
-    var $divmap = $("#coordmap");
-    $divmap.width($(window).width()/2);
-    $divmap.height($(window).height());
+    var divmap = $("#coordmap"),mobileWidth = 991;
+    divmap.width($(window).width()/($(window).width()>mobileWidth?2:1));
+    divmap.height($(window).height()/($(window).width()<mobileWidth?2:1));
 
     //resize map
     $(window).resize(function (){
-        $divmap.width($(window).width()/2);
-        $divmap.height($(window).height());
+        divmap.width($(window).width()/($(window).width()>mobileWidth?2:1));
+        divmap.height($(window).height()/($(window).width()<mobileWidth?2:1));
     });
 
     // карта в контактах
