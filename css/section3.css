@@ -12,7 +12,21 @@
     background-image: url(../images/web-user-acceptance.jpg);
     padding: 0 0 0 0;
 }
+
 /*на мобилке есть ненужный отступ*/
-#section3 .no-padding-left{
+#section3 .no-padding-left {
     padding-left: 0;
+}
+
+#section3 .blackout {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 999;
+    height: 100%;
+}
+
+@media screen and (min-width: 996px) {
+    #section3 {
+        text-align: right;
+    }
 }
