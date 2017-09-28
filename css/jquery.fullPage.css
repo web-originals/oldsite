@@ -165,6 +165,7 @@ html.fp-enabled,
     width: 12px;
     margin: -6px 0 0 -6px;
     border-radius: 100%;
+    background: #ff414c;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
@@ -174,7 +175,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: #2aabd2;
+    background: #9e9c97;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
@@ -188,6 +189,7 @@ html.fp-enabled,
     width: 10px;
     height: 10px;
     margin: -5px 0px 0px -5px;
+    background: #ff414c;
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
