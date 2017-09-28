@@ -7,11 +7,13 @@ form, fieldset, input, textarea, p, blockquote, th, td {
     margin: 0;
 }
 
-a {
+a, .tel, .mail {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
+    color: red;
     text-decoration: none;
 }
 
@@ -110,6 +112,16 @@ h2:first-letter {
     font-size: 1.5em;
 }
 
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
 /*блок с всем контентом для правильного отображения хэдера и футера*/
 .center-content {
     padding-top: 100px;
@@ -125,4 +137,28 @@ h2:first-letter {
 /*скрытие иконки нужно переделать на js*/
 .ymaps-2-1-55-float-button-icon_icon_geolocation {
     display: none
+}
+
+/*обводка всего текста*/
+.border-text {
+    text-shadow: -0 -1px 0 #000000,
+    0 -1px 0 #000000,
+    -0 1px 0 #000000,
+    0 1px 0 #000000,
+    -1px -0 0 #000000,
+    1px -0 0 #000000,
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+#coordmap {
+    text-shadow: none;
 }

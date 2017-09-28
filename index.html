@@ -13,15 +13,15 @@
     <link href="http://allfont.ru/allfont.css?fonts=mon-amour-one-medium" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/modal-callback.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main-style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/block-service.css"/>
     <link rel="stylesheet" type="text/css" href="css/header.css"/>
     <link rel="stylesheet" type="text/css" href="css/footer.css"/>
     <link rel="stylesheet" type="text/css" href="css/section0.css"/>
     <link rel="stylesheet" type="text/css" href="css/section1.css"/>
     <link rel="stylesheet" type="text/css" href="css/section2.css"/>
     <link rel="stylesheet" type="text/css" href="css/section3.css"/>
-    <link rel="stylesheet" type="text/css" href="css/modal-callback.css"/>
-    <link rel="stylesheet" type="text/css" href="css/main-style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/block-service.css"/>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <!--[if IE]>
     <script type="text/javascript">
@@ -78,7 +78,7 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse">
-                <ul id="menu" class="border-text">
+                <ul id="menu">
                     <li class="logotip">
                         <a class="logo hidden-md hidden-sm" href="#">Web-студия "Originals"</a>
                     </li>
@@ -94,14 +94,15 @@
     </div>
 </div>
 <div id="footer" class="border-text">
-    <div class="container-fluid">
+    <div class="container-fluid footer-menu">
         <div class="col-lg-5 col-md-5 col-xs 12 navbar-left">
             <p>Старомышастовская Садовая №211&nbsp; &nbsp; <a class="tel" href="tel:+7902475139">+7902475139</a></p>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs 12 text-center">
             <button class="modalbox backcall">Обратный звонок</button>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-6 col-xs 12"><p>Web-lily@yandex.ru</p></div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs 12"><a class="mail" href="mailto:web-lily@yandex.ru">Web-lily@yandex.ru</a>
+        </div>
         <div class="col-lg-2 col-md-2 col-sm-6 col-xs 12 text-center">
             <a class="social" href="http://facebook.com/"><i class="fa fa-facebook-official fa-2x"
                                                              aria-hidden="true"></i></a>
@@ -111,7 +112,7 @@
     </div>
 </div>
 <div id="fullpage">
-    <div class="section " id="section0">
+    <div class="section gradient-background" id="section0">
         <div class="center-content">
             <div class="text">
                 <h2>Коротко о нас </h2>
@@ -158,18 +159,16 @@
             </div>
         </div>
     </div>
-    <div class="section" id="section1">
+    <div class="section gradient-background" id="section1">
         <div class="center-content">
             <div class="slide" id="slide1">
-                <div class="head-slide-text"><h2>Наши услуги</h2></div>
-                <div class="col-lg-2 col-lg-push-2 col-md-3 col-sm-6 col-xs-12  block-menu linkblock "
-                     onclick="location.href='price-list.html'">
+                <div onclick="location.href='price-list.html'">
                     <div>
-                        <img src="images/webdev.png" class="block-menu-img" alt=""></div>
+                        <img src="images/webdev.png"></div>
                     <div class="block-menu-telo">
                         <p> Разработка сайтов</p>
 
-                        <div class="razrabotka">
+                        <div>
                             <ul>
                                 <li>Проектирование</li>
                                 <li>Дизайн сайта</li>
@@ -179,6 +178,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="slide" id="slide3">
                 <div class="col-lg-2 col-lg-push-2 col-md-3 col-sm-6 col-xs-12 height block-menu linkblock "
                      onclick="location.href='#'">
                     <div>
@@ -195,6 +196,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="slide" id="slide4">
                 <div class="col-lg-2 col-lg-push-2 col-md-3 col-sm-6 col-xs-12 block-menu linkblock "
                      onclick="location.href='#'">
                     <div>
@@ -214,10 +217,11 @@
             </div>
         </div>
     </div>
-    <div class="section" id="section2">
+    <div class="section gradient-background" id="section2">
         <div class="center-content">
             <div class="slide" id="slide2">
                 <h2>Адаптивный дизайн — удобно на любом устройстве!</h2>
+                <div class="logo-adaptiv"></div>
                 <h2>Закажите сайт прямо сейчас —<p>и мы подарим вам доменное имя .RU или .РФ и хостинг на 1
                     месяц!</p></h2>
                 <form id="contact2" name="contact">
@@ -236,7 +240,7 @@
         </div>
     </div>
     <div class="section" id="section3">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding-left">
             <div class="center-content">
                 <p>
                 <h2>Контактная
@@ -244,11 +248,11 @@
                 <p>Старомышастовская, <br> Садовая улица, 211 <br><br>
                     <a class="tel" href="tel:+79002475139">+79002475139</a><br><br>
                     <a class="tel" href="tel:+79183423603">+79183423603</a><br><br>
-                    Web-lily@yandex.ru
+                    <a class="mail" href="mailto:web-lily@yandex.ru">Web-lily@yandex.ru</a>
                 </p>
             </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding-left">
             <div id="coordmap"></div>
         </div>
     </div>

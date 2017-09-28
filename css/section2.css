@@ -11,3 +11,36 @@
     position: relative;
     letter-spacing: 2px
 }
+
+#section2 .contact{
+    position: fixed;
+    margin-bottom: 5px;
+
+}
+#slide2{
+    text-align: center;
+}
+
+.logo-adaptiv{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@media screen and (min-width: 991px){
+    .logo-adaptiv{
+        background-image: url(../images/adaptiv-dizain.jpg);
+    }
+}
+
+/*сделать также только в зависимости от разрешения изменять изображение*/
+
+/*#section2 .center-content {*/
+    /*background-image: url(../images/adaptiv-dizain.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 53% 29%;*/
+    /*background-size: 37%;*/
+/*}*/
