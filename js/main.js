@@ -11,11 +11,11 @@ $(document).ready(function ($) {
         'verticalCentered': false,
         'css3': true,
         'sectionsColor': ['#F0F2F4', '#fff', '#fff'],
-        'anchors': ['anchor1', 'anchor2', 'anchor3', 'anchor4'],
+        'anchors': ['about', 'services', 'design', 'projects', 'contacts'],
         'menu': '#menu',
         'navigation': true,
         'navigationPosition': 'right',
-        'navigationTooltips': ['О нас', 'Наши услуга', 'Адаптивный дизайн', 'Контакты']
+        'navigationTooltips': ['О нас', 'Наши услуга', 'Адаптивный дизайн', 'Наши проекты', 'Контакты']
     });
 
     //начальные размеры
