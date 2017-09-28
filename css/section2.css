@@ -26,13 +26,32 @@
     width: 400px;
     height: 300px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 
-@media screen and (min-width: 991px){
+/*большие экраны*/
+@media only screen and (min-width : 1824px) {
     .logo-adaptiv{
-        background-image: url(../images/adaptiv-dizain.jpg);
+        background-image: url(../images/adaptive-imac.png);
+    }
+}
+/*ноутбук*/
+@media only screen and (min-width : 1024px) {
+    .logo-adaptiv{
+        background-image: url(../images/adaptive-macboock.jpeg);
+    }
+}
+/*планшет*/
+@media only screen and (min-width : 480px) and (max-width : 1024px)  {
+.logo-adaptiv{
+        background-image: url(../images/adaptive-ipad.jpeg);
+    }
+}
+/*телефон*/
+@media only screen and (min-width : 320px) and (max-width : 480px){
+    .logo-adaptiv{
+        background-image: url(../images/adaptive-phone.png);
     }
 }
 

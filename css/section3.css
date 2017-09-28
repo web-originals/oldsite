@@ -25,6 +25,7 @@
     height: 100%;
 }
 
+/*выравнивание текста по правому краю*/
 @media screen and (min-width: 996px) {
     #section3 {
         text-align: right;
