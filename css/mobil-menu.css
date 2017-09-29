@@ -1,0 +1,50 @@
+#menu-modile {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .9);
+    z-index: 99999;
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    overflow: auto;
+}
+ .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+ #menu-modile li {
+     border-bottom: solid 1px red;
+     margin: 5px 0 5px 0;
+
+ }
+#menu-modile li a{
+    color: #ffffff;
+    padding: 20px 60px 20px 60px;
+    margin: 0;
+    display:block;
+    font-size: 16px;
+}
+#menu-modile li:hover{
+     border-bottom: solid 1px white;
+}
+#menu-modile ul{
+    margin-top: 40px;
+}
+#menu-modile h2 {
+    margin-top: 40px;
+}
+ .navbar-toggle {
+    border-color: #d7d6df;
+     background: rgba(232, 231, 240, 0.89);
+}
+ .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
