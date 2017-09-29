@@ -53,6 +53,15 @@ $(document).ready(function ($) {
 
     //интервала переливающегося фона
     setInterval(updateGradient, 10);
+
+    //кнопка просбы позвонить
+    $("#mobile").on("click", function () {
+        $("#menu-modile").fadeIn();
+    });
+    //кнопка скрытия модалки обратного звонка
+    $("#mobile-close").on("click", function () {
+        $("#menu-modile").fadeOut();
+    });
 });
 
 //функция открытия полного текста
