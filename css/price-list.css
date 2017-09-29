@@ -1,0 +1,14 @@
+.price-list {
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    padding: 10px 11px;
+    font-size: 1.2em;
+    border: 0;
+    border-radius: 2px;
+    background: #b7192a;
+    width: 210px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5% auto 20px
+}
