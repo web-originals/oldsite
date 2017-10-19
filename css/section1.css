@@ -8,11 +8,16 @@
     border: groove;
     border-radius: 15px;
     text-align: center;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
 }
 
 .block-menu-telo {
     display: inline-block;
-    height: 150px;
-    width: 170px;
+    /*height: 150px;*/
+    /*width: 170px;*/
 }
+li{
+    font-size: 18px;
+}
+
+
