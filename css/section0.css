@@ -1,5 +1,5 @@
 #section0 h2 {
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     color: #fff;
 }
 
@@ -9,6 +9,7 @@
 }
 
 #section0 .text span,a {
-    color: #b7192a
+    color: #000000
+
 }
 

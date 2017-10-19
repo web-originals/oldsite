@@ -24,6 +24,8 @@
     <link rel="stylesheet" type="text/css" href="css/section3.css"/>
     <link rel="stylesheet" type="text/css" href="css/mobil-menu.css"/>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="css/animate.css">-->
+
 
     <!--[if IE]>
     <script type="text/javascript">
@@ -42,8 +44,12 @@
     <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/form-callback.js"></script>
+    <!--<script src="js/wow.min.js"></script>-->
+    <!--<script>-->
+        <!--new WOW().init();-->
+    <!--</script>-->
 </head>
-<body class="border-text">
+<body >
 <div id="form-contact">
     <center>
         <div class="contact-center">
@@ -91,31 +97,49 @@
         </div>
     </center>
 </div>
+</div>
 <div id="header">
-    <div class="navbar  navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header hidden-lg hidden-md hidden-sm">
-                <button id="mobile" type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul id="menu">
-                    <li class="logotip">
-                        <a class="logo hidden-md hidden-sm" href="#">Web-студия "ORIGINALS"</a>
-                    </li>
-                    <li data-menuanchor="anchor1" class="active"><a href="#anchor1">О нас</a></li>
-                    <li><a href="projects.html">Наши проекты</a></li>
-                    <li><a href="price-list.html">Наши услуги</a></li>
-                    <li data-menuanchor="anchor2"><a href="#anchor2">Наши услуги</a></li>
-                    <li data-menuanchor="anchor4"><a href="#anchor4">Контакты</a></li>
-                    <li><a class="phone hidden-md hidden-sm" href="tel:+79002475139">+79002475139</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </div>
+
+    <a href="#openModal"><button class="cmn-toggle-switch cmn-toggle-switch__htx">
+        <span>toggle menu</span>
+    </button></a>
+
+    <div id="openModal" class="modalDialog ">
+        <div>
+            <a href="#close" title="Закрыть" class="close">X</a>
+            <li class="logo" href="#">Web-студия "ORIGINALS"</li>
+            <li data-menuanchor="anchor1" class="active"><a href="#anchor1">О нас</a></li>
+            <li><a href="projects.html">Наши проекты</a></li>
+            <li><a href="price-list.html">Наши услуги</a></li>
+            <li data-menuanchor="anchor2"><a href="#anchor2">Наши услуги</a></li>
+            <li data-menuanchor="anchor4"><a href="#anchor4">Контакты</a></li>
+            <li><a class="phone hidden-md hidden-sm" href="tel:+79002475139">+79002475139</a></li>
+</div>
+</div>
+<!--<div class="navbar  navbar-fixed-top" role="navigation">-->
+        <!--<div class="container">-->
+            <!--<div class="navbar-header hidden-lg hidden-md hidden-sm">-->
+                <!--<button id="mobile" type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--</button>-->
+            <!--</div>-->
+            <!--<div class="collapse navbar-collapse">-->
+                <!--<ul id="menu">-->
+                    <!--<li class="logotip">-->
+                        <!--<a class="logo hidden-md hidden-sm" href="#">Web-студия "ORIGINALS"</a>-->
+                    <!--</li>-->
+                    <!--<li data-menuanchor="anchor1" class="active"><a href="#anchor1">О нас</a></li>-->
+                    <!--<li><a href="projects.html">Наши проекты</a></li>-->
+                    <!--<li><a href="price-list.html">Наши услуги</a></li>-->
+                    <!--<li data-menuanchor="anchor2"><a href="#anchor2">Наши услуги</a></li>-->
+                    <!--<li data-menuanchor="anchor4"><a href="#anchor4">Контакты</a></li>-->
+                    <!--<li><a class="phone hidden-md hidden-sm" href="tel:+79002475139">+79002475139</a></li>-->
+                <!--</ul>-->
+            <!--</div>&lt;!&ndash;/.nav-collapse &ndash;&gt;-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
 <div id="footer" class="border-text">
     <div class="container-fluid footer-menu">
