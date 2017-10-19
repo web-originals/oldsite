@@ -19,18 +19,12 @@ $(document).ready(function ($) {
                 this.classList.remove("active");
                 $('#openModal').removeClass("slideInLeft");
                 $('#openModal').addClass("slideOutLeft");
-
-
             }else{
                 location.href="#openModal";
                 this.classList.add("active");
                 $('#openModal').removeClass("slideOutLeft");
                 $('#openModal').addClass("slideInLeft");
-
             }
-
-
-
         });
     }
 
