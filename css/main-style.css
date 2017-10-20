@@ -116,6 +116,11 @@ h2 {
     font-size: 20px;
     color: white;
 }
+h1{
+    font-size: 25px;
+    display: inline-block;
+    margin-top: -3%;
+}
 
 p {
     font-size: 18px;
@@ -124,7 +129,7 @@ p {
 
 /*блок с всем контентом для правильного отображения хэдера и футера*/
 .center-content {
-    padding-top: 100px;
+    padding-top: 10%;
     padding-bottom: 100px;
 }
 

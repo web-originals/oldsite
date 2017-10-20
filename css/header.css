@@ -44,10 +44,11 @@ li.logotip:before {
     margin-top: -6%
 }
 
-a.logo {
+a.logot {
+    color: white;
     width: 130%;
-    margin-top: -19%;
-    margin-left: -10%
+    margin-top: -27%;
+    margin-left: 112%
 }
 
 #header {

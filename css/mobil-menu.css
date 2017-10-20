@@ -50,11 +50,10 @@
 
 .logo {
     color: black;
-    margin-bottom: 15%;
+    margin-bottom: 20%!important;
 }
-.modalDialog > div > li:first-child{
-    margin-bottom: 15%;
-}
+
+
 .modalDialog  div  li{
     margin: 5% 0;
     letter-spacing:5px
@@ -67,15 +66,16 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 999;
+    z-index: 1000;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
-    pointer-events: none;
+    pointer-events: auto;
 }
 .modalDialog:target {
     display: block;
     pointer-events: auto;
+
 }
 
 .modalDialog > div {
@@ -83,7 +83,7 @@
     height: 100%;
     position: relative;
     margin: 0% 0%;
-    padding: 7% 4% 0 4%;
+    padding: 10% 4% 0 4%;
     left: -400px;
     background: #fff;
     /*background: -moz-linear-gradient(#fff, #999);*/
@@ -103,7 +103,7 @@
     width: 60px;
     height: 55px;
     font-size: 0;
-    z-index: 1000;
+    z-index: 1001;
     text-indent: -9999px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -126,7 +126,7 @@
     left: 12px;
     right: 12px;
     height: 4px;
-    background: white;
+    background: #000000;
 }
 
 .cmn-toggle-switch span::before,
@@ -136,7 +136,7 @@
     left: 0;
     width: 100%;
     height: 4px;
-    background-color: #fff;
+    background-color: #000000;
     content: "";
 }
 
@@ -154,7 +154,7 @@
  * down to center and transform into an "x".
  */
 .cmn-toggle-switch__htx {
-    background-color: #ff3264;
+    background-color: #ffffff;
 }
 
 .cmn-toggle-switch__htx span {
@@ -182,7 +182,7 @@
 
 /* active state, i.e. menu open */
 .cmn-toggle-switch__htx.active {
-    background-color: #cb0032;
+    background-color: #d7d6df;
 }
 
 .cmn-toggle-switch__htx.active span {
