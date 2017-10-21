@@ -52,6 +52,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     color: #444;
 }
+.effect .caption h4{
+    color: #cc1919;
+}
 
 q:before, q:after {
     content: '';
@@ -100,13 +103,14 @@ body {
 /*перенести до сюда*/
 
 /*переделать на классы!!!*/
-h1:first-letter, h2:first-letter {
+h1:first-letter,  h2:first-letter {
     text-transform: capitalize;
     color: #b7192a !important;
     font-family: 'Mon Amour One Medium', arial;
     margin-top: 4%;
     font-size: 2em;
 }
+
 
 h2:first-letter {
     font-size: 1.5em;

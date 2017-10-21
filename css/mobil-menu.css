@@ -19,6 +19,7 @@
     font-size: 36px;
     margin-left: 50px;
 }
+
  #menu-modile li {
      border-bottom: solid 1px red;
      margin: 5px 0 5px 0;
@@ -52,10 +53,18 @@
     color: black;
     margin-bottom: 20%!important;
 }
-
+.logo:before{
+    content: url(../images/cvb.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 24%;
+    padding-right: 28%;
+    margin-top: -36%;
+}
 
 .modalDialog  div  li{
-    margin: 5% 0;
+    margin: 1% 0;
+    padding: 4% 0;
     letter-spacing:5px
 }
 
@@ -70,12 +79,16 @@
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
-    pointer-events: auto;
+    pointer-events: none;
 }
 .modalDialog:target {
     display: block;
     pointer-events: auto;
 
+}
+.modalDialog:hover {
+    display: block;
+    pointer-events: auto;
 }
 
 .modalDialog > div {
@@ -287,4 +300,13 @@
 .animated.hinge {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
+}
+li a {
+
+    padding: 3% 3%;
+}
+li a:focus{
+    color: #b7192a;
+    text-decoration: none;
+    border-bottom: 2px solid #b7192a;
 }

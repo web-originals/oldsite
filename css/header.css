@@ -35,21 +35,22 @@
     color: #fff
 }
 
-li.logotip:before {
+.logotip:before {
     content: url(../images/lili2.png);
     display: inline-block;
     vertical-align: middle;
-    font-style: normal;
-    margin-left: -113%;
-    margin-top: -6%
+    margin-left: -17%;
+    padding-right: 17%;
+    margin-top: -3%;
+
 }
 
-a.logot {
-    color: white;
-    width: 130%;
-    margin-top: -27%;
-    margin-left: 112%
-}
+/*a.logot {*/
+    /*color: white;*/
+    /*width: 130%;*/
+    /*margin-top: -27%;*/
+    /*margin-left: 112%*/
+/*}*/
 
 #header {
     top: 3%
