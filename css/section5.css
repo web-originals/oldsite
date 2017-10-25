@@ -1,4 +1,4 @@
-#section3 h2, #section3 p {
+#section5 h2, #section5 p {
     color: #fff;
 }
 
@@ -8,17 +8,17 @@
     -webkit-filter: grayscale(100%)
 }
 
-#section3 {
+#section5 {
     background-image: url(../images/web-user-acceptance.jpg);
     padding: 0 0 0 0;
 }
 
 /*на мобилке есть ненужный отступ*/
-#section3 .no-padding-left {
+#section5 .no-padding-left {
     padding-left: 0;
 }
 
-#section3 .blackout {
+#section5 .blackout {
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 999;
@@ -27,14 +27,14 @@
 
 /*выравнивание текста по правому краю*/
 @media screen and (min-width: 996px) {
-    #section3 {
+    #section5 {
         text-align: right;
     }
 }
-#section3 .center-content{
-    padding-top: 9%;
+#section5 .center-content{
+    padding-top: 30%;
 }
-#section3 h1{
+#section5 h1{
     font-size: 30px;
     margin-bottom: 3%;
     text-shadow: -0 -1px 0 #000000,

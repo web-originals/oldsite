@@ -78,20 +78,35 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
-
+    /*position: relative;*/
     margin-left: 20px;
     left: 15px;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
-    background-image: url("../images/left.png");
-    /*background-position: 100% 100%;*/
-}
+    border-width: 41px 84px 40px 0;
+    border-color: transparent transparent transparent transparent;
+    background-image: url("../images/arrov_next.svg");
+    background-position: 0% 50%;
+    background-size: 73px;
+    background-repeat: no-repeat;
+
+    }
 .fp-controlArrow.fp-next {
     margin-right: 20px;
     right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-width: 38px 89px 43px 0;
+    border-color: transparent transparent transparent transparent;
+    background-image: url("../images/arrov_prev.svg");
+    background-position: -15% 52%;
+    background-size: 73px;
+    background-repeat: no-repeat;
+}
+.fp-next{
+    display: inline-block;
+    position: absolute;
+    z-index: 1000;
+    background-image: url("../images/arrov.svg");
+    margin-right: 100px;
+    right: 15px;
 }
 .fp-scrollable {
     overflow: hidden;
@@ -112,7 +127,7 @@ html.fp-enabled,
     z-index: 100;
     margin-top: -32px;
     top: 50%;
-    opacity: 1;
+    opacity: 0;
     -webkit-transform: translate3d(0,0,0);
 }
 #fp-nav.right {

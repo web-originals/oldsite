@@ -40,3 +40,26 @@
     font-family: FontAwesome;
     width: 1.4em
 }
+#section4 h1{
+    font-size: 30px;
+    margin-bottom: 3%;
+    text-shadow: -0 -1px 0 #000000,
+    0 -1px 0 #000000,
+    -0 1px 0 #000000,
+    0 1px 0 #000000,
+    -1px -0 0 #000000,
+    1px -0 0 #000000,
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+#section4{
+    background-color:#222;
+}

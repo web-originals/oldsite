@@ -11,7 +11,7 @@
 #section0 .text span,a {
     color: #000000
 }
- h2{
+#section0 h2{
      margin-bottom: 4%;
  }
  h1{
@@ -19,4 +19,9 @@
  }
 #section0 .center-content{
     padding-top: 14%;
+}
+#section0 h1{
+    font-size: 30px;
+    margin-bottom: 3%;
+
 }

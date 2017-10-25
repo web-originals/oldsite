@@ -17,9 +17,45 @@
     /*height: 150px;*/
     /*width: 170px;*/
 }
-li{
+
+li {
     font-size: 18px;
 }
-#section1 .center-content{
-    padding-top: 13%;
+
+#section1 .center-content {
+    padding-top: 10%;
+}
+
+#section1 li:last-child:after {
+    content: "\20BD";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+#section1 li:last-child{
+    color: #b7192a;
+
+}
+#section1 li:before {
+    content: "⚜";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    color: white;
+    margin-right: 1%;
+    margin-top: -1%;
+}
+#section1 li:last-child:before{
+    content: none;
+}
+#section1 .img{
+    margin-top: 10%;
+}
+#section1 h1{
+    font-size: 30px;
+    margin-bottom: 3%;
+
+}
+#section1 #slide1 .container{
+    padding-top: 7%;
 }

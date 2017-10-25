@@ -39,7 +39,8 @@
 /*ноутбук*/
 @media only screen and (min-width : 1024px) {
     .logo-adaptiv{
-        background-image: url(../images/adaptive-macboock.jpeg);
+        background-image: url(../images/adaptiv-dizain.jpg);
+        width: 26%;
     }
 }
 /*планшет*/
@@ -89,6 +90,58 @@
 #contact2 .pull-left{
     width: 200px;
     margin-right: 10px;
+}
+#section2 h1{
+    font-size: 30px;
+    margin-bottom: 3%;
+    text-shadow: -0 -1px 0 #000000,
+    0 -1px 0 #000000,
+    -0 1px 0 #000000,
+    0 1px 0 #000000,
+    -1px -0 0 #000000,
+    1px -0 0 #000000,
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+#section2 li:before {
+    content: "⚜";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    color: white;
+    margin-right: 1%;
+    margin-top: -1%;
+}
+#section2 li:nth-child(13),
+#section2 li:nth-child(14),
+#section2 li:nth-child(13):before,
+#section2 li:nth-child(14):before{
+    color: #b7192a;
+    text-shadow: -0 -1px 0 #000000,
+    0 -1px 0 #000000,
+    -0 1px 0 #000000,
+    0 1px 0 #000000,
+    -1px -0 0 #000000,
+    1px -0 0 #000000,
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+    content: none;
 }
 
 /*сделать также только в зависимости от разрешения изменять изображение*/

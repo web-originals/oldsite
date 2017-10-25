@@ -117,14 +117,10 @@ h2:first-letter {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 24px;
     color: white;
 }
-h1{
-    font-size: 25px;
-    display: inline-block;
-    margin-top: -3%;
-}
+
 
 p {
     font-size: 18px;
@@ -170,4 +166,10 @@ p {
 
 #coordmap {
     text-shadow: none;
+}
+p{
+    text-indent: 1.5em;
+}
+li{
+    color: white;
 }

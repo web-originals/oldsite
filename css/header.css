@@ -35,14 +35,13 @@
     color: #fff
 }
 
-.logotip:before {
+#header h3:before {
     content: url(../images/lili2.png);
     display: inline-block;
     vertical-align: middle;
-    margin-left: -17%;
-    padding-right: 17%;
-    margin-top: -3%;
-
+    margin-left: -154%;
+    padding-right: 120%;
+    margin-top: -14%;
 }
 
 /*a.logot {*/
@@ -65,4 +64,15 @@
     text-align: center;
     color: #f2f2f2;
     padding: 20px 0 0;
+}
+#header  .logotip{
+    font-size: 25px;
+    display: inline-block;
+    margin-top: -3%;
+    font-family: 'Mon Amour One Medium', arial;
+}
+#header h3  {
+    display: inline-block;
+    font-size: 25px;
+    color: #ffffff;
 }
