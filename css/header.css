@@ -35,13 +35,13 @@
     color: #fff
 }
 
-#header h3:before {
+#header h1:before {
     content: url(../images/lili2.png);
     display: inline-block;
     vertical-align: middle;
-    margin-left: -154%;
-    padding-right: 120%;
-    margin-top: -14%;
+    margin-left: -21%;
+    padding-right: 18%;
+    margin-top: -5%;
 }
 
 /*a.logot {*/
@@ -69,7 +69,7 @@
     font-size: 25px;
     display: inline-block;
     margin-top: -3%;
-    font-family: 'Mon Amour One Medium', arial;
+
 }
 #header h3  {
     display: inline-block;

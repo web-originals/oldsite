@@ -1,109 +1,184 @@
+@media only screen and (max-width: 1920px) {
+    .opisanie_visible {
+        visibility: hidden;
+    }
+}
 
-@media only screen and (max-width: 1920px){
-.opisanie_visible{
-    visibility:hidden;
-}
-}
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 1366px) {
     #header {
         padding: 5px 0 0;
     }
+
     #header .logotip {
         margin-top: -4%;
         position: absolute;
         margin-left: -13%;
     }
+
     #header h3 {
         position: absolute;
         margin-top: -1%;
     }
+
     #header h3:before {
         margin-left: -122%;
         padding-right: 55%;
         margin-top: -7%;
     }
+
     #header {
         top: 4%;
     }
+
     p {
         font-size: 17px;
         color: white;
     }
+
     #section0 h1 {
         font-size: 26px;
 
     }
+
     #section0 .center-content {
         padding-top: 10%;
     }
+
     .center-content {
         padding-top: 10%;
         padding-bottom: 100px;
     }
+
     #section1 h1 {
         font-size: 26px;
     }
-    #section1 .center-content{
+
+    #section1 .center-content {
         padding-top: 6%;
     }
+
     #section1 .img {
         margin-top: 3%;
         width: 95%;
     }
-    #slide1 .container{
+
+    #slide1 .container {
         padding-top: 7%;
     }
-    #section1 #slide2 h2{
-        margin-bottom: 5%;
-    }
-    #section1 #slide3 h2{
-        margin-bottom: 5%;
-    }
-    #section1 #slide4 h2{
-        margin-bottom: 5%;
-    }
-    #section1 #slide5 git add .h2{
+
+    #section1 #slide2 h2 {
         margin-bottom: 5%;
     }
 
-    .block-menu-img{
+    #section1 #slide3 h2 {
+        margin-bottom: 5%;
+    }
+
+    #section1 #slide4 h2 {
+        margin-bottom: 5%;
+    }
+
+    #section1 #slide5 .h2 {
+        margin-bottom: 5%;
+    }
+
+    .block-menu-img {
         width: 118%;
     }
+
     #section3 h1 {
         font-size: 26px;
     }
+
     .logo-adaptiv {
         height: 224px;
     }
+
     #section3 .center-content {
         padding-top: 6%;
     }
+
     #section4 h1 {
         font-size: 26px;
     }
+
     .grid .grid-item {
         width: 26%;
     }
+
     #section5 h1 {
         font-size: 26px;
     }
+
     #section2 .center-content {
         padding-top: 6%;
         padding-bottom: 82px;
     }
+
     #section4 .center-content {
         padding-top: 6%;
         padding-bottom: 100px;
     }
+
     #section5 .center-content {
         padding-top: 26%;
     }
-.opisanie{
-    visibility:hidden;
-}
-    .opisanie_visible{
-       visibility: visible;
+
+    .opisanie {
+        visibility: hidden;
+    }
+
+    .opisanie_visible {
+        visibility: visible;
     }
 
 }
 
+@media only screen and (max-width: 1280px) {
+    #section1 #slide1 .container {
+        padding: 9% 5% 0 5%;
+    }
+
+    #section1 .center-content {
+        padding-top: 14%;
+    }
+
+    #header .logotip {
+        margin-top: -2%;
+    }
+
+    #section0 .center-content {
+        padding-top: 18%;
+    }
+
+    #section2 .center-content {
+        padding-top: 9%;
+        padding-bottom: 10%;
+    }
+
+    #section3 .center-content {
+        padding-top: 12%;
+    }
+
+    .logo-adaptiv {
+        height: 300px;
+    }
+
+    .grid .grid-item {
+        width: 30%;
+    }
+    #section4 .center-content {
+        padding-top: 10%;
+    }
+    #section5 .center-content {
+        padding-top: 44%;
+    }
+    .fp-controlArrow.fp-prev {
+        border-width: 27px 54px 27px 0;
+        background-size: 54px;
+    }
+    .fp-controlArrow.fp-next {
+        border-width: 28px 64px 28px 0;
+        background-size: 54px;
+    }
+}
