@@ -43,7 +43,12 @@
     padding-right: 18%;
     margin-top: -5%;
 }
-
+#header h3 a {
+    color: #ffffff;
+}
+#header h3  {
+    margin-right: 3%;
+}
 /*a.logot {*/
     /*color: white;*/
     /*width: 130%;*/
@@ -69,7 +74,7 @@
     font-size: 25px;
     display: inline-block;
     margin-top: -3%;
-
+    margin-left: 15%;
 }
 #header h3  {
     display: inline-block;

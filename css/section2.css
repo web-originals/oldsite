@@ -21,40 +21,7 @@
     text-align: center;
 }
 
-.logo-adaptiv{
-    display: inline-block;
-    width: 400px;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-}
 
-/*большие экраны*/
-@media only screen and (min-width : 1824px) {
-    .logo-adaptiv{
-        background-image: url(../images/adaptive-imac.png);
-    }
-}
-/*ноутбук*/
-@media only screen and (max-width : 1280px) {
-    .logo-adaptiv{
-        background-image: url(../images/adaptiv-dizain.jpg);
-        width: 37%;
-    }
-}
-/*планшет*/
-@media only screen and (min-width : 480px) and (max-width : 1024px)  {
-.logo-adaptiv{
-        background-image: url(../images/adaptive-ipad.jpeg);
-    }
-}
-/*телефон*/
-@media only screen and (min-width : 320px) and (max-width : 480px){
-    .logo-adaptiv{
-        background-image: url(../images/adaptive-phone.png);
-    }
-}
 
 #send2 {
     color: #FFFFFF;
@@ -124,3 +91,6 @@
     /*background-position: 53% 29%;*/
     /*background-size: 37%;*/
 /*}*/
+.block-menu-img{
+    width: 120%;
+}

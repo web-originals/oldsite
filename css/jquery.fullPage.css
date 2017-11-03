@@ -127,11 +127,29 @@ html.fp-enabled,
     z-index: 100;
     margin-top: -32px;
     top: 50%;
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: translate3d(0,0,0);
 }
+#fp-nav{
+    text-shadow: -0 -1px 0 #000000,
+    0 -1px 0 #000000,
+    -0 1px 0 #000000,
+    0 1px 0 #000000,
+    -1px -0 0 #000000,
+    1px -0 0 #000000,
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
 #fp-nav.right {
-    right: 17px;
+    right: 8.5px;
 }
 #fp-nav.left {
     left: 17px;
@@ -146,7 +164,7 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-slidesNav.bottom {
-    bottom: 17px;
+    bottom: 90px;
 }
 .fp-slidesNav.top {
     top: 17px;

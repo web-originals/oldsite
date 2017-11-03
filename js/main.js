@@ -36,11 +36,11 @@ $(document).ready(function ($) {
         'verticalCentered': false,
         'css3': true,
         'sectionsColor': ['#F0F2F4', '#fff', '#fff'],
-        'anchors': ['about_us', 'services','promotion', 'design', 'projects', 'contacts'],
+        'anchors': [ 'services','promotion', 'design','about_us', 'projects', 'contacts'],
         'menu': '#menu',
         'navigation': true,
         'navigationPosition': 'right',
-        'navigationTooltips': ['О нас', 'Наши услуга','Продвижение', 'Адаптивный дизайн', 'Наши проекты', 'Контакты']
+        'navigationTooltips': [ 'Наши услуга','Продвижение', 'Адаптивный дизайн','О нас', 'Наши проекты', 'Контакты']
     });
 
     //начальные размеры

@@ -26,17 +26,20 @@ li {
     padding-top: 10%;
 }
 
-#section1 li:last-child:after {
+#section1 .opisanie li:last-child:after,
+#section1 .opisanie_visible li:last-child:after {
     content: "\20BD";
     display: inline-block;
     vertical-align: middle;
     margin-left: 1%;
 }
-#section1 li:last-child{
+#section1 .opisanie li:last-child,
+#section1 .opisanie_visible li:last-child{
     color: #b7192a;
 
 }
-#section1 li:before {
+#section1 .opisanie li:before,
+#section1 .opisanie_visible li:before{
     content: "⚜";
     display: inline-block;
     vertical-align: middle;
@@ -45,7 +48,8 @@ li {
     margin-right: 1%;
     margin-top: -1%;
 }
-#section1 li:last-child:before{
+#section1 .opisanie li:last-child:before,
+#section1 .opisanie_visible li:last-child:before{
     content: none;
 }
 #section1 .img{

@@ -118,7 +118,7 @@
             navigationPosition: 'right',
             navigationTooltips: [],
             showActiveTooltip: false,
-            slidesNavigation: false,
+            slidesNavigation: true,
             slidesNavPosition: 'bottom',
             scrollBar: false,
             hybrid: false,
@@ -147,8 +147,8 @@
             scrollOverflowReset: false,
             scrollOverflowHandler: iscrollHandler,
             scrollOverflowOptions: null,
-            touchSensitivity: 5,
-            normalScrollElementTouchThreshold: 5,
+            touchSensitivity: 1,
+            normalScrollElementTouchThreshold: 1,
             bigSectionsDestination: null,
 
             //Accessibility

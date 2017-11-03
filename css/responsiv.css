@@ -181,4 +181,7 @@
         border-width: 28px 64px 28px 0;
         background-size: 54px;
     }
+    .modalDialog > div{
+        padding: 16% 4% 0 4%;
+    }
 }
