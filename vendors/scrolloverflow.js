@@ -1202,7 +1202,7 @@ IScroll.prototype = {
         //когда достигли конца прокрутки следует включить прокрутку на следующий слайд
         if(tempscrool == newY){
             if(tempwheel == 0) tempwheel =  that.wheelTimeout;
-            if(tempwheel + 5 < that.wheelTimeout){
+            if(tempwheel + 2 < that.wheelTimeout){
                 $.fn.fullpage.setAllowScrolling(true);
             }
         }else{

@@ -147,8 +147,8 @@
             scrollOverflowReset: false,
             scrollOverflowHandler: iscrollHandler,
             scrollOverflowOptions: null,
-            touchSensitivity: 1,
-            normalScrollElementTouchThreshold: 1,
+            touchSensitivity: 5,
+            normalScrollElementTouchThreshold: 5,
             bigSectionsDestination: null,
 
             //Accessibility

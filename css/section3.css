@@ -129,10 +129,10 @@
     width: 25%;
 }
 .logo-adaptivIppleIphon{
-    background-image: url(../images/adaptive-phone2.png);
+    background-image: url(../images/adaptive-phone.png);
     width: 18.5%;
     position: relative;
-    z-index: 12000;
+
 }
 
 #section3 #slide4.logo-adaptivMacbook{
@@ -188,14 +188,14 @@
 #section3 #slide6 .layer {
     overflow: auto;
     width: 4%;
-    height: 86.7%;
+    height: 75.3%;
     padding: 5px;
     position: absolute;
     z-index: 10000;
-    margin-left: 8.3%;
-    margin-top: 0.2%;
+    margin-left: 8.2%;
+    margin-top: 0.6%;
     cursor: pointer;
-    border-radius: 8%;
+
 }
 
 
