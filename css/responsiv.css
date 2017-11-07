@@ -10,14 +10,19 @@
     }
 
     #header .logotip {
-        margin-top: -4%;
+        margin-top: 0%;
         position: absolute;
-        margin-left: -13%;
+        margin-left: 0%;
     }
-
+    #header h1:before {
+        margin-top: -4%;
+    }
+    .cmn-toggle-switch {
+        margin: 0% 0%;
+    }
     #header h3 {
-        position: absolute;
-        margin-top: -1%;
+        position: relative;
+        margin-top: 0%;
     }
 
     #header h3:before {
@@ -90,8 +95,14 @@
         font-size: 26px;
     }
 
-    .logo-adaptiv {
-        height: 224px;
+    /*#section3 #slide3.logo-adaptiv {*/
+        /*height: 310px;*/
+    /*}*/
+    #section3 #slide4.logo-adaptiv {
+        height: 359px;
+    }
+    #section3 #slide5.logo-adaptiv {
+        height: 422px;
     }
 
     #section3 .center-content {
@@ -130,6 +141,55 @@
 
     .opisanie_visible {
         visibility: visible;
+    }
+    #section3 #slide2 .container-fluid .motivation {
+        padding-top: 4%;
+        margin-left: 3%;
+    }
+    #contact2 .pull-left {
+        width: 165px;
+        margin-right: 10px;
+    }
+    #section3 #slide3 .layer {
+        width: 50.2%;
+        height: 43%;
+        margin-left: 28.8%;
+        margin-top: 1.2%;
+    }
+    #section3 #slide4 .layer {
+        width: 9.3%;
+        height: 48%;
+        margin-left: 6.1%;
+        margin-top: 0.3%;
+    }
+    #section3 #slide5 .layer {
+        width: 5.37%;
+        height: 58.2%;
+        margin-left: 7.025%;
+        margin-top: 0.45%;
+    }
+    #section3 #slide6 .layer {
+        width: 3.7%;
+        height: 52.3%;
+        margin-left: 8.3%;
+        margin-top: 0.6%;
+    }
+    .logo-adaptivFirst {
+        background-image: url(../images/adaptiv-dizain.png);
+        width: 87%;
+    }
+    .modalDialog > div {
+        width: 307px;
+    }
+    .logo-adaptivIppleIpad {
+        width: 400px;
+        height: 436px;
+    }
+    .logo-adaptivIppleIphon {
+        width: 16.5%;
+    }
+    .logo-adaptivIppleIphon {
+        height: 437px;
     }
 
 }
