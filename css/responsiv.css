@@ -318,6 +318,7 @@
         height: 621px;
         width: 25.5%;
     }
+
     #section3 #slide6 .layer {
         width: 5.45%;
         height: 67.3%;
@@ -325,10 +326,40 @@
         margin-top: 1%;
     }
 }
-
 @media only screen and (max-width: 360px) {
     .modalDialog > div {
-        width: 807px;
+        width: 757px;
     }
 
+    p {
+        font-size: 18px;
+    }
+    .block-menu-img{
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    #section1 .img{
+        width: 82%;
+    }
+   #section1 .container-fluid{
+       margin-top: 17%;
+    }
+    .modalDialog div li {
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 31px;
+    }
+    .logo:before {
+        content: url(../images/cvb.png);
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 37%;
+        padding-right: 40%;
+        margin-top: -21%;
+    }
+    .modalDialog > div {
+        padding: 36% 4% 0 4%;
+    }
 }
+
