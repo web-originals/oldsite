@@ -11,8 +11,9 @@
 
     #header .logotip {
         margin-top: 0%;
-        position: absolute;
+        position: relative;
         margin-left: 0%;
+        float: right;
     }
 
     #header h1:before {
