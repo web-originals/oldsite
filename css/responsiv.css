@@ -11,15 +11,19 @@
 
     #header .logotip {
         margin-top: 0%;
-        position: absolute;
+        position: relative;
         margin-left: 0%;
+        float: right;
     }
+
     #header h1:before {
         margin-top: -4%;
     }
+
     .cmn-toggle-switch {
         margin: 0% 0%;
     }
+
     #header h3 {
         position: relative;
         margin-top: 0%;
@@ -96,11 +100,12 @@
     }
 
     /*#section3 #slide3.logo-adaptiv {*/
-        /*height: 310px;*/
+    /*height: 310px;*/
     /*}*/
     #section3 #slide4.logo-adaptiv {
         height: 359px;
     }
+
     #section3 #slide5.logo-adaptiv {
         height: 422px;
     }
@@ -142,52 +147,63 @@
     .opisanie_visible {
         visibility: visible;
     }
+
     #section3 #slide2 .container-fluid .motivation {
         padding-top: 4%;
         margin-left: 3%;
     }
+
     #contact2 .pull-left {
         width: 165px;
         margin-right: 10px;
     }
+
     #section3 #slide3 .layer {
         width: 50.2%;
         height: 43%;
         margin-left: 28.8%;
         margin-top: 1.2%;
     }
+
     #section3 #slide4 .layer {
         width: 9.3%;
         height: 48%;
         margin-left: 6.1%;
         margin-top: 0.3%;
     }
+
     #section3 #slide5 .layer {
         width: 5.37%;
         height: 58.2%;
         margin-left: 7.025%;
         margin-top: 0.45%;
     }
+
     #section3 #slide6 .layer {
         width: 3.7%;
         height: 52.3%;
         margin-left: 8.3%;
         margin-top: 0.6%;
     }
+
     .logo-adaptivFirst {
         background-image: url(../images/adaptiv-dizain.png);
         width: 87%;
     }
+
     .modalDialog > div {
         width: 307px;
     }
+
     .logo-adaptivIppleIpad {
         width: 400px;
         height: 436px;
     }
+
     .logo-adaptivIppleIphon {
         width: 16.5%;
     }
+
     .logo-adaptivIppleIphon {
         height: 437px;
     }
@@ -221,27 +237,130 @@
     }
 
     .logo-adaptiv {
-        height: 300px;
+        height: 306px;
     }
 
     .grid .grid-item {
         width: 30%;
     }
+
     #section4 .center-content {
         padding-top: 10%;
     }
+
     #section5 .center-content {
         padding-top: 44%;
     }
+
     .fp-controlArrow.fp-prev {
         border-width: 27px 54px 27px 0;
         background-size: 54px;
     }
+
     .fp-controlArrow.fp-next {
         border-width: 28px 64px 28px 0;
         background-size: 54px;
     }
-    .modalDialog > div{
+
+    .modalDialog > div {
         padding: 16% 4% 0 4%;
     }
+
+    .logo-adaptivFirst {
+        background-image: url(../images/adaptiv-dizain.png);
+        width: 93%;
+    }
+
+    #contact2 .pull-left {
+        width: 150px;
+    }
+
+    #section3 #slide2 .container-fluid {
+        padding-top: 10%;
+    }
+
+    #section3 #slide3 .logo-adaptiv {
+        height: 718px;
+        width: 58%;
+    }
+
+    #section3 #slide3 .layer {
+        width: 13.2%;
+        height: 52%;
+        margin-left: 4.5%;
+        margin-top: 0.4%;
+    }
+
+    .logo-adaptivIppleMacbook {
+        width: 70%;
+        height: 560px;
+    }
+
+    #section3 #slide4 .layer {
+        width: 13%;
+        height: 58%;
+        margin-left: 4.55%;
+        margin-top: 0.4%;
+    }
+
+    .logo-adaptivIppleIpad {
+        width: 36%;
+        height: 614px;
+    }
+
+    #section3 #slide5 .layer {
+        width: 7.98%;
+        height: 73.2%;
+        margin-left: 6.52%;
+        margin-top: 0.65%;
+    }
+
+    .logo-adaptivIppleIphon {
+        height: 621px;
+        width: 25.5%;
+    }
+
+    #section3 #slide6 .layer {
+        width: 5.45%;
+        height: 67.3%;
+        margin-left: 7.55%;
+        margin-top: 1%;
+    }
 }
+@media only screen and (max-width: 360px) {
+    .modalDialog > div {
+        width: 757px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    .block-menu-img{
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    #section1 .img{
+        width: 82%;
+    }
+   #section1 .container-fluid{
+       margin-top: 17%;
+    }
+    .modalDialog div li {
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 31px;
+    }
+    .logo:before {
+        content: url(../images/cvb.png);
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 37%;
+        padding-right: 40%;
+        margin-top: -21%;
+    }
+    .modalDialog > div {
+        padding: 36% 4% 0 4%;
+    }
+}
+

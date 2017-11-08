@@ -11,6 +11,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: Mon Amour One Medium; /* Гарнитура шрифта */
+  src: url(../fonts/mon-amour-one-medium.ttf); /* Путь к файлу со шрифтом */
+}
+
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
