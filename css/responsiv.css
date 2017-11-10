@@ -74,6 +74,9 @@
     #slide1 .container {
         padding-top: 7%;
     }
+    #section1 #slide1 .container{
+        padding-top: 0;
+    }
 
     #section1 #slide2 h2 {
         margin-bottom: 5%;
@@ -207,12 +210,35 @@
     .logo-adaptivIppleIphon {
         height: 437px;
     }
-
+    #section1 .opisanie li:last-child,
+    #section1 .opisanie_visible li:last-child {
+        color: white;
+        font-size: 27px;
+        background: #b7192a;
+        text-align: center;
+        border-radius:15px ;
+        margin-top: 5%;
+        padding: 1% 5%;
+        width: 78%;
+    }
+    .price {
+        height: 220px;
+        margin-top: 1%;
+    }
+    .price h2{
+        font-size: 20px;
+    }
+    .fp-slidesNav.bottom{
+        bottom: 70px;
+    }
+    .price_up{
+        margin-top: -3%;
+    }
 }
 
 @media only screen and (max-width: 1280px) {
     #section1 #slide1 .container {
-        padding: 9% 5% 0 5%;
+        padding: 1% 5% 0 5%;
     }
 
     #section1 .center-content {
@@ -326,41 +352,20 @@
         margin-left: 7.55%;
         margin-top: 1%;
     }
-}
-@media only screen and (max-width: 360px) {
-    .modalDialog > div {
-        width: 757px;
+    .price {
+        height: 210px;
+        margin-top: 5%;
+    }
+    #section1 .opisanie li:last-child,
+    #section1 .opisanie_visible li:last-child {
+        color: white;
+        font-size: 27px;
+        background: #b7192a;
+        text-align: center;
+        border-radius:15px ;
+        margin-top: 10%;
+        padding: 1% 5%;
+        width: 78%;
     }
 
-    p {
-        font-size: 18px;
-    }
-    .block-menu-img{
-        width: 85%;
-        margin-bottom: 5%;
-    }
-    #section1 .img{
-        width: 82%;
-    }
-   #section1 .container-fluid{
-       margin-top: 17%;
-    }
-    .modalDialog div li {
-        margin: 1% 0;
-        padding: 4% 0;
-        letter-spacing: 5px;
-        font-size: 31px;
-    }
-    .logo:before {
-        content: url(../images/cvb.png);
-        display: inline-block;
-        vertical-align: middle;
-        margin-left: 37%;
-        padding-right: 40%;
-        margin-top: -21%;
-    }
-    .modalDialog > div {
-        padding: 36% 4% 0 4%;
-    }
 }
-

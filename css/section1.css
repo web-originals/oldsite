@@ -33,13 +33,21 @@ li {
     vertical-align: middle;
     margin-left: 1%;
 }
-#section1 .opisanie li:last-child,
-#section1 .opisanie_visible li:last-child{
-    color: #b7192a;
 
+#section1 .opisanie li:last-child,
+#section1 .opisanie_visible li:last-child {
+    color: white;
+    font-size: 27px;
+    background: #b7192a;
+    text-align: center;
+    border-radius:15px ;
+    margin-top: 3%;
+    padding: 1% 0;
+    width: 27%;
 }
+
 #section1 .opisanie li:before,
-#section1 .opisanie_visible li:before{
+#section1 .opisanie_visible li:before {
     content: "⚜";
     display: inline-block;
     vertical-align: middle;
@@ -48,18 +56,41 @@ li {
     margin-right: 1%;
     margin-top: -1%;
 }
+
 #section1 .opisanie li:last-child:before,
-#section1 .opisanie_visible li:last-child:before{
+#section1 .opisanie_visible li:last-child:before {
     content: none;
 }
-#section1 .img{
+
+#section1 .img {
     margin-top: 10%;
 }
-#section1 h1{
+
+#section1 h1 {
     font-size: 30px;
     margin-bottom: 3%;
 
 }
-#section1 #slide1 .container{
-    padding-top: 7%;
+
+#section1 #slide1 .container {
+    padding-top: 3%;
+}
+
+.linkblock {
+    cursor: pointer;
+}
+
+.more_info h2 {
+    margin-bottom: 3%;
+    font-size: 23px;
+}
+
+.price {
+    height: 195px;
+    margin-top: 5%;
+}
+
+.price:hover {
+    background: gray;
+    border-radius: 15px;
 }

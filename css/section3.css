@@ -201,7 +201,7 @@
 
 /* Scrollbar styles */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 13px;
 }
 
 ::-webkit-scrollbar-track {
