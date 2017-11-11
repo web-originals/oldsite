@@ -1,0 +1,22 @@
+.block-menu {
+    padding: 1% 15px;
+}
+
+.block-menu-telo {
+    background: 0 0;
+    color: #fff;
+    text-align: center;
+    padding: 4% 0;
+    position: relative
+}
+
+.linkblock,label[for] {
+    cursor: pointer;
+}
+
+.poddershks,.prodvishenie,.razrabotka {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-position: -13% 35%;
+    background-size: 137%;
+}

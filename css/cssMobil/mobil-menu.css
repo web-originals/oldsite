@@ -1,0 +1,364 @@
+#menu-modile {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .9);
+    z-index: 99999;
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    overflow: auto;
+}
+ .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+ #menu-modile li {
+     border-bottom: solid 1px red;
+     margin: 5px 0 5px 0;
+
+ }
+#menu-modile li a{
+    color: #ffffff;
+    padding: 20px 60px 20px 60px;
+    margin: 0;
+    display:block;
+    font-size: 16px;
+}
+#menu-modile li:hover{
+     border-bottom: solid 1px white;
+}
+#menu-modile ul{
+    margin-top: 40px;
+}
+#menu-modile h2 {
+    margin-top: 40px;
+}
+ .navbar-toggle {
+    border-color: #d7d6df;
+     background: rgba(232, 231, 240, 0.89);
+}
+ .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.logo {
+    color: black;
+    margin-bottom: 20%!important;
+}
+.logo:before {
+    content: url(../../images/cvb.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 34%;
+    padding-right: 57%;
+    margin-top: -22%;
+}
+
+.modalDialog  div  li{
+    margin: 1% 0;
+    padding: 4% 0;
+    letter-spacing:5px;
+    font-size: 20px;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+
+}
+.modalDialog:hover {
+    display: block;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 300px;
+    height: 100%;
+    position: relative;
+    margin: 0% 0%;
+    padding: 30% 4% 0 4%;
+    left: -300px;
+    background: #fff;
+    /*background: -moz-linear-gradient(#fff, #999);*/
+    /*background: -webkit-linear-gradient(#fff, #999);*/
+    /*background: -o-linear-gradient(#fff, #999);*/
+}
+
+
+/*кнопка меню*/
+
+.cmn-toggle-switch {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: -1% 2%;
+    padding: 0;
+    width: 52px;
+    height: 47px;
+    font-size: 0;
+    z-index: 1001;
+    text-indent: -9999px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+.cmn-toggle-switch:focus {
+    outline: none;
+}
+.cmn-toggle-switch span {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 12px;
+    right: 12px;
+    height: 4px;
+    background: #000000;
+}
+
+.cmn-toggle-switch span::before,
+.cmn-toggle-switch span::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #000000;
+    content: "";
+}
+
+.cmn-toggle-switch span::before {
+    top: -14px;
+}
+
+.cmn-toggle-switch span::after {
+    bottom: -14px;
+}
+/**
+ * Style 2
+ *
+ * Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+ * down to center and transform into an "x".
+ */
+.cmn-toggle-switch__htx {
+    background-color: #ffffff;
+}
+
+.cmn-toggle-switch__htx span {
+    -webkit-transition: background 0 0.3s;
+    transition: background 0 0.3s;
+}
+
+.cmn-toggle-switch__htx span::before,
+.cmn-toggle-switch__htx span::after {
+    -webkit-transition-duration: 0.3s, 0.3s;
+    transition-duration: 0.3s, 0.3s;
+    -webkit-transition-delay: 0.3s, 0;
+    transition-delay: 0.3s, 0;
+}
+
+.cmn-toggle-switch__htx span::before {
+    -webkit-transition-property: top, -webkit-transform;
+    transition-property: top, transform;
+}
+
+.cmn-toggle-switch__htx span::after {
+    -webkit-transition-property: bottom, -webkit-transform;
+    transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+.cmn-toggle-switch__htx.active {
+    background-color: #d7d6df;
+}
+
+.cmn-toggle-switch__htx.active span {
+    background: none;
+}
+
+.cmn-toggle-switch__htx.active span::before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.cmn-toggle-switch__htx.active span::after {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.cmn-toggle-switch__htx.active span::before,
+.cmn-toggle-switch__htx.active span::after {
+    -webkit-transition-delay: 0, 0.3s;
+    transition-delay: 0, 0.3s;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(300px);
+        transform: translateX(300px);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(300px);
+        -ms-transform: translateX(300px);
+        transform: translateX(300px);
+    }
+}
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+}
+
+@-webkit-keyframes slideOutLeft {
+    0% {
+        -webkit-transform: translateX(300px);
+        transform: translateX(300px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOutLeft {
+    0% {
+        -webkit-transform: translateX(300px);
+        -ms-transform: translateX(300px);
+        transform: translateX(300px);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.slideOutLeft {
+    -webkit-animation-name: slideOutLeft;
+    animation-name: slideOutLeft;
+}
+
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight ;
+    animation-name: fadeInRight ;
+}
+
+li a {
+
+    padding: 3% 3%;
+}
+li a:focus{
+    color: #b7192a;
+    text-decoration: none;
+    border-bottom: 2px solid #b7192a;
+}
+.modalDialog li:nth-child(6),.modalDialog li:last-child{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 102%;
+}
+.modalDialog  li:nth-child(6){
+    bottom: 7%;
+}
+.openModalMobail div > ul > li{
+    color: black;
+
+}
+

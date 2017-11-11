@@ -1,0 +1,36 @@
+@media only screen and (max-width: 360px) {
+    .effect .caption h4 {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 12px;
+        margin-top: 12px;
+    }
+
+    .effect .caption p {
+        margin: 8px 0;
+        text-align: center;
+        font-style: italic;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+}
+.map{
+
+    padding: 0 0;
+}
+#header {
+    position: fixed;
+    height: 60px;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 9px 0 0;
+}
+#header {
+    top: 0%;
+}

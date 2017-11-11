@@ -1,0 +1,77 @@
+.section{
+    padding-top: 22%;
+}
+ h1{
+    font-size: 29px;
+    color: white;
+    margin-bottom: 10%;
+}
+ h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 8%;
+}
+#section1 .opisanie li:last-child,
+#section1 .opisanie_visible li:last-child {
+    color: white;
+    font-size: 27px;
+    background: #b7192a;
+    text-align: center;
+    border-radius:15px ;
+    margin-top: 3%;
+    padding: 1% 0;
+    width: 80%;
+    margin-bottom: 15%;
+}
+#section1 .opisanie li:last-child:after,
+#section1 .opisanie_visible li:last-child:after {
+    content: "\20BD";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+#section2 h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+#section2 li:nth-child(13),
+#section2 li:nth-child(14),
+#section2 li:nth-child(13):before,
+#section2 li:nth-child(14):before{
+    color: white;
+    font-size: 27px;
+    background: #b7192a;
+    text-align: center;
+    border-radius:15px ;
+    margin-top: 3%;
+    padding: 1% 0;
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+#section1 .img{
+    width: 100%;
+}
+#section4 h1{
+    margin-bottom: 5%;
+}
+#section4 h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+#section4 span{
+    display: inline-block;
+}
+#section4.center-content {
+    padding-top: 10%;
+    padding-bottom: 10px;
+}
+.block-menu-img{
+    width: 100%;
+    margin-top: 11%;
+}
+#section6 h1{
+    font-size: 22px;
+}
+

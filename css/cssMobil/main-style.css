@@ -1,0 +1,168 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+}
+
+a, .tel, .mail {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+table {
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+caption, th {
+    text-align: left;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+.effect .caption h4{
+    color: #cc1919;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+/*!* custom styles**/
+body {
+    background-color: #000
+}
+
+.section {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section, .slide {
+    background-size: cover;
+}
+
+/*перенести*/
+.top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+
+.clear1, .clear2 {
+    clear: both;
+    height: 65px;
+}
+
+.clear2 {
+    height: 85px;
+}
+
+/*перенести до сюда*/
+
+/*переделать на классы!!!*/
+h1:first-letter,  h2:first-letter {
+    text-transform: capitalize;
+    color: #b7192a !important;
+    font-family: 'Mon Amour One Medium', arial;
+    margin-top: 4%;
+    font-size: 2em;
+}
+
+
+h2:first-letter {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 24px;
+    color: white;
+}
+
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
+/*блок с всем контентом для правильного отображения хэдера и футера*/
+
+/*скрытие иконки нужно переделать на js*/
+.ymaps-2-1-55-float-button-icon_icon_geolocation {
+    display: none
+}
+
+/*обводка всего текста*/
+.border-text {
+    text-shadow: -0 -1px 0 #000000,
+    0 -1px 0 #000000,
+    -0 1px 0 #000000,
+    0 1px 0 #000000,
+    -1px -0 0 #000000,
+    1px -0 0 #000000,
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+#coordmap {
+    text-shadow: none;
+}
+p{
+    text-indent: 1.5em;
+}
+li{
+    color: white;
+}
+#section1 .img{
+    width: 100%;
+}
