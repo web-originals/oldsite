@@ -51,7 +51,7 @@
 
 .logo {
     color: black;
-    margin-bottom: 20%!important;
+    margin-bottom: 14%!important;
 }
 .logo:before {
     content: url(../../images/cvb.png);

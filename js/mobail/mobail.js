@@ -23,11 +23,37 @@ $(document).ready(function ($) {
             }
         });
     }
+    //начальные размеры
+    var divmap = $("#coordmap"), mobileWidth = 991;
+    divmap.width($(window).width() / ($(window).width() > mobileWidth ? 2 : 1));
+    divmap.height($(window).height() / ($(window).width() < mobileWidth ? 2 : 1));
 
-
-
-    ;
-
+    //resize map
+    $(window).resize(function () {
+        divmap.width($(window).width() / ($(window).width() > mobileWidth ? 2 : 1));
+        divmap.height($(window).height() / ($(window).width() < mobileWidth ? 2 : 1));
+    });
+    // карта в контактах
+    var coordmap;
+    ymaps.ready(function () {
+        coordmap = new ymaps.Map("coordmap", {
+            center: [45.350937, 39.058247],
+            zoom: 12.75,
+            controls: []
+        });
+        var placemark = new ymaps.Placemark([45.350937, 39.058247], {
+            balloonContent: '<img src="http://img-fotki.yandex.ru/get/6114/82599242.2d6/0_88b97_ec425cf5_M" />',
+            iconContent: "Веб студия 'ORIGINALS'"
+        }, {
+            preset: "islands#redStretchyIcon",
+            // Отключаем кнопку закрытия балуна.
+            balloonCloseButton: false,
+            // Балун будем открывать и закрывать кликом по иконке метки.
+            hideIconOnBalloonOpen: false
+        });
+        coordmap.geoObjects.add(placemark);
+        coordmap.behaviors.disable('scrollZoom');
+    });
     //интервала переливающегося фона
     setInterval(updateGradient, 10);
 
