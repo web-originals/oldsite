@@ -100,6 +100,7 @@
     padding: 30% 4% 0 4%;
     left: -300px;
     background: #fff;
+    overflow: auto;
     /*background: -moz-linear-gradient(#fff, #999);*/
     /*background: -webkit-linear-gradient(#fff, #999);*/
     /*background: -o-linear-gradient(#fff, #999);*/
@@ -349,7 +350,7 @@ li a:focus{
     border-bottom: 2px solid #b7192a;
 }
 .modalDialog li:nth-child(6),.modalDialog li:last-child{
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 102%;
