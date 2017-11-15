@@ -165,7 +165,7 @@
     .modalDialog div li:hover{
         border-bottom: none;
     }
-    .modalDialog li:nth-last-child(1){
+    .modalDialog li:nth-last-child(2){
         margin-top: 17%;
         text-align: center;
         border-bottom: none;
@@ -339,7 +339,7 @@
     .modalDialog div li:hover{
         border-bottom: none;
     }
-    .modalDialog li:nth-last-child(1){
+    .modalDialog li:nth-last-child(2){
         margin-top: 17%;
         text-align: center;
         border-bottom: none;
@@ -382,7 +382,7 @@
     .modalDialog div li:hover{
         border-bottom: none;
     }
-    .modalDialog li:nth-last-child(1){
+    .modalDialog li:nth-last-child(2){
         margin-top: 17%;
         text-align: center;
         border-bottom: none;
@@ -412,7 +412,7 @@
     .modalDialog div li:hover{
         border-bottom: none;
     }
-    .modalDialog li:nth-last-child(1){
+    .modalDialog li:nth-last-child(2){
         margin-top: 17%;
         text-align: center;
         border-bottom: none;
@@ -498,6 +498,9 @@
         font-size: 18px;
         text-align: center;
         border-bottom: none;
+    }
+    #section5 {
+        padding-bottom: 27%;
     }
 }
 

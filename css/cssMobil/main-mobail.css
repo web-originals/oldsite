@@ -1,5 +1,6 @@
 .section{
     padding-top: 22%;
+    padding-bottom: 5%;
 }
  h1{
     font-size: 29px;
@@ -81,5 +82,11 @@
 }
 .hous{
     width: 100%;
+}
+#section4 p{
+    text-align: left;
+}
+#section6 .blackout{
+    margin-bottom: 5%;
 }
 
