@@ -154,6 +154,31 @@
     #section6 .blackout{
         padding-top: 25%;
     }
+    .modalDialog div li {
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 18px;
+        text-align: left;
+        border-bottom: solid 1px #b7192a;
+    }
+    .modalDialog div li:hover{
+        border-bottom: none;
+    }
+    .modalDialog li:nth-last-child(1){
+        margin-top: 17%;
+        text-align: center;
+        border-bottom: none;
+    }
+    .modalDialog div li:first-child,
+    .modalDialog div li:last-child{
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: none;
+    }
 }
 @media only screen and (min-width: 361px) and (max-width: 786px) {
     .section {
@@ -303,6 +328,31 @@
     #header {
         padding: 7px 0 0;
     }
+    .modalDialog div li {
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 18px;
+        text-align: left;
+        border-bottom: solid 1px #b7192a;
+    }
+    .modalDialog div li:hover{
+        border-bottom: none;
+    }
+    .modalDialog li:nth-last-child(1){
+        margin-top: 17%;
+        text-align: center;
+        border-bottom: none;
+    }
+    .modalDialog div li:first-child,
+    .modalDialog div li:last-child{
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: none;
+    }
 }
 @media only screen and (max-width: 640px){
     #header div:nth-child(3) {
@@ -321,10 +371,60 @@
     .txt, .txt2, .txtarea {
         width: 300px;
     }
+    .modalDialog div li {
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 18px;
+        text-align: left;
+        border-bottom: solid 1px #b7192a;
+    }
+    .modalDialog div li:hover{
+        border-bottom: none;
+    }
+    .modalDialog li:nth-last-child(1){
+        margin-top: 17%;
+        text-align: center;
+        border-bottom: none;
+    }
+    .modalDialog div li:first-child,
+    .modalDialog div li:last-child{
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: none;
+    }
 }
 @media only screen and (max-width: 414px){
     .hidden-mobail{
         display: none;
+    }
+    .modalDialog div li {
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 18px;
+        text-align: left;
+        border-bottom: solid 1px #b7192a;
+    }
+    .modalDialog div li:hover{
+        border-bottom: none;
+    }
+    .modalDialog li:nth-last-child(1){
+        margin-top: 17%;
+        text-align: center;
+        border-bottom: none;
+    }
+    .modalDialog div li:first-child,
+    .modalDialog div li:last-child{
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: none;
     }
 }
 @media only screen and (max-width: 360px) {
@@ -379,9 +479,25 @@
         padding: 4% 0;
         letter-spacing: 5px;
         font-size: 18px;
+        text-align: left;
+        border-bottom: solid 1px #b7192a;
     }
-    .modalDialog li:nth-child(6){
-        margin-top: 22%;
+    .modalDialog div li:hover{
+        border-bottom: none;
+    }
+    .modalDialog li:nth-last-child(2){
+        margin-top: 17%;
+        text-align: center;
+        border-bottom: none;
+    }
+    .modalDialog div li:first-child,
+    .modalDialog div li:last-child{
+        margin: 1% 0;
+        padding: 4% 0;
+        letter-spacing: 5px;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: none;
     }
 }
 
