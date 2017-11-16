@@ -370,7 +370,7 @@ svg {
 
 svg line {
     stroke-width: 3;
-    stroke: #b7192a;
+    stroke: #000;
     fill: none;
     stroke-dasharray: 280;
     -webkit-transition: -webkit-transform .6s ease-out;

@@ -89,7 +89,74 @@
 #section6 .blackout{
     margin-bottom: 5%;
 }
-/*-------анимация меню---*/
+.logo-adaptivIppleIphon {
+    width: 400px;
+    height: 555px;
+}
+.logo-adaptivIphon {
+    background-image: url(../../images/iphon.png);
+    background-repeat: no-repeat;
+    background-size: 98%;
+    padding-bottom: 1619%;
+}
+.logo-adaptivIppleIphon{
+    background-image: url(../../images/adaptive-phone.png);
+    width: 95.5%;
+    position: relative;
+
+}
+.layer {
+    overflow: auto;
+    width: 66%;
+    height: 68.3%;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 7.7%;
+    margin-top: 197.6%;
+    cursor: pointer;
+}
+.logo-adaptivIphon {
+    height: 717px;
+    width: 100%;
+}
+.logo-adaptiv{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+/*--ipad--*/
+.logo-adaptivIppleIpad{
+    width: 400px;
+    height: 654px;
+}
+.logo-adaptivIpad{
+    background-image: url(../../images/ipad1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 567%;
+}
+.logo-adaptivIppleIpad {
+    background-image: url(../../images/adaptive-ipad.png);
+    width: 67%;
+}
+.logo-adaptivIpad {
+    height: 679px;
+    width: 100%;
+}
+.layer-ipad {
+    overflow: auto;
+    width: 56.5%;
+    height: 56%;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 17.7%;
+    margin-top: 111.4%;
+    cursor: pointer;
+}
+
 
 
 
