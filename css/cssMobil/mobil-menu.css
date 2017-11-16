@@ -347,7 +347,7 @@ li a {
 li a:focus{
     color: #b7192a;
     text-decoration: none;
-    border-bottom: 2px solid #b7192a;
+    /*border-bottom: 2px solid #b7192a;*/
 }
 .modalDialog li:nth-child(6),.modalDialog li:last-child{
     position: relative;
@@ -361,5 +361,24 @@ li a:focus{
 .openModalMobail div > ul > li{
     color: black;
 
+}
+svg {
+    position: relative;
+    top: 45px;
+    left: 0;
+}
+
+svg line {
+    stroke-width: 3;
+    stroke: #b7192a;
+    fill: none;
+    stroke-dasharray: 280;
+    -webkit-transition: -webkit-transform .6s ease-out;
+    transition: transform .6s ease-out;
+}
+
+li:hover svg line.bottom {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
 }
 

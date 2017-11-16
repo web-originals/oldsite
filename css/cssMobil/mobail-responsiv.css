@@ -160,7 +160,7 @@
         letter-spacing: 5px;
         font-size: 18px;
         text-align: left;
-        border-bottom: solid 1px #b7192a;
+        /*border-bottom: solid 1px #b7192a;*/
     }
     .modalDialog div li:hover{
         border-bottom: none;
@@ -334,7 +334,7 @@
         letter-spacing: 5px;
         font-size: 18px;
         text-align: left;
-        border-bottom: solid 1px #b7192a;
+        /*border-bottom: solid 1px #b7192a;*/
     }
     .modalDialog div li:hover{
         border-bottom: none;
@@ -377,7 +377,7 @@
         letter-spacing: 5px;
         font-size: 18px;
         text-align: left;
-        border-bottom: solid 1px #b7192a;
+       /* border-bottom: solid 1px #b7192a;*/
     }
     .modalDialog div li:hover{
         border-bottom: none;
@@ -407,7 +407,7 @@
         letter-spacing: 5px;
         font-size: 18px;
         text-align: left;
-        border-bottom: solid 1px #b7192a;
+        /*border-bottom: solid 1px #b7192a;*/
     }
     .modalDialog div li:hover{
         border-bottom: none;
@@ -480,7 +480,7 @@
         letter-spacing: 5px;
         font-size: 18px;
         text-align: left;
-        border-bottom: solid 1px #b7192a;
+       /* border-bottom: solid 1px #b7192a;*/
     }
     .modalDialog div li:hover{
         border-bottom: none;

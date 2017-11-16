@@ -2,13 +2,11 @@ User-agent: Yandex
 Disallow: /js
 Disallow: /css
 Disallow: /font-awesome-4.7.0
-Allow: index.html
 Allow: /images
 Sitemap: https://web-originals.ru/sitemap.xml
 
 User-agent: Mediapartners-Google
 Disallow:
-
 User-agent: YandexDirect
 Allow:
 Sitemap: https://web-originals.ru/sitemap.xml
@@ -18,7 +16,6 @@ User-agent: Googlebot
 Disallow: /js
 Disallow: /css
 Disallow: /font-awesome-4.7.0
-Allow: index.html
 Allow: /images
 Sitemap: https://web-originals.ru/sitemap.xml
 
@@ -27,7 +24,6 @@ User-agent: *
 Disallow: /js
 Disallow: /css
 Disallow: /font-awesome-4.7.0
-Allow: index.html
 Allow: /images
 Sitemap: https://web-originals.ru/sitemap.xml
 Host: https://web-originals.ru/

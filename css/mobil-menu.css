@@ -65,7 +65,8 @@
 .modalDialog  div  li{
     margin: 1% 0;
     padding: 4% 0;
-    letter-spacing:5px
+    letter-spacing:5px;
+    text-align: left;
 }
 
 .modalDialog {
@@ -345,8 +346,12 @@ li a {
 li a:focus{
     color: #b7192a;
     text-decoration: none;
-    border-bottom: 2px solid #b7192a;
+    /*border-bottom: 2px solid #b7192a;*/
+
 }
+/*.modalDialog li:hover{*/
+    /*background: gainsboro;*/
+/*}*/
 .modalDialog li:nth-child(6),.modalDialog li:last-child{
     position: absolute;
     left: 0;
@@ -355,5 +360,34 @@ li a:focus{
 }
 .modalDialog  li:nth-child(6){
     bottom: 5%;
+}
+svg {
+    position: relative;
+    top: 45px;
+    left: 0;
+    width: 250px;
+    height: 10px;
+}
+
+svg line {
+    stroke-width: 3;
+    stroke: #000;
+    fill: none;
+    stroke-dasharray: 280;
+    -webkit-transition: -webkit-transform .6s ease-out;
+    transition: transform .6s ease-out;
+}
+
+li:hover svg line.bottom {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+}
+.modalDialog div li:first-child, .modalDialog div li:last-child,.modalDialog li:nth-last-child(2) {
+    margin: 1% 0;
+    padding: 4% 0;
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: none;
 }
 

@@ -234,6 +234,10 @@
     .price_up{
         margin-top: -3%;
     }
+    svg {
+        width: 200px;
+    }
+
 }
 
 @media only screen and (max-width: 1280px) {
@@ -366,6 +370,10 @@
         margin-top: 10%;
         padding: 1% 5%;
         width: 78%;
+    }
+    svg {
+
+        width: 205px;
     }
 
 }
