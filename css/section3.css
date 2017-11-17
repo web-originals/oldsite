@@ -59,7 +59,7 @@
 }
 .logo-adaptivFirst{
     width: 400px;
-    height: 594px;
+    height: 457px;
 }
 .logo-adaptivIppleImac{
     width: 400px;
@@ -114,7 +114,7 @@
 /*телефон*/
 .logo-adaptivFirst{
     background-image: url(../images/adaptiv-dizain.png);
-    width: 85%;
+    width: 100%;
 }
 .logo-adaptivIppleImac{
     background-image: url(../images/adaptive-imac.png);

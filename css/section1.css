@@ -91,6 +91,7 @@ li {
 }
 
 .price:hover {
+    box-shadow: -11px 11px 16px -1px rgba(0,0,0,0.46);
     background: rgba(215, 215, 215, 0.5);
     border-radius: 15px;
 

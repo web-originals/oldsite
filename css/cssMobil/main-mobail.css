@@ -70,7 +70,7 @@
 }
 .block-menu-img{
     width: 100%;
-    margin-top: 11%;
+    margin-top: 0%;
 }
 #section6 h1{
     font-size: 22px;
@@ -94,10 +94,10 @@
     height: 555px;
 }
 .logo-adaptivIphon {
-    background-image: url(../../images/iphon.png);
+    background-image: url(../../images/iphon1.png);
     background-repeat: no-repeat;
     background-size: 98%;
-    padding-bottom: 1619%;
+    padding-bottom: 405%;
 }
 .logo-adaptivIppleIphon{
     background-image: url(../../images/adaptive-phone.png);
@@ -113,7 +113,7 @@
     position: absolute;
     z-index: 1;
     margin-left: 7.7%;
-    margin-top: 197.6%;
+    margin-top: 183.6%;
     cursor: pointer;
 }
 .logo-adaptivIphon {
