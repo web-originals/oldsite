@@ -237,7 +237,26 @@
     svg {
         width: 200px;
     }
-
+    .modalDialog > div {
+         width: 400px;
+         height: 100%;
+         position: relative;
+         margin: 0% 0%;
+         padding: 9% 4% 0 4%;
+         left: -400px;
+         background: #fff;
+         /* background: -webkit-linear-gradient(#fff, #999); */
+     }
+    .logo {
+        color: black;
+        margin-bottom: 5%!important;
+    }
+    .modalDialog div li {
+        margin: 1% 0;
+        padding: 3% 0;
+        letter-spacing: 5px;
+        /*text-align: left;*/
+    }
 }
 
 @media only screen and (max-width: 1280px) {
