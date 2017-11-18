@@ -472,8 +472,8 @@
         top: 0%;
     }
     .modalDialog > div {
-        width: 300px;
-        left: -300px;
+        width: 360px;
+        left: -360px;
     }
     .modalDialog div li {
         margin: 1% 0;

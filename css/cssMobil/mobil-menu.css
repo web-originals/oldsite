@@ -93,17 +93,15 @@
 }
 
 .modalDialog > div {
-    width: 300px;
+    width: 360px;
     height: 100%;
     position: relative;
     margin: 0% 0%;
-    padding: 30% 4% 0 4%;
+    padding: 30% 10% 0 10%;
     left: -300px;
     background: #fff;
     overflow: auto;
-    /*background: -moz-linear-gradient(#fff, #999);*/
-    /*background: -webkit-linear-gradient(#fff, #999);*/
-    /*background: -o-linear-gradient(#fff, #999);*/
+    /* background: -webkit-linear-gradient(#fff, #999); */
 }
 
 
@@ -243,8 +241,8 @@
     }
 
     100% {
-        -webkit-transform: translateX(300px);
-        transform: translateX(300px);
+        -webkit-transform: translateX(360px);
+        transform: translateX(360px);
     }
 }
 
@@ -257,9 +255,9 @@
     }
 
     100% {
-        -webkit-transform: translateX(300px);
-        -ms-transform: translateX(300px);
-        transform: translateX(300px);
+        -webkit-transform: translateX(360px);
+        -ms-transform: translateX(360px);
+        transform: translateX(360px);
     }
 }
 
@@ -270,8 +268,8 @@
 
 @-webkit-keyframes slideOutLeft {
     0% {
-        -webkit-transform: translateX(300px);
-        transform: translateX(300px);
+        -webkit-transform: translateX(360px);
+        transform: translateX(360px);
     }
 
     100% {
@@ -283,9 +281,9 @@
 
 @keyframes slideOutLeft {
     0% {
-        -webkit-transform: translateX(300px);
-        -ms-transform: translateX(300px);
-        transform: translateX(300px);
+        -webkit-transform: translateX(360px);
+        -ms-transform: translateX(360px);
+        transform: translateX(360px);
     }
 
     100% {
