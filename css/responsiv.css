@@ -4,7 +4,7 @@
     }
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and(min-width: 1280px) and (max-width: 1366px) {
     #header {
         padding: 5px 0 0;
     }
@@ -102,16 +102,6 @@
         font-size: 26px;
     }
 
-    /*#section3 #slide3.logo-adaptiv {*/
-    /*height: 310px;*/
-    /*}*/
-    #section3 #slide4.logo-adaptiv {
-        height: 359px;
-    }
-
-    #section3 #slide5.logo-adaptiv {
-        height: 422px;
-    }
 
     #section3 .center-content {
         padding-top: 6%;
@@ -161,55 +151,15 @@
         margin-right: 10px;
     }
 
-    #section3 #slide3 .layer {
-        width: 50.2%;
-        height: 43%;
-        margin-left: 28.8%;
-        margin-top: 1.2%;
-    }
 
-    #section3 #slide4 .layer {
-        width: 9.3%;
-        height: 48%;
-        margin-left: 6.1%;
-        margin-top: 0.3%;
-    }
 
-    #section3 #slide5 .layer {
-        width: 5.37%;
-        height: 58.2%;
-        margin-left: 7.025%;
-        margin-top: 0.45%;
-    }
 
-    #section3 #slide6 .layer {
-        width: 3.7%;
-        height: 52.3%;
-        margin-left: 8.3%;
-        margin-top: 0.6%;
-    }
-
-    .logo-adaptivFirst {
-        background-image: url(../images/adaptiv-dizain.png);
-        width: 87%;
-    }
 
     .modalDialog > div {
         width: 307px;
     }
 
-    .logo-adaptivIppleIpad {
-        width: 400px;
-        height: 436px;
-    }
 
-    .logo-adaptivIppleIphon {
-        width: 16.5%;
-    }
-
-    .logo-adaptivIppleIphon {
-        height: 437px;
-    }
     #section1 .opisanie li:last-child,
     #section1 .opisanie_visible li:last-child {
         color: white;
@@ -257,6 +207,71 @@
         letter-spacing: 5px;
         /*text-align: left;*/
     }
+    .-blockImac {
+        width: 100rem;
+        margin: 1em auto;
+    }
+    #section3 #slide3 .layer {
+        width: 49em;
+        height: 22em;
+        margin: 1.4em 16em;
+    }
+    .logo-adaptivImac {
+        background-size: 39em;
+        padding-bottom: 240%;
+    }
+    #section3 #slide3 .logo-adaptiv {
+        height: 51em;
+        width: 42em;
+    }
+    #section3 #slide4 .layer {
+        width: 50em;
+        height: 26.5em;
+        margin: 1.7em 11.5em;
+    }
+    .logo-adaptivMacbook {
+        background-size: 41em;
+        padding-bottom: 120em;
+    }
+    .logo-adaptivIppleMacbook {
+        width: 55em;
+    }
+    #section3 #slide4 .container-fluid {
+        padding-top: 1%;
+    }
+    .-blockIpad {
+        width: 64em;
+        margin: 2em auto;
+    }
+    #section3 #slide5 .layer {
+        width: 23.65em;
+        height: 25.1em;
+        margin: 2em 22.2em;
+    }
+    .logo-adaptivIpad {
+        background-size: 18.9em;
+        padding-bottom: 107.5em;
+    }
+    .logo-adaptivIppleIpad {
+        width: 21em;
+    }
+    .-blockIphone {
+        width: 65em;
+        margin: 0 auto;
+    }
+    #section3 #slide6 .layer {
+        width: 20.5em;
+        height: 25.7em;
+        margin: 2.8em 25em;
+    }
+    .logo-adaptivIphon {
+
+        background-size: 14.2em;
+        padding-bottom: 234em;
+    }
+    .logo-adaptivIppleIphon {
+        width: 16em;
+    }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -282,12 +297,10 @@
     }
 
     #section3 .center-content {
-        padding-top: 12%;
+        padding-top: 10%;
     }
 
-    .logo-adaptiv {
-        height: 306px;
-    }
+
 
     .grid .grid-item {
         width: 30%;
@@ -315,66 +328,13 @@
         padding: 16% 4% 0 4%;
     }
 
-    .logo-adaptivFirst {
-        background-image: url(../images/adaptiv-dizain.png);
-        width: 93%;
-    }
+
 
     #contact2 .pull-left {
         width: 150px;
     }
 
-    #section3 #slide2 .container-fluid {
-        padding-top: 10%;
-    }
 
-    #section3 #slide3 .logo-adaptiv {
-        height: 718px;
-        width: 58%;
-    }
-
-    #section3 #slide3 .layer {
-        width: 13.2%;
-        height: 52%;
-        margin-left: 4.5%;
-        margin-top: 0.4%;
-    }
-
-    .logo-adaptivIppleMacbook {
-        width: 70%;
-        height: 560px;
-    }
-
-    #section3 #slide4 .layer {
-        width: 13%;
-        height: 58%;
-        margin-left: 4.55%;
-        margin-top: 0.4%;
-    }
-
-    .logo-adaptivIppleIpad {
-        width: 36%;
-        height: 614px;
-    }
-
-    #section3 #slide5 .layer {
-        width: 7.98%;
-        height: 73.2%;
-        margin-left: 6.52%;
-        margin-top: 0.65%;
-    }
-
-    .logo-adaptivIppleIphon {
-        height: 621px;
-        width: 25.5%;
-    }
-
-    #section3 #slide6 .layer {
-        width: 5.45%;
-        height: 67.3%;
-        margin-left: 7.55%;
-        margin-top: 1%;
-    }
     .price {
         height: 210px;
         margin-top: 5%;
@@ -394,5 +354,20 @@
 
         width: 205px;
     }
-
+       #section3 #slide3 .layer {
+        width: 59em;
+        height: 30em;
+        margin: 2em 9em;
+    }
+    .logo-adaptivImac {
+        background-size: 53em;
+        padding-bottom: 240%;
+    }
+    #section3 #slide3 .logo-adaptiv {
+        height: 51em;
+        width: 56em;
+    }
+    #section3 #slide2 .container-fluid {
+        padding-top: 10%;
+    }
 }
