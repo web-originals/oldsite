@@ -4,7 +4,7 @@
     }
 }
 
-@media only screen and(min-width: 1280px) and (max-width: 1366px) {
+@media only screen and (max-width: 1366px) {
     #header {
         padding: 5px 0 0;
     }
@@ -253,6 +253,7 @@
         padding-bottom: 107.5em;
     }
     .logo-adaptivIppleIpad {
+        background-image: url(../images/adaptive-ipad.png);
         width: 21em;
     }
     .-blockIphone {
@@ -325,10 +326,8 @@
     }
 
     .modalDialog > div {
-        padding: 16% 4% 0 4%;
+        padding: 16% 6% 0 6%;
     }
-
-
 
     #contact2 .pull-left {
         width: 150px;
@@ -336,7 +335,7 @@
 
 
     .price {
-        height: 210px;
+        height: 226px;
         margin-top: 5%;
     }
     #section1 .opisanie li:last-child,
@@ -354,7 +353,11 @@
 
         width: 205px;
     }
-       #section3 #slide3 .layer {
+    .more_info h2 {
+        margin-bottom: 3%;
+        font-size: 21px;
+    }
+    #section3 #slide3 .layer {
         width: 59em;
         height: 30em;
         margin: 2em 9em;
