@@ -4,15 +4,13 @@
     }
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 1281px) and (max-width: 1366px) {
     #header {
         padding: 5px 0 0;
     }
 
     #header .logotip {
-        margin-top: 0%;
         position: relative;
-        margin-left: 0%;
         float: right;
     }
 
@@ -20,13 +18,8 @@
         margin-top: -4%;
     }
 
-    .cmn-toggle-switch {
-        margin: 0% 0%;
-    }
-
     #header h3 {
         position: relative;
-        margin-top: 0%;
     }
 
     #header h3:before {
@@ -74,7 +67,8 @@
     #slide1 .container {
         padding-top: 7%;
     }
-    #section1 #slide1 .container{
+
+    #section1 #slide1 .container {
         padding-top: 0;
     }
 
@@ -101,7 +95,6 @@
     #section3 h1 {
         font-size: 26px;
     }
-
 
     #section3 .center-content {
         padding-top: 6%;
@@ -151,14 +144,9 @@
         margin-right: 10px;
     }
 
-
-
-
-
     .modalDialog > div {
         width: 307px;
     }
-
 
     #section1 .opisanie li:last-child,
     #section1 .opisanie_visible li:last-child {
@@ -166,112 +154,143 @@
         font-size: 27px;
         background: #b7192a;
         text-align: center;
-        border-radius:15px ;
+        border-radius: 15px;
         margin-top: 5%;
         padding: 1% 5%;
         width: 78%;
     }
+
     .price {
         height: 220px;
         margin-top: 1%;
     }
-    .price h2{
+
+    .price h2 {
         font-size: 20px;
     }
-    .fp-slidesNav.bottom{
+
+    .fp-slidesNav.bottom {
         bottom: 70px;
     }
-    .price_up{
+
+    .price_up {
         margin-top: -3%;
     }
+
     svg {
         width: 200px;
     }
+
     .modalDialog > div {
-         width: 400px;
-         height: 100%;
-         position: relative;
-         margin: 0% 0%;
-         padding: 9% 6% 0 6%;
-         left: -400px;
-         background: #fff;
-         /* background: -webkit-linear-gradient(#fff, #999); */
-     }
+        width: 400px;
+        height: 100%;
+        position: relative;
+        padding: 9% 6% 0 6%;
+        left: -400px;
+        background: #fff;
+        /* background: -webkit-linear-gradient(#fff, #999); */
+    }
+
     .logo {
         color: black;
-        margin-bottom: 5%!important;
+        margin-bottom: 5% !important;
     }
+
     .modalDialog div li {
         margin: 1% 0;
         padding: 3% 0;
         letter-spacing: 5px;
         /*text-align: left;*/
     }
+
     .-blockImac {
         width: 100rem;
         margin: 1em auto;
     }
+
     #section3 #slide3 .layer {
         width: 49em;
         height: 22em;
         margin: 1.4em 16em;
     }
+
     .logo-adaptivImac {
         background-size: 39em;
         padding-bottom: 240%;
     }
+
     #section3 #slide3 .logo-adaptiv {
         height: 51em;
         width: 42em;
     }
+
     #section3 #slide4 .layer {
-        width: 50em;
-        height: 26.5em;
-        margin: 1.7em 11.5em;
+        width: 48em;
+        height: 25.4em;
+        margin: 2em 11em;
     }
+
     .logo-adaptivMacbook {
-        background-size: 41em;
-        padding-bottom: 120em;
+        background-size: 41.4em;
+        padding-bottom: 122em;
     }
+
     .logo-adaptivIppleMacbook {
-        width: 55em;
+        width: 70em;
     }
+
     #section3 #slide4 .container-fluid {
         padding-top: 1%;
     }
+
     .-blockIpad {
         width: 64em;
-        margin: 2em auto;
+        margin: 0 auto;
     }
+
     #section3 #slide5 .layer {
-        width: 23.65em;
-        height: 25.1em;
-        margin: 2em 22.2em;
+        width: 26.77em;
+        height: 27.8em;
+        margin: 2em 21.3em;
     }
+
     .logo-adaptivIpad {
-        background-size: 18.9em;
-        padding-bottom: 107.5em;
+        background-size: 20.65em;
+        padding-bottom: 117.5em;
     }
+
     .logo-adaptivIppleIpad {
         background-image: url(../images/adaptive-ipad.png);
-        width: 21em;
+        width: 23em;
     }
+
     .-blockIphone {
         width: 65em;
         margin: 0 auto;
     }
-    #section3 #slide6 .layer {
-        width: 20.5em;
-        height: 25.7em;
-        margin: 2.8em 25em;
-    }
-    .logo-adaptivIphon {
 
-        background-size: 14.2em;
-        padding-bottom: 234em;
+    #section3 #slide6 .layer {
+        width: 23.5em;
+        height: 25.5em;
+        margin: 3em 25.2em;
     }
+
+    .logo-adaptivIphon {
+        background-size: 13.8em;
+        padding-bottom: 228em;
+    }
+
     .logo-adaptivIppleIphon {
         width: 16em;
+    }
+
+    .logo-adaptivFirst {
+        height: 23em;
+    }
+
+    .logo-adaptivIppleMacbook {
+        width: 55em;
+        height: 34em;
     }
 }
 
@@ -300,8 +319,6 @@
     #section3 .center-content {
         padding-top: 10%;
     }
-
-
 
     .grid .grid-item {
         width: 30%;
@@ -333,44 +350,71 @@
         width: 150px;
     }
 
-
     .price {
         height: 226px;
         margin-top: 5%;
     }
+
     #section1 .opisanie li:last-child,
     #section1 .opisanie_visible li:last-child {
         color: white;
         font-size: 27px;
         background: #b7192a;
         text-align: center;
-        border-radius:15px ;
+        border-radius: 15px;
         margin-top: 10%;
         padding: 1% 5%;
         width: 78%;
     }
+
     svg {
 
         width: 205px;
     }
+
     .more_info h2 {
         margin-bottom: 3%;
         font-size: 21px;
     }
+
     #section3 #slide3 .layer {
         width: 59em;
         height: 30em;
         margin: 2em 9em;
     }
+
     .logo-adaptivImac {
         background-size: 53em;
-        padding-bottom: 240%;
+        padding-bottom: 274%;
     }
+
     #section3 #slide3 .logo-adaptiv {
         height: 51em;
         width: 56em;
     }
+
     #section3 #slide2 .container-fluid {
-        padding-top: 10%;
+        padding-top: 14%;
+    }
+
+    .logo-adaptivFirst {
+        height: 22em;
+    }
+
+    .logo-adaptivIppleMacbook {
+        width: 66em;
+        height: 38em;
+    }
+
+    .logo-adaptivMacbook {
+        background-image: url(../images/imac1.png);
+        background-repeat: no-repeat;
+        background-size: 49.5em;
+        padding-bottom: 141em;
+    }
+
+    #section3 #slide2 .container-fluid .motivation {
+        padding-top: 5%;
     }
 }
+

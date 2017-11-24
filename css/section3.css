@@ -58,8 +58,7 @@
     position: relative;
 }
 .logo-adaptivFirst{
-    width: 400px;
-    height: 457px;
+    height: 36em;
 }
 .logo-adaptivIppleImac{
     width: 400px;
@@ -114,7 +113,7 @@
 /*телефон*/
 .logo-adaptivFirst{
     background-image: url(../images/adaptiv-dizain.png);
-    width: 100%;
+    width: 70em;
 }
 .logo-adaptivIppleImac{
     background-image: url(../images/adaptive-imac.png);
@@ -213,7 +212,7 @@
     background: #d7d7d7;
 }
 #section3 #slide2 .container-fluid{
-    padding-top: 5%;
+    padding-top: 6%;
 }
 #section3 #slide2 .container-fluid .col-lg-push-1{
     left: 3.333333%;
