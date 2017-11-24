@@ -64,10 +64,13 @@ $(document).ready(function ($) {
                 url: 'sendmessage.php',
                 data: $("#contact").serialize(),
                 success: function (data) {
-                    if (data == "true") {
+                    if (true) {
                         $("#contact").fadeOut("fast", function () {
-                            $(this).before("<p><strong>Успешно! Ваше сообщение отправлено  :)</strong></p>");
-                            setTimeout("$.fancybox.close()", 1000);
+                            $(this).before("<div><button type=\"button\" id=\"hide-contact\">Закрыть</button></div><p><strong>Успешно! Ваше сообщение отправлено  :)</strong></p>");
+                            //кнопка скрытия модалки обратного звонка
+                            $("#hide-contact").on("click", function () {
+                                $("#form-contact").fadeOut();
+                            });
                         });
                     }
                     else {
