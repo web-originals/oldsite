@@ -82,11 +82,11 @@ li {
 
 .more_info h2 {
     margin-bottom: 3%;
-    font-size: 23px;
+    font-size: 22px;
 }
 
 .price {
-    height: 250px;
+    height: 270px;
     margin-top: 5%;
 }
 
@@ -100,3 +100,11 @@ li {
     font-size: 28px;
     margin-bottom: 2%;
 }
+ #section1 h1:first-letter,
+ #section1 h2:first-letter {
+     text-transform: capitalize;
+     color: #b7192a !important;
+     font-family: 'Mon Amour One Medium', arial;
+     margin-top: 4%;
+     font-size: 2em;
+ }

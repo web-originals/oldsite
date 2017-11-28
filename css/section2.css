@@ -94,3 +94,11 @@
 .block-menu-img{
     width: 120%;
 }
+#section2 h1:first-letter,
+#section2 h2:first-letter {
+    text-transform: capitalize;
+    color: #b7192a !important;
+    font-family: 'Mon Amour One Medium', arial;
+    margin-top: 4%;
+    font-size: 2em;
+}

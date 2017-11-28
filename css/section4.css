@@ -53,3 +53,11 @@
 #section4 .center-content{
     padding-top: 7%;
 }
+#section4 h1:first-letter,
+#section4 h2:first-letter {
+    text-transform: capitalize;
+    color: #b7192a !important;
+    font-family: 'Mon Amour One Medium', arial;
+    margin-top: 4%;
+    font-size: 2em;
+}

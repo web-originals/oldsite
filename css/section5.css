@@ -10,7 +10,7 @@
 
 #section5 {
     background-image: url(../images/web-user-acceptance.jpg);
-    padding: 0 0 0 0;
+    background-position: -36em 0px;
 }
 
 /*на мобилке есть ненужный отступ*/
@@ -19,20 +19,16 @@
 }
 
 #section5 .blackout {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     position: relative;
     z-index: 999;
     height: 100%;
 }
 
-/*выравнивание текста по правому краю*/
-@media screen and (min-width: 996px) {
-    #section5 {
-        text-align: right;
-    }
-}
-#section5 .center-content{
-    padding-top: 30%;
+
+#section5 .center-content {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 #section5 h1{
     font-size: 30px;
@@ -53,4 +49,20 @@
     1px -1px 0 #000000,
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
+}
+.about-us {
+    left: 27%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.35);
+    width: 31em;
+    top: 39%;
+    position: absolute;
+}
+#section5 h1:first-letter,
+#section5  h2:first-letter {
+    text-transform: capitalize;
+    color: #b7192a !important;
+    font-family: 'Mon Amour One Medium', arial;
+    margin-top: 4%;
+    font-size: 2em;
 }
