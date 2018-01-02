@@ -21,7 +21,7 @@
     top: 50%;
     left: 50%;
     max-width: 96%;
-    max-height: 96%;
+    max-height: 82%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -93,8 +93,9 @@ input[type="checkbox"]:checked ~ .grid {
 
 .effect {
     position: relative;
-    width: 100%;
-    overflow: hidden
+    overflow: hidden;
+    width: 440px;
+    height: 237px;
 }
 
 .effect .caption, .effect img {
@@ -145,4 +146,34 @@ input[type="checkbox"]:checked ~ .grid {
     padding: 10px 0;
     border-radius: 5px;
     margin: 0 auto
+}
+
+label[for] {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.lightbox {
+    width: 100%;
+    position: fixed;
+    top: 400%;
+    left: 0;
+
+}
+
+a.demo { float:left; }
+a img { border:none; }
+img.demo { float:right; }
+.demo {
+    position:relative;
+    top:-120px;
+}
+.loupe {
+    background-color:#555;
+    background:rgba(0, 0, 0, 0.25);
+    border:5px solid rgba(0, 0, 0, 0);
+    cursor:url(blank.png), url(blank.cur), none;
 }

@@ -383,13 +383,6 @@ li:hover svg line.bottom {
     transform: translateX(300px);
 }
 
-#header a:hover{
-    color: #5bc0de;
-    text-shadow: -4px 3px 2px rgba(150, 150, 150, 1);
-}
-#header .menu_hoveer li:hover{
-    border-bottom: solid 2px #5bc0de;
-}
 .modalDialog div .menu_hoveer li:first-child, .modalDialog div .menu_hoveer li:last-child,.modalDialog .menu_hoveer li:nth-last-child(2) {
     margin: 1% 0;
     padding: 4% 0;

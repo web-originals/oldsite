@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/project-block.css"/>
     <link rel="stylesheet" type="text/css" href="css/responsiv.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animated.less"/>
     <!--[if IE]>
     <script type="text/javascript">
         var console = {
@@ -130,7 +131,7 @@
 
         <div id="openModal" class="modalDialog wow ">
             <div>
-                <ul class="menu_hoveer">
+                <ul class="menu_hoveer ">
                     <li class="logo" href="#">Web-студия "ORIGINALS"</li>
 
                     <li data-menuanchor="anchor2" class="bottom active">
@@ -190,7 +191,7 @@
     <div class="section gradient-background border-text" id="section1">
         <div class="center-content">
             <div class="slide" id="slide1">
-                <div class="container border-text ">
+                <div class="container border-text wow bounceInRight  animated">
                     <h1>Разработка сайтов</h1>
                     <p>Сайт — это лицо Вашей компании в сети Интернет, и важная составляющая успеха любого современного
                         бизнеса.
@@ -575,6 +576,10 @@
     <div class="section" id="section4">
         <div class="center-content">
             <h2 class="nameSait">Наши проекты</h2>
+            <input type="checkbox" id="pic-1"/>
+            <label for="pic-1" class="lightbox"><img src="images/shop1.jpg"/></label>
+            <input type="checkbox" id="pic-2"/>
+            <label for="pic-2" class="lightbox"><img src="images/psdhands_landing.jpg"/></label>
             <div class="grid">
                 <label class="grid-item">
                     <div class="effect ">
@@ -599,9 +604,34 @@
                     </div>
                 </label>
 
+                <label class="grid-item">
+                    <div class="effect">
+                        <img src="images/shop.jpg"/>
+                        <div class="caption">
+                            <label for="pic-1">
+                                <h4>Территория творчества</h4>
+                                <p>Мы создаем ЭФФЕКТИВНЫЕ ПРОДАЮЩИЕ САЙТЫ</p>
+                            </label>
+                        </div>
+                    </div>
+                </label>
+                <label class="grid-item">
+                    <div class="effect">
+                        <img src="images/psdhands_landing_demo.jpg"/>
+                        <div class="caption">
+                            <label for="pic-2">
+                                <h4> psdhands</h4>
+                                <p>Мы создаем ЭФФЕКТИВНЫЕ ПРОДАЮЩИЕ САЙТЫ</p>
+                            </label>
+                        </div>
+
+                    </div>
+                </label>
+
             </div>
 
         </div>
+
     </div>
     <div class="section" id="section5">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding-left blackout">
@@ -610,14 +640,11 @@
                     <p>
                     <h2>Контактная
                         информация</h2><br>
-                    <p>Старомышастовская улица Садовая  № 211 <br>
+                    <p>Старомышастовская улица Садовая № 211 <br>
                         <a class="tel" href="tel:+79002475139">+79002475139</a>
-                        <a class="tel" href="tel:+79183423603">+79885242737</a><br>
+                        <a class="tel" href="tel:+79885242737">+79885242737</a><br>
                         <a class="mail" href="mailto:web-originals@yandex.ru">web-originals@yandex.ru</a>
                     </p>
-                    <a href="http://yandex.ru/cy?base=0&amp;host=web-originals.ru/"><img
-                            src="http://www.yandex.ru/cycounter?web-originals.ru/" width="88" height="31"
-                            alt="Индекс цитирования" border="0"/></a>
 
                 </div>
             </div>
@@ -679,5 +706,13 @@
     <!-- /Yandex.Metrika counter -->
 
 </div>
+for (var obj in document.getElementsByClassName("wr")) {
+//
+// }
+// var a = document.getElementsByClassName("wr");
+// a.forEach(function(entry) {
+// console.log(entry);
+// });
+}); // end of ready()
 </body>
 </html>
