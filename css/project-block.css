@@ -26,6 +26,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+overflow: scroll;
 }
 
 input[type="checkbox"]:checked + .lightbox {
@@ -157,7 +158,7 @@ input[type="checkbox"] {
 }
 
 .lightbox {
-    width: 100%;
+    width: 150%;
     position: fixed;
     top: 400%;
     left: 0;

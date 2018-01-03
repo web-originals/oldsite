@@ -39,6 +39,7 @@
     <link rel="stylesheet" type="text/css" href="css/project-block.css"/>
     <link rel="stylesheet" type="text/css" href="css/responsiv.css"/>
     <link rel="stylesheet" type="text/css" href="css/animated.less"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <!--[if IE]>
     <script type="text/javascript">
         var console = {
@@ -240,7 +241,7 @@
                 <div class="slide" id="slide2">
                     <div class="container-fluid">
                         <h2 class="nameSait">Сайт - визитка</h2>
-                        <div class="col-lg-3 col-lg-push-1 col-md-4 col-md-push-1 col-sm-12 col-xs-12 price_up">
+                        <div class="col-lg-3 col-lg-push-1 col-md-3 col-md-push-1 col-sm-12 col-xs-12 price_up">
                             <div>
                                 <img src="images/site-vizitka.png" class="img" alt="">
                             </div>
@@ -577,9 +578,17 @@
         <div class="center-content">
             <h2 class="nameSait">Наши проекты</h2>
             <input type="checkbox" id="pic-1"/>
-            <label for="pic-1" class="lightbox"><img src="images/shop1.jpg"/></label>
+            <label for="pic-1" class="lightbox">
+                <div class="zoom" data-zoomed-image="images/shop1.jpg">
+                    <img src="images/shop2.jpg" alt="Thumbnail">
+                </div>
+            </label>
             <input type="checkbox" id="pic-2"/>
-            <label for="pic-2" class="lightbox"><img src="images/psdhands_landing.jpg"/></label>
+            <label for="pic-2" class="lightbox">
+                <div class="zoom" data-zoomed-image="images/psdhands_landing.jpg">
+                    <img src="images/psdhands_landing.jpg" alt="Thumbnail">
+                </div>
+            </label>
             <div class="grid">
                 <label class="grid-item">
                     <div class="effect ">
@@ -663,10 +672,21 @@
     <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
     <script type="text/javascript" src="js/main.min.js"></script>
     <script type="text/javascript" src="js/form-callback.js"></script>
+    <script type="text/javascript" src="js/jquery.zoomy.js"></script>
+    <script>
+        $('.zoom').zoomy({
+            popoverOffsetX: 80,
+            popoverOffsetY: 0,
+            popoverWidth: 280,
+            popoverHeight: 800,
+            duration: 500
+        });
+    </script>
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
     </script>
+
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
