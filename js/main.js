@@ -63,7 +63,7 @@ $(document).ready(function ($) {
             controls: []
         });
         var placemark = new ymaps.Placemark([45.350937, 39.058247], {
-            balloonContent: '<img src="http://img-fotki.yandex.ru/get/6114/82599242.2d6/0_88b97_ec425cf5_M" />',
+            balloonContent: '<img src="images/housJPG.jpg" />',
             iconContent: "Веб студия 'ORIGINALS'"
         }, {
             preset: "islands#redStretchyIcon",
@@ -158,6 +158,7 @@ function updateGradient() {
         width: 200, // ширина лупы
         height: 150, // высота лупы
         loupe: 'loupe' // css класс лупы
+    });
     });
 }
 //конец переливающегося фона
