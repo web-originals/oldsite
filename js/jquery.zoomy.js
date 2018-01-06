@@ -43,7 +43,7 @@
                 defaults = {
                     popoverClassName: 'popover',
                     popoverHeight: $(e).find('img').height() * 1.5,
-                    popoverWidth: $(e).find('img').width() * 1.5,
+                    popoverWidth: $(e).find('img').width() * 50,
                     popoverPosition: 'right',
                     popoverOffsetX: 30,
                     popoverOffsetY: 0,
