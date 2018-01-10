@@ -71,6 +71,11 @@ li {
     margin-bottom: 3%;
 
 }
+#section1 h3 {
+    font-size: 22px;
+    margin-bottom: 3%;
+    color: white;
+}
 
 #section1 #slide1 .container {
     padding-top: 0%;
@@ -101,7 +106,8 @@ li {
     margin-bottom: 2%;
 }
  #section1 h1:first-letter,
- #section1 h2:first-letter {
+ #section1 h2:first-letter,
+ #section1 h3:first-letter{
      text-transform: capitalize;
      color: #b7192a !important;
      font-family: 'Mon Amour One Medium', arial;

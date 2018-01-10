@@ -106,7 +106,7 @@
     }
 
     .grid .grid-item {
-        width: 25%;
+        width: 33%;
     }
 
     #section5 h1 {
@@ -294,8 +294,14 @@
         height: 34em;
     }
     .effect {
-        width: 300px;
-        height: 147px;
+        width: 407px;
+        height: 200px;
+    }
+    .footer-menu .tel, .footer-menu .mail, .footer-menu p {
+        font-size: 17px;
+    }
+    .opisanie_visible li{
+        font-size: 17px;
     }
   }
 
@@ -305,7 +311,7 @@
     }
 
     #section1 .center-content {
-        padding-top: 14%;
+        padding-top: 10%;
     }
 
     #header .logotip {
@@ -326,11 +332,11 @@
     }
 
     .grid .grid-item {
-        width: 30%;
+        width: 33%;
     }
 
     #section4 .center-content {
-        padding-top: 10%;
+        padding-top: 4%;
     }
 
     #section5 .center-content {
@@ -422,8 +428,8 @@
         padding-top: 5%;
     }
     .effect {
-        width: 350px;
-        height: 197px;
+        width: 381px;
+        height: 196px;
     }
     .logo-adaptivIppleIphon {
         width: 22.5em;
@@ -433,5 +439,20 @@
     }
     #section5 {
         background-position: -25em 0px;
+    }
+    .footer-menu .tel, .footer-menu .mail, .footer-menu p {
+        font-size: 16px;
+    }
+    #section2 li:nth-child(13),
+    #section2 li:nth-child(14),
+    #section2 li:nth-child(13):before,
+    #section2 li:nth-child(14):before{
+        background: #b7192a;
+        color: #f5f5f5;
+        /* border-bottom: 2px solid; */
+        font-size: 24px;
+        padding: 1% 7%;
+        border-radius: 15px;
+        margin-top: 2%;
     }
 }
