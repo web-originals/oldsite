@@ -19,7 +19,7 @@ $msg .= "<p><strong>Почта:</strong> ".$usermail."</p>\r\n";
 $msg .= "<p><strong>Сообщение:</strong> ".$content."</p>\r\n";
 $msg .= "</body></html>";
 // отправка сообщения
-send("2000000182",'web-originals.ru'.$msg);
+send("2000000182",'web-originals.ru'.'\nИмя:'.$username.'\nНомер телефона:'.$userphone.'\nПочта:'.$usermail.'\nСообщение:'.$content);
 if(@mail($sendto, $subject, $msg, $headers)) {
 	echo "true";
 } else {
@@ -37,7 +37,6 @@ function send($id, $message)
         'access_token' => $access_tocken,  // access_token можно вбить хардкодом, если работа будет идти из под одного юзера
         'v'=>'5.38',
     );
-    echo http_build_query($params);
     $sig = md5("/method/messages.send?".http_build_query($params).$secret);
     $params['sig']= $sig;
     // В $result вернется id отправленного сообщения
@@ -48,7 +47,6 @@ function send($id, $message)
             'content' => http_build_query($params)
         )
     )));
-    echo $result;
 }
 
 ?>
