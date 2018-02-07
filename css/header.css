@@ -81,3 +81,6 @@
     font-size: 25px;
     color: #ffffff;
 }
+#header h2.logotip:first-letter{
+    display: none;
+}

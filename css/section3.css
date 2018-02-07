@@ -58,8 +58,7 @@
     position: relative;
 }
 .logo-adaptivFirst{
-    width: 400px;
-    height: 457px;
+    height: 36em;
 }
 .logo-adaptivIppleImac{
     width: 400px;
@@ -83,26 +82,26 @@
 .logo-adaptivImac{
     background-image: url(../images/imac1.png);
     background-repeat: no-repeat;
-    background-size: 81%;
+    background-size: 55em;
     padding-bottom: 240%;
 }
-.logo-adaptivMacbook{
+.logo-adaptivMacbook {
     background-image: url(../images/imac1.png);
     background-repeat: no-repeat;
-    background-size: 81%;
-    padding-bottom: 238%;
+    background-size: 48em;
+    padding-bottom: 141em;
 }
-.logo-adaptivIpad{
+.logo-adaptivIpad {
     background-image: url(../images/ipad1.png);
     background-repeat: no-repeat;
-    background-size: 81%;
-    padding-bottom: 460%
+    background-size: 30.4em;
+    padding-bottom: 172em;
 }
-.logo-adaptivIphon{
+.logo-adaptivIphon {
     background-image: url(../images/iphon.png);
     background-repeat: no-repeat;
-    background-size: 81%;
-    padding-bottom: 1327%;
+    background-size: 20.2em;
+    padding-bottom: 332em;
 }
 
 /*ноутбук*/
@@ -114,25 +113,24 @@
 /*телефон*/
 .logo-adaptivFirst{
     background-image: url(../images/adaptiv-dizain.png);
-    width: 100%;
+    width: 70em;
 }
 .logo-adaptivIppleImac{
     background-image: url(../images/adaptive-imac.png);
     width: 25%;
 }
-.logo-adaptivIppleMacbook{
+.logo-adaptivIppleMacbook {
     background-image: url(../images/adaptive-macboock.png);
-    width: 50%;
+    width: 64em;
 }
-.logo-adaptivIppleIpad{
+.logo-adaptivIppleIpad {
     background-image: url(../images/adaptive-ipad.png);
-    width: 25%;
+    width: 34em;
 }
-.logo-adaptivIppleIphon{
+.logo-adaptivIppleIphon {
     background-image: url(../images/adaptive-phone.png);
-    width: 18.5%;
+    width: 23em;
     position: relative;
-
 }
 
 #section3 #slide4.logo-adaptivMacbook{
@@ -149,55 +147,51 @@
 }
 
 #section3 #slide3 .logo-adaptiv {
-    height: 718px;
-    width: 44%;
+    height: 51em;
+    width: 61em;
 }
 #section3 #slide3 .layer {
     overflow: auto;
-    width: 10.1%;
-    height: 61%;
+    width: 70em;
+    height: 33em;
     padding: 5px;
     position: absolute;
     z-index: 10000;
-    margin-left: 5.8%;
-    margin-top: 0.2%;
+    margin:1.4em 8em;
     cursor: pointer;
 }
 #section3 #slide4 .layer {
     overflow: auto;
-    width: 9.1%;
-    height: 61%;
+    width: 56.1em;
+    height: 30.5em;
     padding: 5px;
     position: absolute;
     z-index: 10000;
-    margin-left: 6.3%;
-    margin-top: 0.3%;
     cursor: pointer;
+    margin: 2em 8em;
 }
 #section3 #slide5 .layer {
     overflow: auto;
-    width: 5.65%;
-    height: 77.99%;
+    width: 37.65em;
+    height: 40.3em;
     padding: 5px;
     position: absolute;
     z-index: 10000;
-    margin-left: 7.59%;
-    margin-top: 0.47%;
+    /* margin-left: 7.59%; */
+    /* margin-top: 0.47%; */
     cursor: pointer;
+    margin: 3.2em 16.3em;
 }
 #section3 #slide6 .layer {
     overflow: auto;
-    width: 4%;
-    height: 75.3%;
+    width: 26.5em;
+    height: 36.7em;
     padding: 5px;
     position: absolute;
     z-index: 10000;
-    margin-left: 8.2%;
-    margin-top: 0.6%;
     cursor: pointer;
-
+    margin: 4em 22em;
 }
-
 
 /* Scrollbar styles */
 ::-webkit-scrollbar {
@@ -218,11 +212,27 @@
     background: #d7d7d7;
 }
 #section3 #slide2 .container-fluid{
-    padding-top: 5%;
+    padding-top: 6%;
 }
 #section3 #slide2 .container-fluid .col-lg-push-1{
     left: 3.333333%;
 }
 #section3 #slide2 .container-fluid .motivation{
     padding-top: 6%;
+}
+.-blockImac{
+    width: 100rem;
+    margin: 0 auto;
+}
+.-blockMacbook{
+    width: 64.4em;
+    margin: 0 auto;
+}
+.-blockIpad{
+    width: 64em;
+    margin: 0 auto
+}
+.-blockIphone{
+    width: 65em;
+    margin: 0 auto;
 }
