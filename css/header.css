@@ -57,7 +57,7 @@
 /*}*/
 
 #header {
-    top: 3%
+    top: 1.5em;
 }
 
 #header {
@@ -81,6 +81,10 @@
     font-size: 25px;
     color: #ffffff;
 }
-#header h2.logotip:first-letter{
-    display: none;
+#header > h2:first-letter{
+    text-transform: capitalize;
+    color: white !important;
+    font-family: 'Mon Amour One Medium', arial;
+    margin-top: 4%;
+    font-size: 2em;
 }

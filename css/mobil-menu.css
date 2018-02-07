@@ -363,7 +363,7 @@ li a:focus{
 }
 svg {
     position: relative;
-    top: 45px;
+    top: 44px;
     left: 0;
     width: 250px;
     height: 10px;
@@ -382,12 +382,13 @@ li:hover svg line.bottom {
     -webkit-transform: translateX(300px);
     transform: translateX(300px);
 }
-.modalDialog div li:first-child, .modalDialog div li:last-child,.modalDialog li:nth-last-child(2) {
+
+.modalDialog div .menu_hoveer li:first-child, .modalDialog div .menu_hoveer li:last-child,.modalDialog .menu_hoveer li:nth-last-child(2) {
     margin: 1% 0;
     padding: 4% 0;
     letter-spacing: 5px;
     font-size: 18px;
     text-align: center;
-    border-bottom: none;
+    border-bottom: none !important;
 }
 

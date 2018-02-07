@@ -103,13 +103,7 @@ body {
 /*перенести до сюда*/
 
 /*переделать на классы!!!*/
-h1:first-letter,  h2:first-letter {
-    text-transform: capitalize;
-    color: #b7192a !important;
-    font-family: 'Mon Amour One Medium', arial;
-    margin-top: 4%;
-    font-size: 2em;
-}
+
 
 
 h2:first-letter {

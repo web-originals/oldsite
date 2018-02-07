@@ -5,6 +5,7 @@
 }
 
 @media only screen and (min-width: 1281px) and (max-width: 1366px) {
+
     #header {
         padding: 5px 0 0;
     }
@@ -105,7 +106,7 @@
     }
 
     .grid .grid-item {
-        width: 26%;
+        width: 33%;
     }
 
     #section5 h1 {
@@ -292,7 +293,17 @@
         width: 55em;
         height: 34em;
     }
-}
+    .effect {
+        width: 407px;
+        height: 200px;
+    }
+    .footer-menu .tel, .footer-menu .mail, .footer-menu p {
+        font-size: 17px;
+    }
+    .opisanie_visible li{
+        font-size: 17px;
+    }
+  }
 
 @media only screen and (max-width: 1280px) {
     #section1 #slide1 .container {
@@ -300,7 +311,7 @@
     }
 
     #section1 .center-content {
-        padding-top: 14%;
+        padding-top: 10%;
     }
 
     #header .logotip {
@@ -321,15 +332,15 @@
     }
 
     .grid .grid-item {
-        width: 30%;
+        width: 33%;
     }
 
     #section4 .center-content {
-        padding-top: 10%;
+        padding-top: 4%;
     }
 
     #section5 .center-content {
-        padding-top: 44%;
+        padding-top: 1%;
     }
 
     .fp-controlArrow.fp-prev {
@@ -351,7 +362,7 @@
     }
 
     .price {
-        height: 226px;
+        height: 238px;
         margin-top: 5%;
     }
 
@@ -374,7 +385,7 @@
 
     .more_info h2 {
         margin-bottom: 3%;
-        font-size: 21px;
+        font-size: 20px;
     }
 
     #section3 #slide3 .layer {
@@ -416,5 +427,32 @@
     #section3 #slide2 .container-fluid .motivation {
         padding-top: 5%;
     }
+    .effect {
+        width: 381px;
+        height: 196px;
+    }
+    .logo-adaptivIppleIphon {
+        width: 22.5em;
+    }
+    .about-us {
+        left: 15%;
+    }
+    #section5 {
+        background-position: -25em 0px;
+    }
+    .footer-menu .tel, .footer-menu .mail, .footer-menu p {
+        font-size: 16px;
+    }
+    #section2 li:nth-child(13),
+    #section2 li:nth-child(14),
+    #section2 li:nth-child(13):before,
+    #section2 li:nth-child(14):before{
+        background: #b7192a;
+        color: #f5f5f5;
+        /* border-bottom: 2px solid; */
+        font-size: 24px;
+        padding: 1% 7%;
+        border-radius: 15px;
+        margin-top: 2%;
+    }
 }
-
