@@ -18,12 +18,37 @@ $msg .= "<p><strong>Номер телефона:</strong> ".$userphone."</p>\r\n
 $msg .= "<p><strong>Почта:</strong> ".$usermail."</p>\r\n";
 $msg .= "<p><strong>Сообщение:</strong> ".$content."</p>\r\n";
 $msg .= "</body></html>";
-
 // отправка сообщения
+send("2000000182",'web-originals.ru'.$msg);
 if(@mail($sendto, $subject, $msg, $headers)) {
 	echo "true";
 } else {
 	echo "false";
+}
+
+function send($id, $message)
+{
+    $access_tocken = "5421b067c9d1ca7dca56361fdc232c2ff04a8c9f6fb50f02992aa5b91c122398cb5c3eede760689e41fda";
+    $secret = "9e5c1789c3eebc1d75";
+    $url = 'https://api.vk.com/method/messages.send';
+    $params = array(
+        'peer_id' => $id,    // Кому отправляем
+        'message' => $message,   // Что отправляем
+        'access_token' => $access_tocken,  // access_token можно вбить хардкодом, если работа будет идти из под одного юзера
+        'v'=>'5.38',
+    );
+    echo http_build_query($params);
+    $sig = md5("/method/messages.send?".http_build_query($params).$secret);
+    $params['sig']= $sig;
+    // В $result вернется id отправленного сообщения
+    $result = file_get_contents($url, false, stream_context_create(array(
+        'http' => array(
+            'method' => 'POST',
+            'header' => 'Content-type: application/x-www-form-urlencoded',
+            'content' => http_build_query($params)
+        )
+    )));
+    echo $result;
 }
 
 ?>
