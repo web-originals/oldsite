@@ -19,7 +19,7 @@ $msg .= "<p><strong>Почта:</strong> ".$usermail."</p>\r\n";
 $msg .= "<p><strong>Сообщение:</strong> ".$content."</p>\r\n";
 $msg .= "</body></html>";
 // отправка сообщения
-send("2000000182",'web-originals.ru'.'\r\nИмя:'.$username.'\r\nНомер телефона:'.$userphone.'\r\nПочта:'.$usermail.'\r\nСообщение:'.$content);
+send("2000000182","web-originals.ru"."\r\nИмя:".$username."\r\nНомер телефона:".$userphone."\r\nПочта:".$usermail."\r\nСообщение:".$content);
 if(@mail($sendto, $subject, $msg, $headers)) {
 	echo "true";
 } else {
