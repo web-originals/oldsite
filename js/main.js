@@ -54,28 +54,6 @@ $(document).ready(function ($) {
         divmap.height($(window).height() / ($(window).width() < mobileWidth ? 2 : 1));
     });
 
-    // карта в контактах
-    var coordmap;
-    ymaps.ready(function () {
-        coordmap = new ymaps.Map("coordmap", {
-            center: [45.350937, 39.058247],
-            zoom: 13,
-            controls: []
-        });
-        var placemark = new ymaps.Placemark([45.350937, 39.058247], {
-            balloonContent: '<img src="images/housJPG.jpg" />',
-            iconContent: "Веб студия 'ORIGINALS'"
-        }, {
-            preset: "islands#redStretchyIcon",
-            // Отключаем кнопку закрытия балуна.
-            balloonCloseButton: false,
-            // Балун будем открывать и закрывать кликом по иконке метки.
-            hideIconOnBalloonOpen: false
-        });
-        coordmap.geoObjects.add(placemark);
-        coordmap.behaviors.disable('scrollZoom');
-    });
-
     //интервала переливающегося фона
     setInterval(updateGradient, 10);
 
@@ -87,6 +65,28 @@ $(document).ready(function ($) {
     $("#mobile-close").on("click", function () {
         $("#menu-modile").fadeOut();
     });
+});
+
+// карта в контактах
+ymaps.ready(function () {
+    alert(333);
+    var coordmap = new ymaps.Map("coordmap", {
+        center: [45.350937, 39.058247],
+        zoom: 13,
+        controls: []
+    });
+    var placemark = new ymaps.Placemark([45.350937, 39.058247], {
+        balloonContent: '<img src="images/housJPG.jpg" />',
+        iconContent: "Веб студия 'ORIGINALS'"
+    }, {
+        preset: "islands#redStretchyIcon",
+        // Отключаем кнопку закрытия балуна.
+        balloonCloseButton: false,
+        // Балун будем открывать и закрывать кликом по иконке метки.
+        hideIconOnBalloonOpen: false
+    });
+    coordmap.geoObjects.add(placemark);
+    coordmap.behaviors.disable('scrollZoom');
 });
 
 //функция открытия полного текста
@@ -154,10 +154,10 @@ function updateGradient() {
         colorIndices[1] = ( colorIndices[1] + Math.floor(1 + Math.random() * (colors.length - 1))) % colors.length;
         colorIndices[3] = ( colorIndices[3] + Math.floor(1 + Math.random() * (colors.length - 1))) % colors.length;
     }
-    $('selector').loupe({
-        width: 200, // ширина лупы
-        height: 150, // высота лупы
-        loupe: 'loupe' // css класс лупы
-    });
+    // $('selector').loupe({
+    //     width: 200, // ширина лупы
+    //     height: 150, // высота лупы
+    //     loupe: 'loupe' // css класс лупы
+    // });
 }
 //конец переливающегося фона
