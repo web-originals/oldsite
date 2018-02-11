@@ -159,6 +159,5 @@ function updateGradient() {
         height: 150, // высота лупы
         loupe: 'loupe' // css класс лупы
     });
-    });
 }
 //конец переливающегося фона
