@@ -8,7 +8,9 @@ $(document).ready(function ($) {
             var urllink = $(this).attr('href');
             var modal = $(urllink).find('.modalImgUrl');
             var block = $(urllink).find('.block');
-            block.html(' <img src="'+modal.val()+'" alt="">');
+            if(modal.val() != undefined){
+                block.html(' <img src="'+modal.val()+'" alt="">');
+            }
         };
     });
 });
