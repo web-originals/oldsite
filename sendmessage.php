@@ -28,8 +28,8 @@ if(@mail($sendto, $subject, $msg, $headers)) {
 
 function send($id, $message)
 {
-    $access_tocken = "5421b067c9d1ca7dca56361fdc232c2ff04a8c9f6fb50f02992aa5b91c122398cb5c3eede760689e41fda";
-    $secret = "9e5c1789c3eebc1d75";
+    $access_tocken = "7f7c7e13150ff6813669015ddf9b3e8718f803177b8175227b2884079ce26c8fb48b044fb43e9e369c362";
+    $secret = "b768f71b084fe53364";
     $url = 'https://api.vk.com/method/messages.send';
     $params = array(
         'peer_id' => $id,    // Кому отправляем
